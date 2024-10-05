@@ -4,6 +4,7 @@ import SidebarUser from "../components/SidebarUser";
 import UserNavbar from "../components/UserNavbar";
 import { cookies } from 'next/headers'
 import jwt from 'jsonwebtoken'
+
 import {
   Card,
   CardContent,
@@ -17,25 +18,31 @@ export default function page() {
     <div>
       <UserNavbar/>
       <SidebarUser/>
-      <div className="grid grid-rows-2 grid-flow-col gap-y-10 my-5">
-      <Card className="mx-auto w-[250px] h-[250px]">
-        <CardHeader>
-            <CardTitle className="text-xl">Recommend</CardTitle>
+      <div className="grid grid-column-2 grid-flow-col gap-y-10 divide-x">
+        <div className="w-full">
+          <Card className="mx-auto w-[250px] h-[250px] my-5">
+            <CardHeader>
+              <CardTitle className="text-xl">User Info</CardTitle>
               <CardDescription>
-                Get new recommendations
+                Manage product and industry info
               </CardDescription>
-          </CardHeader>
-        </Card>
-        <Card className="mx-auto w-[250px] h-[250px]">
-          <CardHeader>
-            <CardTitle className="text-xl">History</CardTitle>
-            <CardDescription>
-              Access previous recommendations
-            </CardDescription>
-          </CardHeader>
-        </Card>
+              <div>
+
+              </div>
+            </CardHeader>
+          </Card>
+        </div>
+        <div className="w-full">
+          <Card className="mx-auto w-[250px] h-[250px] my-5">
+            <CardHeader>
+              <CardTitle className="text-xl">Recommend</CardTitle>
+              <CardDescription>
+                Get new product recommendations
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        </div>
       </div>
     </div>
   )
 }
-
