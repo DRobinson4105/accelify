@@ -8,17 +8,17 @@ const Navbar = () => {
         <div className = "mx-auto justify-between w-screen border flex">
             <div>
             <Image
-                  src='/kanami.png'
+                  src={"/images/pfp.jpg"}
                   width={100}
                   height={100}
                   alt="Kanami"
                 />
             </div>
-            <div>
+            <div className='gap-x-4 flex mx-3 my-3'>
                 <Link href='/Sign in'>
-                    <Button></Button>
+                    <Button>About us</Button>
                 </Link>
-                <Link href='/Sign in'>
+                <Link href='/signup'>
                     <Button>Sign in</Button>
                 </Link>
             </div>
