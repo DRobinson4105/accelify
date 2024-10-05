@@ -1,57 +1,88 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-const UserNavbar = () => {
-  return (
-    <nav>
-        <div className = "mx-auto justify-between w-screen border flex">
-            <div className='flex mx-8 my-4'>
-            </div>
-            <div className='gap-x-4 flex mx-3 my-3'>
-                <Link href="">
-                    <Button>Sigma</Button>
-                </Link>
-            </div>
-        </div>
-    </nav>
-  )
+"use client"
+
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogClose } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { useRouter } from 'next/navigation'; // For handling logout redirection
+
+interface User {
+  id: string;
+  email: string;
+  name: string;
 }
 
-export default UserNavbar
+export default function UserNavbar({ user }: { user: User | null }) {
+  const router = useRouter();
 
-// // src/app/dashboard/page.tsx
-// import { cookies } from 'next/headers'
-// import jwt from 'jsonwebtoken'
+  // Function to handle logout
+  const handleLogout = async () => {
+    // Clear JWT token (you may want to hit a logout API route to clear cookies)
+    await fetch('/api/logout', {
+      method: 'GET',
+    });
 
-// const SECRET_KEY = process.env.JWT_SECRET_KEY || 'your-secret-key'
+    // Redirect to login page after logout
+    router.push('/signin');
+  };
 
-// export default async function DashboardPage() {
-//   // Retrieve the cookie
-//   const cookieStore = cookies()
-//   const token = cookieStore.get('token')?.value
+  return (
+    <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
+      <div className="text-lg font-bold">
+        Welcome, {user ? user.name : 'Guest'}!
+      </div>
+      <div className="flex space-x-4">
+        {/* Edit Company Button with Dialog */}
+        <Dialog>
+          <DialogTrigger asChild>
+            <Button>Edit Company</Button>
+          </DialogTrigger>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Edit Company Information</DialogTitle>
+              <DialogDescription>
+                Update your company details below.
+              </DialogDescription>
+            </DialogHeader>
+            {/* Add form for editing company details */}
+            <form>
+              <div className="space-y-4">
+                <div>
+                  <label htmlFor="companyName" className="block text-sm font-medium">
+                    Company Name
+                  </label>
+                  <input
+                    id="companyName"
+                    type="text"
+                    className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="companyAddress" className="block text-sm font-medium">
+                    Company Address
+                  </label>
+                  <input
+                    id="companyAddress"
+                    type="text"
+                    className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
+                  />
+                </div>
+                {/* Additional fields for company details */}
+                <div className="flex justify-end space-x-2">
+                  <DialogClose asChild>
+                    <Button variant="secondary">Cancel</Button>
+                  </DialogClose>
+                  <Button type="submit">Save</Button>
+                </div>
+              </div>
+            </form>
+          </DialogContent>
+        </Dialog>
 
-//   // If no token, redirect to login or show an error
-//   if (!token) {
-//     return <p>Please log in to access the dashboard.</p>
-//   }
-
-//   try {
-//     // Verify the token
-//     const decoded = jwt.verify(token, SECRET_KEY) as { id: string, email: string }
-
-//     // Now you can access the user info from the decoded token
-//     const userId = decoded.id
-//     const userEmail = decoded.email
-
-//     return (
-//       <div>
-//         <h1>Welcome to your dashboard, {userEmail}!</h1>
-//         {/* You can now use the userId or other user data */}
-//       </div>
-//     )
-//   } catch (error) {
-//     console.error('Invalid token:', error)
-//     return <p>Invalid token. Please log in again.</p>
-//   }
-// }
+        {/* Logout Button */}
+        <Button variant="destructive" onClick={handleLogout}>
+          Logout
+        </Button>
+      </div>
+    </nav>
+  );
+}

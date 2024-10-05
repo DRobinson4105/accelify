@@ -29,7 +29,7 @@ export async function POST(req: Request) {
 
     // Generate a JWT
     const token = jwt.sign(
-      { id: user.id, email: user.email }, // Payload (user info to be encoded)
+      { id: user.id, email: user.email, name: user.name }, // Payload (user info to be encoded)
       SECRET_KEY, // Secret key for signing
       { expiresIn: '1h' } // Token expiration (e.g., 1 hour)
     )
