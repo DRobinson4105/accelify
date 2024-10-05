@@ -2,6 +2,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import SidebarUser from "../components/SidebarUser";
 import UserNavbar from "../components/UserNavbar";
+import { cookies } from 'next/headers'
+import jwt from 'jsonwebtoken'
 import {
   Card,
   CardContent,
@@ -36,3 +38,4 @@ export default function page() {
     </div>
   )
 }
+

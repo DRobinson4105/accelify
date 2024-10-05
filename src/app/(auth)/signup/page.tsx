@@ -1,55 +1,49 @@
-'use client'
-import Link from "next/link"
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { useRouter } from "next/navigation"
+"use client"
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { useState } from 'react'
+import { useRouter } from 'next/navigation'
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
-export default function page() {
+export default function SignUpPage() {
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: ""
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: ''
   })
 
   const router = useRouter()
 
-  // Function to handle form input changes
-  const handleChange = (e : any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
       ...formData,
       [e.target.id]: e.target.value
     })
   }
 
-  // Function to handle form submission
-  const handleSubmit = async (e : any) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    
-    // Send the form data to the backend API
-    const response = await fetch('/api/signup', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    })
 
-    if (response.ok) {
-      // Redirect to login or home page after successful signup
-      router.push("/signin")
-    } else {
-      console.error("Failed to sign up")
+    try {
+      const response = await fetch('/api/signup', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (response.ok) {
+        router.push('/userpage') // Redirect to dashboard or homepage after signup
+      } else {
+        console.error('Signup failed')
+      }
+    } catch (error) {
+      console.error('An error occurred:', error)
     }
   }
 
@@ -79,7 +73,7 @@ export default function page() {
               <Input
                 id="email"
                 type="email"
-                placeholder="JohnDoe@example.com"
+                placeholder="john.doe@example.com"
                 onChange={handleChange}
                 required
               />
