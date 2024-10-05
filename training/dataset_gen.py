@@ -32,6 +32,9 @@ def get_popular_products(entitlements, threshold=0.8):
 
 def process_data(companies, entitlements, products, industry_groups, popular_products):
     train_data = {"Data": []} 
+    product_names = set()
+    product_categories = set()
+    industries = set()
     
     for _, company_row in companies.iterrows():
         company_name = company_row['Name']
@@ -39,6 +42,8 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
         
         company_entitlements = entitlements[entitlements['Company'] == company_name]
         used_products = [] 
+        
+        industries.add(industry)
         
         for _, entitlement_row in company_entitlements.iterrows():
             product_name = entitlement_row['Product']
@@ -48,6 +53,9 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
                 'ProductCategory': product_info['Category'],
                 'IsImplemented': entitlement_row['Implemented']
             })
+        
+            product_names.add(product_info['Name'])
+            product_categories.add(product_info['Category'])
             
         recommended_products = set(popular_products)
         
@@ -71,21 +79,32 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
                 "Industry": industry,
                 "Products": used_products
             },
-            "Output": list(recommended_products)
+            "Output": 
+                list(recommended_products)
 
         })
         
-    return train_data
+    additional_data = {
+        "Product_Names": list(product_names),
+        "Product_Categories": list(product_categories),
+        "Industries": list(industries)
+    }
+        
+    return train_data, additional_data
 
 industry_groups = industry_grouping(companies)
 
 popular_products = get_popular_products(entitlements)
 
-train_data = process_data(companies, entitlements, products, industry_groups, popular_products)
-
-print(train_data)
+train_data, additional_data = process_data(companies, entitlements, products, industry_groups, popular_products)
 
 data = json.dumps(train_data, indent=4)
 
+add_data = json.dumps(additional_data, indent=4)
+
+print(train_data)
+
+with open('additional_data.json', 'w') as f:
+    f.write(add_data)
 with open('dataset.json', 'w') as f:
     f.write(data)
