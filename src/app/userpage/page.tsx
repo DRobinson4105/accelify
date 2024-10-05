@@ -1,6 +1,8 @@
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input";
 import UserNavbar from "../components/UserNavbar";
+import Recommend from "../components/Recommend";
+import UserInfo from "../components/UserInfo";
 import { cookies } from 'next/headers'
 import jwt from 'jsonwebtoken'
 
@@ -38,32 +40,11 @@ export default async function Page() {
 
   return (
     <div>
-      <UserNavbar user={user}/>
-      <div className="grid grid-column-2 grid-flow-col gap-y-10 divide-x">
-        <div className="w-full">
-          <Card className="mx-auto w-[250px] h-[250px] my-5">
-            <CardHeader>
-              <CardTitle className="text-xl">User Info</CardTitle>
-              <CardDescription>
-                Manage product and industry info
-              </CardDescription>
-              <div>
-
-              </div>
-            </CardHeader>
-          </Card>
-        </div>
-        <div className="w-full">
-          <Card className="mx-auto w-[250px] h-[250px] my-5">
-            <CardHeader>
-              <CardTitle className="text-xl">Recommend</CardTitle>
-              <CardDescription>
-                Get new product recommendations
-              </CardDescription>
-            </CardHeader>
-          </Card>
-        </div>
+      <div className="grid grid-column-2 grid-flow-col h-[650px] divide-x">
+        <UserInfo/>
+        <Recommend/>
       </div>
+      <UserNavbar user={user}/>
     </div>
   )
 }
