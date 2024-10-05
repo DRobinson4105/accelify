@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import SidebarUser from "../components/SidebarUser";
 import UserNavbar from "../components/UserNavbar";
 import { cookies } from 'next/headers'
 import jwt from 'jsonwebtoken'
@@ -13,11 +12,33 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-export default function page() {
+// Define the user type based on what you expect from JWT
+interface User {
+  id: string;
+  email: string;
+  name: string;
+}
+
+const SECRET_KEY = process.env.JWT_SECRET_KEY || 'your-secret-key'
+
+export default async function Page() {
+  const cookieStore = cookies()
+  const token = cookieStore.get('token')?.value
+
+  let user: User | null = null // Use the User type here
+
+  if (token) {
+    try {
+      // Decode the JWT token and cast the result to User type
+      user = jwt.verify(token, SECRET_KEY) as User
+    } catch (error) {
+      console.error("Error decoding JWT:", error)
+    }
+  }
+
   return (
     <div>
-      <UserNavbar/>
-      <SidebarUser/>
+      <UserNavbar user={user}/>
       <div className="grid grid-column-2 grid-flow-col gap-y-10 divide-x">
         <div className="w-full">
           <Card className="mx-auto w-[250px] h-[250px] my-5">
