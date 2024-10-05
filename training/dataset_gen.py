@@ -23,15 +23,13 @@ for _, company_row in companies.iterrows():
             product_info = products[products['Name'] == product_name].iloc[0]
             
             train_data.append({
-                'company': company_name,
-                'industry': industry,
-                'product': {
-                    'ProductName': product_info['Name'],
-                    'Category': product_info['Category'],
-                    'IsImplemented': entitlement_row['Implemented']
-                }
+                'Company': company_name,
+                'Industry': industry,
+                'ProductName':  product_info['Name'],
+                'ProductCategory': product_info['Category'],
+                'ProductIsImplemented': entitlement_row['Implemented']
             })
 
 train_df = pd.DataFrame(train_data)
-
+train_df.to_csv('dataset.csv')
 print(train_df)

@@ -1,0 +1,1666 @@
+,Company,Industry,ProductName,ProductCategory,ProductIsImplemented
+0,Ace Athletics,Sports Equipment,Alteryx,Business Intelligence and Analytics,True
+1,Ace Athletics,Sports Equipment,Google Data Studio,Business Intelligence and Analytics,True
+2,Ace Athletics,Sports Equipment,Jira Service Management,Help Desk and Customer Support,True
+3,Ace Athletics,Sports Equipment,Power BI,Business Intelligence and Analytics,True
+4,Ace Athletics,Sports Equipment,QlikView,Business Intelligence and Analytics,True
+5,Ace Athletics,Sports Equipment,Salesforce Service Cloud,Help Desk and Customer Support,True
+6,Ace Athletics,Sports Equipment,Tableau,Business Intelligence and Analytics,True
+7,Ace Athletics,Sports Equipment,Tibco Spotfire,Business Intelligence and Analytics,True
+8,AlphaAccessories,Accessory Subscription,Alteryx,Business Intelligence and Analytics,True
+9,AlphaAccessories,Accessory Subscription,Domo,Business Intelligence and Analytics,True
+10,AlphaAccessories,Accessory Subscription,Freshdesk,Help Desk and Customer Support,True
+11,AlphaAccessories,Accessory Subscription,Freshservice,Help Desk and Customer Support,True
+12,AlphaAccessories,Accessory Subscription,Google Data Studio,Business Intelligence and Analytics,True
+13,AlphaAccessories,Accessory Subscription,HappyFox,Help Desk and Customer Support,True
+14,AlphaAccessories,Accessory Subscription,HubSpot Service Hub,Help Desk and Customer Support,True
+15,AlphaAccessories,Accessory Subscription,Intercom,Help Desk and Customer Support,True
+16,AlphaAccessories,Accessory Subscription,Jira Service Management,Help Desk and Customer Support,True
+17,AlphaAccessories,Accessory Subscription,Looker,Business Intelligence and Analytics,True
+18,AlphaAccessories,Accessory Subscription,Power BI,Business Intelligence and Analytics,True
+19,AlphaAccessories,Accessory Subscription,QlikView,Business Intelligence and Analytics,True
+20,AlphaAccessories,Accessory Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+21,AlphaAccessories,Accessory Subscription,SAP Analytics Cloud,Business Intelligence and Analytics,True
+22,AlphaAccessories,Accessory Subscription,ServiceNow,Help Desk and Customer Support,True
+23,AlphaAccessories,Accessory Subscription,Sisense,Business Intelligence and Analytics,True
+24,AlphaAccessories,Accessory Subscription,Tableau,Business Intelligence and Analytics,True
+25,AlphaAccessories,Accessory Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+26,AlphaAccessories,Accessory Subscription,Zendesk,Help Desk and Customer Support,True
+27,AlphaApparel,Clothing Retailer,Alteryx,Business Intelligence and Analytics,True
+28,AlphaApparel,Clothing Retailer,Google Data Studio,Business Intelligence and Analytics,True
+29,AlphaApparel,Clothing Retailer,Jira Service Management,Help Desk and Customer Support,True
+30,AlphaApparel,Clothing Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+31,AlphaApparel,Clothing Retailer,ServiceNow,Help Desk and Customer Support,True
+32,AlphaApparel,Clothing Retailer,Tableau,Business Intelligence and Analytics,True
+33,AlphaApparel,Clothing Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+34,AlphaArt,Art Subscription Box,Alteryx,Business Intelligence and Analytics,True
+35,AlphaArt,Art Subscription Box,Google Data Studio,Business Intelligence and Analytics,True
+36,AlphaArt,Art Subscription Box,Jira Service Management,Help Desk and Customer Support,True
+37,AlphaArt,Art Subscription Box,Power BI,Business Intelligence and Analytics,True
+38,AlphaArt,Art Subscription Box,Salesforce Service Cloud,Help Desk and Customer Support,True
+39,AlphaArt,Art Subscription Box,Tableau,Business Intelligence and Analytics,True
+40,AlphaArt,Art Subscription Box,Tibco Spotfire,Business Intelligence and Analytics,True
+41,Artisan Oven,Artisanal Bakery,Alteryx,Business Intelligence and Analytics,True
+42,Artisan Oven,Artisanal Bakery,Google Data Studio,Business Intelligence and Analytics,True
+43,Artisan Oven,Artisanal Bakery,Jira Service Management,Help Desk and Customer Support,True
+44,Artisan Oven,Artisanal Bakery,Power BI,Business Intelligence and Analytics,True
+45,Artisan Oven,Artisanal Bakery,QlikView,Business Intelligence and Analytics,True
+46,Artisan Oven,Artisanal Bakery,Salesforce Service Cloud,Help Desk and Customer Support,True
+47,Artisan Oven,Artisanal Bakery,Tableau,Business Intelligence and Analytics,True
+48,Artisan Oven,Artisanal Bakery,Tibco Spotfire,Business Intelligence and Analytics,True
+49,ArtisanArmor,Custom Jewelry,Alteryx,Business Intelligence and Analytics,True
+50,ArtisanArmor,Custom Jewelry,Google Data Studio,Business Intelligence and Analytics,True
+51,ArtisanArmor,Custom Jewelry,Jira Service Management,Help Desk and Customer Support,True
+52,ArtisanArmor,Custom Jewelry,Power BI,Business Intelligence and Analytics,True
+53,ArtisanArmor,Custom Jewelry,QlikView,Business Intelligence and Analytics,True
+54,ArtisanArmor,Custom Jewelry,Salesforce Service Cloud,Help Desk and Customer Support,True
+55,ArtisanArmor,Custom Jewelry,ServiceNow,Help Desk and Customer Support,True
+56,ArtisanArmor,Custom Jewelry,Tableau,Business Intelligence and Analytics,True
+57,ArtisanArmor,Custom Jewelry,Tibco Spotfire,Business Intelligence and Analytics,True
+58,Artistic Expressions,Art Supplies,Alteryx,Business Intelligence and Analytics,True
+59,Artistic Expressions,Art Supplies,Google Data Studio,Business Intelligence and Analytics,True
+60,Artistic Expressions,Art Supplies,Jira Service Management,Help Desk and Customer Support,True
+61,Artistic Expressions,Art Supplies,QlikView,Business Intelligence and Analytics,True
+62,Artistic Expressions,Art Supplies,Salesforce Service Cloud,Help Desk and Customer Support,True
+63,Artistic Expressions,Art Supplies,Tableau,Business Intelligence and Analytics,True
+64,Artistic Expressions,Art Supplies,Tibco Spotfire,Business Intelligence and Analytics,True
+65,BetaBaking,Baking Subscription,Alteryx,Business Intelligence and Analytics,True
+66,BetaBaking,Baking Subscription,Freshdesk,Help Desk and Customer Support,True
+67,BetaBaking,Baking Subscription,Google Data Studio,Business Intelligence and Analytics,True
+68,BetaBaking,Baking Subscription,Jira Service Management,Help Desk and Customer Support,True
+69,BetaBaking,Baking Subscription,QlikView,Business Intelligence and Analytics,True
+70,BetaBaking,Baking Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+71,BetaBaking,Baking Subscription,Tableau,Business Intelligence and Analytics,True
+72,BetaBaking,Baking Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+73,BetaBeauty,Beauty Product Subscription,Alteryx,Business Intelligence and Analytics,True
+74,BetaBeauty,Beauty Product Subscription,Google Data Studio,Business Intelligence and Analytics,True
+75,BetaBeauty,Beauty Product Subscription,Jira Service Management,Help Desk and Customer Support,True
+76,BetaBeauty,Beauty Product Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+77,BetaBeauty,Beauty Product Subscription,ServiceNow,Help Desk and Customer Support,True
+78,BetaBeauty,Beauty Product Subscription,Tableau,Business Intelligence and Analytics,True
+79,BetaBeauty,Beauty Product Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+80,BitzBooks,Online Bookstore,Alteryx,Business Intelligence and Analytics,True
+81,BitzBooks,Online Bookstore,Alteryx,Business Intelligence and Analytics,True
+82,BitzBooks,Online Bookstore,Domo,Business Intelligence and Analytics,True
+83,BitzBooks,Online Bookstore,Domo,Business Intelligence and Analytics,True
+84,BitzBooks,Online Bookstore,Freshdesk,Help Desk and Customer Support,True
+85,BitzBooks,Online Bookstore,Freshdesk,Help Desk and Customer Support,True
+86,BitzBooks,Online Bookstore,Freshservice,Help Desk and Customer Support,True
+87,BitzBooks,Online Bookstore,Freshservice,Help Desk and Customer Support,True
+88,BitzBooks,Online Bookstore,Google Data Studio,Business Intelligence and Analytics,True
+89,BitzBooks,Online Bookstore,Google Data Studio,Business Intelligence and Analytics,True
+90,BitzBooks,Online Bookstore,HappyFox,Help Desk and Customer Support,True
+91,BitzBooks,Online Bookstore,HappyFox,Help Desk and Customer Support,True
+92,BitzBooks,Online Bookstore,HubSpot Service Hub,Help Desk and Customer Support,True
+93,BitzBooks,Online Bookstore,HubSpot Service Hub,Help Desk and Customer Support,True
+94,BitzBooks,Online Bookstore,Intercom,Help Desk and Customer Support,True
+95,BitzBooks,Online Bookstore,Intercom,Help Desk and Customer Support,True
+96,BitzBooks,Online Bookstore,Jira Service Management,Help Desk and Customer Support,True
+97,BitzBooks,Online Bookstore,Jira Service Management,Help Desk and Customer Support,True
+98,BitzBooks,Online Bookstore,Looker,Business Intelligence and Analytics,True
+99,BitzBooks,Online Bookstore,Looker,Business Intelligence and Analytics,True
+100,BitzBooks,Online Bookstore,Power BI,Business Intelligence and Analytics,True
+101,BitzBooks,Online Bookstore,Power BI,Business Intelligence and Analytics,True
+102,BitzBooks,Online Bookstore,QlikView,Business Intelligence and Analytics,True
+103,BitzBooks,Online Bookstore,QlikView,Business Intelligence and Analytics,True
+104,BitzBooks,Online Bookstore,Salesforce Service Cloud,Help Desk and Customer Support,True
+105,BitzBooks,Online Bookstore,Salesforce Service Cloud,Help Desk and Customer Support,True
+106,BitzBooks,Online Bookstore,SAP Analytics Cloud,Business Intelligence and Analytics,True
+107,BitzBooks,Online Bookstore,SAP Analytics Cloud,Business Intelligence and Analytics,True
+108,BitzBooks,Online Bookstore,ServiceNow,Help Desk and Customer Support,True
+109,BitzBooks,Online Bookstore,ServiceNow,Help Desk and Customer Support,True
+110,BitzBooks,Online Bookstore,Sisense,Business Intelligence and Analytics,True
+111,BitzBooks,Online Bookstore,Sisense,Business Intelligence and Analytics,True
+112,BitzBooks,Online Bookstore,Tableau,Business Intelligence and Analytics,True
+113,BitzBooks,Online Bookstore,Tableau,Business Intelligence and Analytics,True
+114,BitzBooks,Online Bookstore,Tibco Spotfire,Business Intelligence and Analytics,True
+115,BitzBooks,Online Bookstore,Tibco Spotfire,Business Intelligence and Analytics,True
+116,BitzBooks,Online Bookstore,Zendesk,Help Desk and Customer Support,True
+117,BitzBooks,Online Bookstore,Zendesk,Help Desk and Customer Support,True
+118,BitzBooks,Online Bookstore,Alteryx,Business Intelligence and Analytics,True
+119,BitzBooks,Online Bookstore,Alteryx,Business Intelligence and Analytics,True
+120,BitzBooks,Online Bookstore,Domo,Business Intelligence and Analytics,True
+121,BitzBooks,Online Bookstore,Domo,Business Intelligence and Analytics,True
+122,BitzBooks,Online Bookstore,Freshdesk,Help Desk and Customer Support,True
+123,BitzBooks,Online Bookstore,Freshdesk,Help Desk and Customer Support,True
+124,BitzBooks,Online Bookstore,Freshservice,Help Desk and Customer Support,True
+125,BitzBooks,Online Bookstore,Freshservice,Help Desk and Customer Support,True
+126,BitzBooks,Online Bookstore,Google Data Studio,Business Intelligence and Analytics,True
+127,BitzBooks,Online Bookstore,Google Data Studio,Business Intelligence and Analytics,True
+128,BitzBooks,Online Bookstore,HappyFox,Help Desk and Customer Support,True
+129,BitzBooks,Online Bookstore,HappyFox,Help Desk and Customer Support,True
+130,BitzBooks,Online Bookstore,HubSpot Service Hub,Help Desk and Customer Support,True
+131,BitzBooks,Online Bookstore,HubSpot Service Hub,Help Desk and Customer Support,True
+132,BitzBooks,Online Bookstore,Intercom,Help Desk and Customer Support,True
+133,BitzBooks,Online Bookstore,Intercom,Help Desk and Customer Support,True
+134,BitzBooks,Online Bookstore,Jira Service Management,Help Desk and Customer Support,True
+135,BitzBooks,Online Bookstore,Jira Service Management,Help Desk and Customer Support,True
+136,BitzBooks,Online Bookstore,Looker,Business Intelligence and Analytics,True
+137,BitzBooks,Online Bookstore,Looker,Business Intelligence and Analytics,True
+138,BitzBooks,Online Bookstore,Power BI,Business Intelligence and Analytics,True
+139,BitzBooks,Online Bookstore,Power BI,Business Intelligence and Analytics,True
+140,BitzBooks,Online Bookstore,QlikView,Business Intelligence and Analytics,True
+141,BitzBooks,Online Bookstore,QlikView,Business Intelligence and Analytics,True
+142,BitzBooks,Online Bookstore,Salesforce Service Cloud,Help Desk and Customer Support,True
+143,BitzBooks,Online Bookstore,Salesforce Service Cloud,Help Desk and Customer Support,True
+144,BitzBooks,Online Bookstore,SAP Analytics Cloud,Business Intelligence and Analytics,True
+145,BitzBooks,Online Bookstore,SAP Analytics Cloud,Business Intelligence and Analytics,True
+146,BitzBooks,Online Bookstore,ServiceNow,Help Desk and Customer Support,True
+147,BitzBooks,Online Bookstore,ServiceNow,Help Desk and Customer Support,True
+148,BitzBooks,Online Bookstore,Sisense,Business Intelligence and Analytics,True
+149,BitzBooks,Online Bookstore,Sisense,Business Intelligence and Analytics,True
+150,BitzBooks,Online Bookstore,Tableau,Business Intelligence and Analytics,True
+151,BitzBooks,Online Bookstore,Tableau,Business Intelligence and Analytics,True
+152,BitzBooks,Online Bookstore,Tibco Spotfire,Business Intelligence and Analytics,True
+153,BitzBooks,Online Bookstore,Tibco Spotfire,Business Intelligence and Analytics,True
+154,BitzBooks,Online Bookstore,Zendesk,Help Desk and Customer Support,True
+155,BitzBooks,Online Bookstore,Zendesk,Help Desk and Customer Support,True
+156,BloomBox Flowers,Flower Delivery,Alteryx,Business Intelligence and Analytics,True
+157,BloomBox Flowers,Flower Delivery,Google Data Studio,Business Intelligence and Analytics,True
+158,BloomBox Flowers,Flower Delivery,Jira Service Management,Help Desk and Customer Support,True
+159,BloomBox Flowers,Flower Delivery,Salesforce Service Cloud,Help Desk and Customer Support,True
+160,BloomBox Flowers,Flower Delivery,ServiceNow,Help Desk and Customer Support,True
+161,BloomBox Flowers,Flower Delivery,Tableau,Business Intelligence and Analytics,True
+162,BloomBox Flowers,Flower Delivery,Tibco Spotfire,Business Intelligence and Analytics,True
+163,Bountiful Books,Bookstore,Alteryx,Business Intelligence and Analytics,True
+164,Bountiful Books,Bookstore,Freshdesk,Help Desk and Customer Support,True
+165,Bountiful Books,Bookstore,Google Data Studio,Business Intelligence and Analytics,True
+166,Bountiful Books,Bookstore,HappyFox,Help Desk and Customer Support,True
+167,Bountiful Books,Bookstore,Jira Service Management,Help Desk and Customer Support,True
+168,Bountiful Books,Bookstore,QlikView,Business Intelligence and Analytics,True
+169,Bountiful Books,Bookstore,Salesforce Service Cloud,Help Desk and Customer Support,True
+170,Bountiful Books,Bookstore,Tableau,Business Intelligence and Analytics,True
+171,Bountiful Books,Bookstore,Tibco Spotfire,Business Intelligence and Analytics,True
+172,BravoBites,Meal Delivery Service,Alteryx,Business Intelligence and Analytics,True
+173,BravoBites,Meal Delivery Service,Google Data Studio,Business Intelligence and Analytics,True
+174,BravoBites,Meal Delivery Service,Jira Service Management,Help Desk and Customer Support,True
+175,BravoBites,Meal Delivery Service,Power BI,Business Intelligence and Analytics,True
+176,BravoBites,Meal Delivery Service,Salesforce Service Cloud,Help Desk and Customer Support,True
+177,BravoBites,Meal Delivery Service,ServiceNow,Help Desk and Customer Support,True
+178,BravoBites,Meal Delivery Service,Tableau,Business Intelligence and Analytics,True
+179,BravoBites,Meal Delivery Service,Tibco Spotfire,Business Intelligence and Analytics,True
+180,Bright Beginnings,Child Care Services,Alteryx,Business Intelligence and Analytics,True
+181,Bright Beginnings,Child Care Services,Freshdesk,Help Desk and Customer Support,True
+182,Bright Beginnings,Child Care Services,Google Data Studio,Business Intelligence and Analytics,True
+183,Bright Beginnings,Child Care Services,HappyFox,Help Desk and Customer Support,True
+184,Bright Beginnings,Child Care Services,Jira Service Management,Help Desk and Customer Support,True
+185,Bright Beginnings,Child Care Services,QlikView,Business Intelligence and Analytics,True
+186,Bright Beginnings,Child Care Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+187,Bright Beginnings,Child Care Services,Tableau,Business Intelligence and Analytics,True
+188,Bright Beginnings,Child Care Services,Tibco Spotfire,Business Intelligence and Analytics,True
+189,Brilliant Blooms,Floral Arrangements,Alteryx,Business Intelligence and Analytics,True
+190,Brilliant Blooms,Floral Arrangements,Google Data Studio,Business Intelligence and Analytics,True
+191,Brilliant Blooms,Floral Arrangements,Jira Service Management,Help Desk and Customer Support,True
+192,Brilliant Blooms,Floral Arrangements,Power BI,Business Intelligence and Analytics,True
+193,Brilliant Blooms,Floral Arrangements,QlikView,Business Intelligence and Analytics,True
+194,Brilliant Blooms,Floral Arrangements,Salesforce Service Cloud,Help Desk and Customer Support,True
+195,Brilliant Blooms,Floral Arrangements,ServiceNow,Help Desk and Customer Support,True
+196,Brilliant Blooms,Floral Arrangements,Tableau,Business Intelligence and Analytics,True
+197,Brilliant Blooms,Floral Arrangements,Tibco Spotfire,Business Intelligence and Analytics,True
+198,CharlieChargers,Phone Accessories,Alteryx,Business Intelligence and Analytics,True
+199,CharlieChargers,Phone Accessories,Google Data Studio,Business Intelligence and Analytics,True
+200,CharlieChargers,Phone Accessories,Jira Service Management,Help Desk and Customer Support,True
+201,CharlieChargers,Phone Accessories,Power BI,Business Intelligence and Analytics,True
+202,CharlieChargers,Phone Accessories,QlikView,Business Intelligence and Analytics,True
+203,CharlieChargers,Phone Accessories,Salesforce Service Cloud,Help Desk and Customer Support,True
+204,CharlieChargers,Phone Accessories,ServiceNow,Help Desk and Customer Support,True
+205,CharlieChargers,Phone Accessories,Tableau,Business Intelligence and Analytics,True
+206,CharlieChargers,Phone Accessories,Tibco Spotfire,Business Intelligence and Analytics,True
+207,Chic Chocolates,Chocolate Shop,Alteryx,Business Intelligence and Analytics,True
+208,Chic Chocolates,Chocolate Shop,Freshdesk,Help Desk and Customer Support,True
+209,Chic Chocolates,Chocolate Shop,Google Data Studio,Business Intelligence and Analytics,True
+210,Chic Chocolates,Chocolate Shop,HappyFox,Help Desk and Customer Support,True
+211,Chic Chocolates,Chocolate Shop,Jira Service Management,Help Desk and Customer Support,True
+212,Chic Chocolates,Chocolate Shop,QlikView,Business Intelligence and Analytics,True
+213,Chic Chocolates,Chocolate Shop,Salesforce Service Cloud,Help Desk and Customer Support,True
+214,Chic Chocolates,Chocolate Shop,Tableau,Business Intelligence and Analytics,True
+215,Chic Chocolates,Chocolate Shop,Tibco Spotfire,Business Intelligence and Analytics,True
+216,ChiCheese,Cheese Subscription,Alteryx,Business Intelligence and Analytics,True
+217,ChiCheese,Cheese Subscription,Google Data Studio,Business Intelligence and Analytics,True
+218,ChiCheese,Cheese Subscription,Jira Service Management,Help Desk and Customer Support,True
+219,ChiCheese,Cheese Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+220,ChiCheese,Cheese Subscription,ServiceNow,Help Desk and Customer Support,True
+221,ChiCheese,Cheese Subscription,Tableau,Business Intelligence and Analytics,True
+222,ChiCheese,Cheese Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+223,ChiChocolates,Chocolate Subscription,Alteryx,Business Intelligence and Analytics,True
+224,ChiChocolates,Chocolate Subscription,Google Data Studio,Business Intelligence and Analytics,True
+225,ChiChocolates,Chocolate Subscription,Jira Service Management,Help Desk and Customer Support,True
+226,ChiChocolates,Chocolate Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+227,ChiChocolates,Chocolate Subscription,ServiceNow,Help Desk and Customer Support,True
+228,ChiChocolates,Chocolate Subscription,Tableau,Business Intelligence and Analytics,True
+229,ChiChocolates,Chocolate Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+230,Creative Coding,Coding Education,Alteryx,Business Intelligence and Analytics,True
+231,Creative Coding,Coding Education,Google Data Studio,Business Intelligence and Analytics,True
+232,Creative Coding,Coding Education,Jira Service Management,Help Desk and Customer Support,True
+233,Creative Coding,Coding Education,Looker,Business Intelligence and Analytics,True
+234,Creative Coding,Coding Education,Power BI,Business Intelligence and Analytics,True
+235,Creative Coding,Coding Education,QlikView,Business Intelligence and Analytics,True
+236,Creative Coding,Coding Education,Salesforce Service Cloud,Help Desk and Customer Support,True
+237,Creative Coding,Coding Education,SAP Analytics Cloud,Business Intelligence and Analytics,True
+238,Creative Coding,Coding Education,ServiceNow,Help Desk and Customer Support,True
+239,Creative Coding,Coding Education,Sisense,Business Intelligence and Analytics,True
+240,Creative Coding,Coding Education,Tableau,Business Intelligence and Analytics,True
+241,Creative Coding,Coding Education,Tibco Spotfire,Business Intelligence and Analytics,True
+242,DeltaDecor,Home Decor Retailer,Alteryx,Business Intelligence and Analytics,True
+243,DeltaDecor,Home Decor Retailer,Domo,Business Intelligence and Analytics,True
+244,DeltaDecor,Home Decor Retailer,Freshdesk,Help Desk and Customer Support,True
+245,DeltaDecor,Home Decor Retailer,Freshservice,Help Desk and Customer Support,True
+246,DeltaDecor,Home Decor Retailer,Google Data Studio,Business Intelligence and Analytics,True
+247,DeltaDecor,Home Decor Retailer,HubSpot Service Hub,Help Desk and Customer Support,True
+248,DeltaDecor,Home Decor Retailer,Intercom,Help Desk and Customer Support,True
+249,DeltaDecor,Home Decor Retailer,Jira Service Management,Help Desk and Customer Support,True
+250,DeltaDecor,Home Decor Retailer,Looker,Business Intelligence and Analytics,True
+251,DeltaDecor,Home Decor Retailer,Power BI,Business Intelligence and Analytics,True
+252,DeltaDecor,Home Decor Retailer,QlikView,Business Intelligence and Analytics,True
+253,DeltaDecor,Home Decor Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+254,DeltaDecor,Home Decor Retailer,SAP Analytics Cloud,Business Intelligence and Analytics,True
+255,DeltaDecor,Home Decor Retailer,ServiceNow,Help Desk and Customer Support,True
+256,DeltaDecor,Home Decor Retailer,Sisense,Business Intelligence and Analytics,True
+257,DeltaDecor,Home Decor Retailer,Tableau,Business Intelligence and Analytics,True
+258,DeltaDecor,Home Decor Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+259,DeltaDecor,Home Decor Retailer,Zendesk,Help Desk and Customer Support,True
+260,DeltaDesigns,Home Decor Subscription,Alteryx,Business Intelligence and Analytics,True
+261,DeltaDesigns,Home Decor Subscription,Google Data Studio,Business Intelligence and Analytics,True
+262,DeltaDesigns,Home Decor Subscription,Jira Service Management,Help Desk and Customer Support,True
+263,DeltaDesigns,Home Decor Subscription,Power BI,Business Intelligence and Analytics,True
+264,DeltaDesigns,Home Decor Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+265,DeltaDesigns,Home Decor Subscription,Tableau,Business Intelligence and Analytics,True
+266,DeltaDesigns,Home Decor Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+267,DeltaDrinks,Drink Subscription,Alteryx,Business Intelligence and Analytics,True
+268,DeltaDrinks,Drink Subscription,Google Data Studio,Business Intelligence and Analytics,True
+269,DeltaDrinks,Drink Subscription,Jira Service Management,Help Desk and Customer Support,True
+270,DeltaDrinks,Drink Subscription,Power BI,Business Intelligence and Analytics,True
+271,DeltaDrinks,Drink Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+272,DeltaDrinks,Drink Subscription,Tableau,Business Intelligence and Analytics,True
+273,DeltaDrinks,Drink Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+274,Dynamic Drones,Drone Technology,Alteryx,Business Intelligence and Analytics,True
+275,Dynamic Drones,Drone Technology,Google Data Studio,Business Intelligence and Analytics,True
+276,Dynamic Drones,Drone Technology,Jira Service Management,Help Desk and Customer Support,True
+277,Dynamic Drones,Drone Technology,Power BI,Business Intelligence and Analytics,True
+278,Dynamic Drones,Drone Technology,QlikView,Business Intelligence and Analytics,True
+279,Dynamic Drones,Drone Technology,Salesforce Service Cloud,Help Desk and Customer Support,True
+280,Dynamic Drones,Drone Technology,ServiceNow,Help Desk and Customer Support,True
+281,Dynamic Drones,Drone Technology,Tableau,Business Intelligence and Analytics,True
+282,Dynamic Drones,Drone Technology,Tibco Spotfire,Business Intelligence and Analytics,True
+283,EchoEducation,Online Learning Platform,Alteryx,Business Intelligence and Analytics,True
+284,EchoEducation,Online Learning Platform,Google Data Studio,Business Intelligence and Analytics,True
+285,EchoEducation,Online Learning Platform,Jira Service Management,Help Desk and Customer Support,True
+286,EchoEducation,Online Learning Platform,Power BI,Business Intelligence and Analytics,True
+287,EchoEducation,Online Learning Platform,QlikView,Business Intelligence and Analytics,True
+288,EchoEducation,Online Learning Platform,Salesforce Service Cloud,Help Desk and Customer Support,True
+289,EchoEducation,Online Learning Platform,ServiceNow,Help Desk and Customer Support,True
+290,EchoEducation,Online Learning Platform,Tableau,Business Intelligence and Analytics,True
+291,EchoEducation,Online Learning Platform,Tibco Spotfire,Business Intelligence and Analytics,True
+292,Eco-Friendly Cleaning Solutions,Cleaning Services,Alteryx,Business Intelligence and Analytics,True
+293,Eco-Friendly Cleaning Solutions,Cleaning Services,Freshdesk,Help Desk and Customer Support,True
+294,Eco-Friendly Cleaning Solutions,Cleaning Services,Google Data Studio,Business Intelligence and Analytics,True
+295,Eco-Friendly Cleaning Solutions,Cleaning Services,Jira Service Management,Help Desk and Customer Support,True
+296,Eco-Friendly Cleaning Solutions,Cleaning Services,QlikView,Business Intelligence and Analytics,True
+297,Eco-Friendly Cleaning Solutions,Cleaning Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+298,Eco-Friendly Cleaning Solutions,Cleaning Services,Tableau,Business Intelligence and Analytics,True
+299,Eco-Friendly Cleaning Solutions,Cleaning Services,Tibco Spotfire,Business Intelligence and Analytics,True
+300,EcoEase Solutions,Eco-friendly Products,Alteryx,Business Intelligence and Analytics,True
+301,EcoEase Solutions,Eco-friendly Products,Google Data Studio,Business Intelligence and Analytics,True
+302,EcoEase Solutions,Eco-friendly Products,Jira Service Management,Help Desk and Customer Support,True
+303,EcoEase Solutions,Eco-friendly Products,Looker,Business Intelligence and Analytics,True
+304,EcoEase Solutions,Eco-friendly Products,Power BI,Business Intelligence and Analytics,True
+305,EcoEase Solutions,Eco-friendly Products,QlikView,Business Intelligence and Analytics,True
+306,EcoEase Solutions,Eco-friendly Products,Salesforce Service Cloud,Help Desk and Customer Support,True
+307,EcoEase Solutions,Eco-friendly Products,SAP Analytics Cloud,Business Intelligence and Analytics,True
+308,EcoEase Solutions,Eco-friendly Products,ServiceNow,Help Desk and Customer Support,True
+309,EcoEase Solutions,Eco-friendly Products,Sisense,Business Intelligence and Analytics,True
+310,EcoEase Solutions,Eco-friendly Products,Tableau,Business Intelligence and Analytics,True
+311,EcoEase Solutions,Eco-friendly Products,Tibco Spotfire,Business Intelligence and Analytics,True
+312,Elegant Events,Event Planning,Alteryx,Business Intelligence and Analytics,True
+313,Elegant Events,Event Planning,Google Data Studio,Business Intelligence and Analytics,True
+314,Elegant Events,Event Planning,Jira Service Management,Help Desk and Customer Support,True
+315,Elegant Events,Event Planning,QlikView,Business Intelligence and Analytics,True
+316,Elegant Events,Event Planning,Salesforce Service Cloud,Help Desk and Customer Support,True
+317,Elegant Events,Event Planning,Tableau,Business Intelligence and Analytics,True
+318,Elegant Events,Event Planning,Tibco Spotfire,Business Intelligence and Analytics,True
+319,EpsilonEco,Eco-Friendly Product Subscription,Alteryx,Business Intelligence and Analytics,True
+320,EpsilonEco,Eco-Friendly Product Subscription,Google Data Studio,Business Intelligence and Analytics,True
+321,EpsilonEco,Eco-Friendly Product Subscription,Jira Service Management,Help Desk and Customer Support,True
+322,EpsilonEco,Eco-Friendly Product Subscription,Looker,Business Intelligence and Analytics,True
+323,EpsilonEco,Eco-Friendly Product Subscription,Power BI,Business Intelligence and Analytics,True
+324,EpsilonEco,Eco-Friendly Product Subscription,QlikView,Business Intelligence and Analytics,True
+325,EpsilonEco,Eco-Friendly Product Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+326,EpsilonEco,Eco-Friendly Product Subscription,SAP Analytics Cloud,Business Intelligence and Analytics,True
+327,EpsilonEco,Eco-Friendly Product Subscription,ServiceNow,Help Desk and Customer Support,True
+328,EpsilonEco,Eco-Friendly Product Subscription,Sisense,Business Intelligence and Analytics,True
+329,EpsilonEco,Eco-Friendly Product Subscription,Tableau,Business Intelligence and Analytics,True
+330,EpsilonEco,Eco-Friendly Product Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+331,EpsilonEducation,Online Learning Subscription,Alteryx,Business Intelligence and Analytics,True
+332,EpsilonEducation,Online Learning Subscription,Google Data Studio,Business Intelligence and Analytics,True
+333,EpsilonEducation,Online Learning Subscription,Jira Service Management,Help Desk and Customer Support,True
+334,EpsilonEducation,Online Learning Subscription,Power BI,Business Intelligence and Analytics,True
+335,EpsilonEducation,Online Learning Subscription,QlikView,Business Intelligence and Analytics,True
+336,EpsilonEducation,Online Learning Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+337,EpsilonEducation,Online Learning Subscription,ServiceNow,Help Desk and Customer Support,True
+338,EpsilonEducation,Online Learning Subscription,Tableau,Business Intelligence and Analytics,True
+339,EpsilonEducation,Online Learning Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+340,Esteemed Education,Private School,Alteryx,Business Intelligence and Analytics,True
+341,Esteemed Education,Private School,Google Data Studio,Business Intelligence and Analytics,True
+342,Esteemed Education,Private School,Jira Service Management,Help Desk and Customer Support,True
+343,Esteemed Education,Private School,Power BI,Business Intelligence and Analytics,True
+344,Esteemed Education,Private School,QlikView,Business Intelligence and Analytics,True
+345,Esteemed Education,Private School,Salesforce Service Cloud,Help Desk and Customer Support,True
+346,Esteemed Education,Private School,ServiceNow,Help Desk and Customer Support,True
+347,Esteemed Education,Private School,Tableau,Business Intelligence and Analytics,True
+348,Esteemed Education,Private School,Tibco Spotfire,Business Intelligence and Analytics,True
+349,EtaEntertainment,Movie Ticket Subscription,Alteryx,Business Intelligence and Analytics,True
+350,EtaEntertainment,Movie Ticket Subscription,Google Data Studio,Business Intelligence and Analytics,True
+351,EtaEntertainment,Movie Ticket Subscription,Jira Service Management,Help Desk and Customer Support,True
+352,EtaEntertainment,Movie Ticket Subscription,Power BI,Business Intelligence and Analytics,True
+353,EtaEntertainment,Movie Ticket Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+354,EtaEntertainment,Movie Ticket Subscription,ServiceNow,Help Desk and Customer Support,True
+355,EtaEntertainment,Movie Ticket Subscription,Tableau,Business Intelligence and Analytics,True
+356,EtaEntertainment,Movie Ticket Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+357,EtaEscapeRooms,Escape Room Subscription,Alteryx,Business Intelligence and Analytics,True
+358,EtaEscapeRooms,Escape Room Subscription,Google Data Studio,Business Intelligence and Analytics,True
+359,EtaEscapeRooms,Escape Room Subscription,Jira Service Management,Help Desk and Customer Support,True
+360,EtaEscapeRooms,Escape Room Subscription,Power BI,Business Intelligence and Analytics,True
+361,EtaEscapeRooms,Escape Room Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+362,EtaEscapeRooms,Escape Room Subscription,Tableau,Business Intelligence and Analytics,True
+363,EtaEscapeRooms,Escape Room Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+364,Fantastic Furnishings,Furniture Store,Alteryx,Business Intelligence and Analytics,True
+365,Fantastic Furnishings,Furniture Store,Google Data Studio,Business Intelligence and Analytics,True
+366,Fantastic Furnishings,Furniture Store,Jira Service Management,Help Desk and Customer Support,True
+367,Fantastic Furnishings,Furniture Store,Power BI,Business Intelligence and Analytics,True
+368,Fantastic Furnishings,Furniture Store,QlikView,Business Intelligence and Analytics,True
+369,Fantastic Furnishings,Furniture Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+370,Fantastic Furnishings,Furniture Store,ServiceNow,Help Desk and Customer Support,True
+371,Fantastic Furnishings,Furniture Store,Tableau,Business Intelligence and Analytics,True
+372,Fantastic Furnishings,Furniture Store,Tibco Spotfire,Business Intelligence and Analytics,True
+373,FarmFresh,Organic Food Delivery,Alteryx,Business Intelligence and Analytics,True
+374,FarmFresh,Organic Food Delivery,Google Data Studio,Business Intelligence and Analytics,True
+375,FarmFresh,Organic Food Delivery,Jira Service Management,Help Desk and Customer Support,True
+376,FarmFresh,Organic Food Delivery,Power BI,Business Intelligence and Analytics,True
+377,FarmFresh,Organic Food Delivery,Salesforce Service Cloud,Help Desk and Customer Support,True
+378,FarmFresh,Organic Food Delivery,Tableau,Business Intelligence and Analytics,True
+379,FarmFresh,Organic Food Delivery,Tibco Spotfire,Business Intelligence and Analytics,True
+380,Fashion Forward,Clothing Retail,Alteryx,Business Intelligence and Analytics,True
+381,Fashion Forward,Clothing Retail,Google Data Studio,Business Intelligence and Analytics,True
+382,Fashion Forward,Clothing Retail,Jira Service Management,Help Desk and Customer Support,True
+383,Fashion Forward,Clothing Retail,Power BI,Business Intelligence and Analytics,True
+384,Fashion Forward,Clothing Retail,Salesforce Service Cloud,Help Desk and Customer Support,True
+385,Fashion Forward,Clothing Retail,ServiceNow,Help Desk and Customer Support,True
+386,Fashion Forward,Clothing Retail,Tableau,Business Intelligence and Analytics,True
+387,Fashion Forward,Clothing Retail,Tibco Spotfire,Business Intelligence and Analytics,True
+388,Fit For Life,Health and Fitness,Alteryx,Business Intelligence and Analytics,True
+389,Fit For Life,Health and Fitness,Freshdesk,Help Desk and Customer Support,True
+390,Fit For Life,Health and Fitness,Google Data Studio,Business Intelligence and Analytics,True
+391,Fit For Life,Health and Fitness,Jira Service Management,Help Desk and Customer Support,True
+392,Fit For Life,Health and Fitness,QlikView,Business Intelligence and Analytics,True
+393,Fit For Life,Health and Fitness,Salesforce Service Cloud,Help Desk and Customer Support,True
+394,Fit For Life,Health and Fitness,Tableau,Business Intelligence and Analytics,True
+395,Fit For Life,Health and Fitness,Tibco Spotfire,Business Intelligence and Analytics,True
+396,FitFam Fitness,Health and Fitness,Alteryx,Business Intelligence and Analytics,True
+397,FitFam Fitness,Health and Fitness,Google Data Studio,Business Intelligence and Analytics,True
+398,FitFam Fitness,Health and Fitness,Jira Service Management,Help Desk and Customer Support,True
+399,FitFam Fitness,Health and Fitness,Power BI,Business Intelligence and Analytics,True
+400,FitFam Fitness,Health and Fitness,Salesforce Service Cloud,Help Desk and Customer Support,True
+401,FitFam Fitness,Health and Fitness,Tableau,Business Intelligence and Analytics,True
+402,FitFam Fitness,Health and Fitness,Tibco Spotfire,Business Intelligence and Analytics,True
+403,FitFusion,Fitness App,Alteryx,Business Intelligence and Analytics,True
+404,FitFusion,Fitness App,Google Data Studio,Business Intelligence and Analytics,True
+405,FitFusion,Fitness App,Jira Service Management,Help Desk and Customer Support,True
+406,FitFusion,Fitness App,Salesforce Service Cloud,Help Desk and Customer Support,True
+407,FitFusion,Fitness App,ServiceNow,Help Desk and Customer Support,True
+408,FitFusion,Fitness App,Tableau,Business Intelligence and Analytics,True
+409,FitFusion,Fitness App,Tibco Spotfire,Business Intelligence and Analytics,True
+410,FoxtrotFitness,Gym Chain,Alteryx,Business Intelligence and Analytics,True
+411,FoxtrotFitness,Gym Chain,Google Data Studio,Business Intelligence and Analytics,True
+412,FoxtrotFitness,Gym Chain,Jira Service Management,Help Desk and Customer Support,True
+413,FoxtrotFitness,Gym Chain,Power BI,Business Intelligence and Analytics,True
+414,FoxtrotFitness,Gym Chain,Salesforce Service Cloud,Help Desk and Customer Support,True
+415,FoxtrotFitness,Gym Chain,Tableau,Business Intelligence and Analytics,True
+416,FoxtrotFitness,Gym Chain,Tibco Spotfire,Business Intelligence and Analytics,True
+417,GammaGames,Board Game Subscription,Alteryx,Business Intelligence and Analytics,True
+418,GammaGames,Board Game Subscription,Google Data Studio,Business Intelligence and Analytics,True
+419,GammaGames,Board Game Subscription,Jira Service Management,Help Desk and Customer Support,True
+420,GammaGames,Board Game Subscription,Power BI,Business Intelligence and Analytics,True
+421,GammaGames,Board Game Subscription,QlikView,Business Intelligence and Analytics,True
+422,GammaGames,Board Game Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+423,GammaGames,Board Game Subscription,ServiceNow,Help Desk and Customer Support,True
+424,GammaGames,Board Game Subscription,Tableau,Business Intelligence and Analytics,True
+425,GammaGames,Board Game Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+426,GammaGardening,Gardening Subscription,Alteryx,Business Intelligence and Analytics,True
+427,GammaGardening,Gardening Subscription,Google Data Studio,Business Intelligence and Analytics,True
+428,GammaGardening,Gardening Subscription,Jira Service Management,Help Desk and Customer Support,True
+429,GammaGardening,Gardening Subscription,Power BI,Business Intelligence and Analytics,True
+430,GammaGardening,Gardening Subscription,QlikView,Business Intelligence and Analytics,True
+431,GammaGardening,Gardening Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+432,GammaGardening,Gardening Subscription,ServiceNow,Help Desk and Customer Support,True
+433,GammaGardening,Gardening Subscription,Tableau,Business Intelligence and Analytics,True
+434,GammaGardening,Gardening Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+435,GigaBytes Tech,IT Services,Alteryx,Business Intelligence and Analytics,True
+436,GigaBytes Tech,IT Services,Google Data Studio,Business Intelligence and Analytics,True
+437,GigaBytes Tech,IT Services,Jira Service Management,Help Desk and Customer Support,True
+438,GigaBytes Tech,IT Services,Looker,Business Intelligence and Analytics,True
+439,GigaBytes Tech,IT Services,Power BI,Business Intelligence and Analytics,True
+440,GigaBytes Tech,IT Services,QlikView,Business Intelligence and Analytics,True
+441,GigaBytes Tech,IT Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+442,GigaBytes Tech,IT Services,SAP Analytics Cloud,Business Intelligence and Analytics,True
+443,GigaBytes Tech,IT Services,ServiceNow,Help Desk and Customer Support,True
+444,GigaBytes Tech,IT Services,Sisense,Business Intelligence and Analytics,True
+445,GigaBytes Tech,IT Services,Tableau,Business Intelligence and Analytics,True
+446,GigaBytes Tech,IT Services,Tibco Spotfire,Business Intelligence and Analytics,True
+447,GigaGadgets,Electronics Retailer,Alteryx,Business Intelligence and Analytics,True
+448,GigaGadgets,Electronics Retailer,Alteryx,Business Intelligence and Analytics,True
+449,GigaGadgets,Electronics Retailer,Google Data Studio,Business Intelligence and Analytics,True
+450,GigaGadgets,Electronics Retailer,Google Data Studio,Business Intelligence and Analytics,True
+451,GigaGadgets,Electronics Retailer,Jira Service Management,Help Desk and Customer Support,True
+452,GigaGadgets,Electronics Retailer,Jira Service Management,Help Desk and Customer Support,True
+453,GigaGadgets,Electronics Retailer,Power BI,Business Intelligence and Analytics,True
+454,GigaGadgets,Electronics Retailer,Power BI,Business Intelligence and Analytics,True
+455,GigaGadgets,Electronics Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+456,GigaGadgets,Electronics Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+457,GigaGadgets,Electronics Retailer,ServiceNow,Help Desk and Customer Support,True
+458,GigaGadgets,Electronics Retailer,ServiceNow,Help Desk and Customer Support,True
+459,GigaGadgets,Electronics Retailer,Tableau,Business Intelligence and Analytics,True
+460,GigaGadgets,Electronics Retailer,Tableau,Business Intelligence and Analytics,True
+461,GigaGadgets,Electronics Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+462,GigaGadgets,Electronics Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+463,GigaGadgets,Electronics Retailer,Alteryx,Business Intelligence and Analytics,True
+464,GigaGadgets,Electronics Retailer,Alteryx,Business Intelligence and Analytics,True
+465,GigaGadgets,Electronics Retailer,Google Data Studio,Business Intelligence and Analytics,True
+466,GigaGadgets,Electronics Retailer,Google Data Studio,Business Intelligence and Analytics,True
+467,GigaGadgets,Electronics Retailer,Jira Service Management,Help Desk and Customer Support,True
+468,GigaGadgets,Electronics Retailer,Jira Service Management,Help Desk and Customer Support,True
+469,GigaGadgets,Electronics Retailer,Power BI,Business Intelligence and Analytics,True
+470,GigaGadgets,Electronics Retailer,Power BI,Business Intelligence and Analytics,True
+471,GigaGadgets,Electronics Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+472,GigaGadgets,Electronics Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+473,GigaGadgets,Electronics Retailer,ServiceNow,Help Desk and Customer Support,True
+474,GigaGadgets,Electronics Retailer,ServiceNow,Help Desk and Customer Support,True
+475,GigaGadgets,Electronics Retailer,Tableau,Business Intelligence and Analytics,True
+476,GigaGadgets,Electronics Retailer,Tableau,Business Intelligence and Analytics,True
+477,GigaGadgets,Electronics Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+478,GigaGadgets,Electronics Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+479,Glamorous Gaming,Video Game Store,Alteryx,Business Intelligence and Analytics,True
+480,Glamorous Gaming,Video Game Store,Domo,Business Intelligence and Analytics,True
+481,Glamorous Gaming,Video Game Store,Freshdesk,Help Desk and Customer Support,True
+482,Glamorous Gaming,Video Game Store,Freshservice,Help Desk and Customer Support,True
+483,Glamorous Gaming,Video Game Store,Google Data Studio,Business Intelligence and Analytics,True
+484,Glamorous Gaming,Video Game Store,HappyFox,Help Desk and Customer Support,True
+485,Glamorous Gaming,Video Game Store,HubSpot Service Hub,Help Desk and Customer Support,True
+486,Glamorous Gaming,Video Game Store,Intercom,Help Desk and Customer Support,True
+487,Glamorous Gaming,Video Game Store,Jira Service Management,Help Desk and Customer Support,True
+488,Glamorous Gaming,Video Game Store,Looker,Business Intelligence and Analytics,True
+489,Glamorous Gaming,Video Game Store,Power BI,Business Intelligence and Analytics,True
+490,Glamorous Gaming,Video Game Store,QlikView,Business Intelligence and Analytics,True
+491,Glamorous Gaming,Video Game Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+492,Glamorous Gaming,Video Game Store,SAP Analytics Cloud,Business Intelligence and Analytics,True
+493,Glamorous Gaming,Video Game Store,ServiceNow,Help Desk and Customer Support,True
+494,Glamorous Gaming,Video Game Store,Sisense,Business Intelligence and Analytics,True
+495,Glamorous Gaming,Video Game Store,Tableau,Business Intelligence and Analytics,True
+496,Glamorous Gaming,Video Game Store,Tibco Spotfire,Business Intelligence and Analytics,True
+497,Glamorous Gaming,Video Game Store,Zendesk,Help Desk and Customer Support,True
+498,Global Goods,Fair Trade Imports,Alteryx,Business Intelligence and Analytics,True
+499,Global Goods,Fair Trade Imports,Domo,Business Intelligence and Analytics,True
+500,Global Goods,Fair Trade Imports,Freshdesk,Help Desk and Customer Support,True
+501,Global Goods,Fair Trade Imports,Freshservice,Help Desk and Customer Support,True
+502,Global Goods,Fair Trade Imports,Google Data Studio,Business Intelligence and Analytics,True
+503,Global Goods,Fair Trade Imports,HappyFox,Help Desk and Customer Support,True
+504,Global Goods,Fair Trade Imports,HubSpot Service Hub,Help Desk and Customer Support,True
+505,Global Goods,Fair Trade Imports,Intercom,Help Desk and Customer Support,True
+506,Global Goods,Fair Trade Imports,Jira Service Management,Help Desk and Customer Support,True
+507,Global Goods,Fair Trade Imports,Looker,Business Intelligence and Analytics,True
+508,Global Goods,Fair Trade Imports,Power BI,Business Intelligence and Analytics,True
+509,Global Goods,Fair Trade Imports,QlikView,Business Intelligence and Analytics,True
+510,Global Goods,Fair Trade Imports,Salesforce Service Cloud,Help Desk and Customer Support,True
+511,Global Goods,Fair Trade Imports,SAP Analytics Cloud,Business Intelligence and Analytics,True
+512,Global Goods,Fair Trade Imports,ServiceNow,Help Desk and Customer Support,True
+513,Global Goods,Fair Trade Imports,Sisense,Business Intelligence and Analytics,True
+514,Global Goods,Fair Trade Imports,Tableau,Business Intelligence and Analytics,True
+515,Global Goods,Fair Trade Imports,Tibco Spotfire,Business Intelligence and Analytics,True
+516,Global Goods,Fair Trade Imports,Zendesk,Help Desk and Customer Support,True
+517,GlowGuru,Skincare Products,Alteryx,Business Intelligence and Analytics,True
+518,GlowGuru,Skincare Products,Google Data Studio,Business Intelligence and Analytics,True
+519,GlowGuru,Skincare Products,Jira Service Management,Help Desk and Customer Support,True
+520,GlowGuru,Skincare Products,Power BI,Business Intelligence and Analytics,True
+521,GlowGuru,Skincare Products,QlikView,Business Intelligence and Analytics,True
+522,GlowGuru,Skincare Products,Salesforce Service Cloud,Help Desk and Customer Support,True
+523,GlowGuru,Skincare Products,ServiceNow,Help Desk and Customer Support,True
+524,GlowGuru,Skincare Products,Tableau,Business Intelligence and Analytics,True
+525,GlowGuru,Skincare Products,Tibco Spotfire,Business Intelligence and Analytics,True
+526,GolfGenius,Golf Equipment,Alteryx,Business Intelligence and Analytics,True
+527,GolfGenius,Golf Equipment,Google Data Studio,Business Intelligence and Analytics,True
+528,GolfGenius,Golf Equipment,Jira Service Management,Help Desk and Customer Support,True
+529,GolfGenius,Golf Equipment,Power BI,Business Intelligence and Analytics,True
+530,GolfGenius,Golf Equipment,QlikView,Business Intelligence and Analytics,True
+531,GolfGenius,Golf Equipment,Salesforce Service Cloud,Help Desk and Customer Support,True
+532,GolfGenius,Golf Equipment,Tableau,Business Intelligence and Analytics,True
+533,GolfGenius,Golf Equipment,Tibco Spotfire,Business Intelligence and Analytics,True
+534,Gourmet Grub,Meal Delivery Service,Alteryx,Business Intelligence and Analytics,True
+535,Gourmet Grub,Meal Delivery Service,Google Data Studio,Business Intelligence and Analytics,True
+536,Gourmet Grub,Meal Delivery Service,Jira Service Management,Help Desk and Customer Support,True
+537,Gourmet Grub,Meal Delivery Service,Power BI,Business Intelligence and Analytics,True
+538,Gourmet Grub,Meal Delivery Service,QlikView,Business Intelligence and Analytics,True
+539,Gourmet Grub,Meal Delivery Service,Salesforce Service Cloud,Help Desk and Customer Support,True
+540,Gourmet Grub,Meal Delivery Service,ServiceNow,Help Desk and Customer Support,True
+541,Gourmet Grub,Meal Delivery Service,Tableau,Business Intelligence and Analytics,True
+542,Gourmet Grub,Meal Delivery Service,Tibco Spotfire,Business Intelligence and Analytics,True
+543,Green Thumb Gardening,Landscaping Services,Alteryx,Business Intelligence and Analytics,True
+544,Green Thumb Gardening,Landscaping Services,Google Data Studio,Business Intelligence and Analytics,True
+545,Green Thumb Gardening,Landscaping Services,Jira Service Management,Help Desk and Customer Support,True
+546,Green Thumb Gardening,Landscaping Services,Power BI,Business Intelligence and Analytics,True
+547,Green Thumb Gardening,Landscaping Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+548,Green Thumb Gardening,Landscaping Services,Tableau,Business Intelligence and Analytics,True
+549,Green Thumb Gardening,Landscaping Services,Tibco Spotfire,Business Intelligence and Analytics,True
+550,GreenGlow,Eco-friendly Cleaning Products,Alteryx,Business Intelligence and Analytics,True
+551,GreenGlow,Eco-friendly Cleaning Products,Freshdesk,Help Desk and Customer Support,True
+552,GreenGlow,Eco-friendly Cleaning Products,Google Data Studio,Business Intelligence and Analytics,True
+553,GreenGlow,Eco-friendly Cleaning Products,Jira Service Management,Help Desk and Customer Support,True
+554,GreenGlow,Eco-friendly Cleaning Products,QlikView,Business Intelligence and Analytics,True
+555,GreenGlow,Eco-friendly Cleaning Products,Salesforce Service Cloud,Help Desk and Customer Support,True
+556,GreenGlow,Eco-friendly Cleaning Products,Tableau,Business Intelligence and Analytics,True
+557,GreenGlow,Eco-friendly Cleaning Products,Tibco Spotfire,Business Intelligence and Analytics,True
+558,Harmonious Homes,Interior Design,Alteryx,Business Intelligence and Analytics,True
+559,Harmonious Homes,Interior Design,Google Data Studio,Business Intelligence and Analytics,True
+560,Harmonious Homes,Interior Design,Jira Service Management,Help Desk and Customer Support,True
+561,Harmonious Homes,Interior Design,QlikView,Business Intelligence and Analytics,True
+562,Harmonious Homes,Interior Design,Salesforce Service Cloud,Help Desk and Customer Support,True
+563,Harmonious Homes,Interior Design,Tableau,Business Intelligence and Analytics,True
+564,Harmonious Homes,Interior Design,Tibco Spotfire,Business Intelligence and Analytics,True
+565,Healthy Habits,Health and Wellness,Alteryx,Business Intelligence and Analytics,True
+566,Healthy Habits,Health and Wellness,Domo,Business Intelligence and Analytics,True
+567,Healthy Habits,Health and Wellness,Freshdesk,Help Desk and Customer Support,True
+568,Healthy Habits,Health and Wellness,Freshservice,Help Desk and Customer Support,True
+569,Healthy Habits,Health and Wellness,Google Data Studio,Business Intelligence and Analytics,True
+570,Healthy Habits,Health and Wellness,HappyFox,Help Desk and Customer Support,True
+571,Healthy Habits,Health and Wellness,HubSpot Service Hub,Help Desk and Customer Support,True
+572,Healthy Habits,Health and Wellness,Intercom,Help Desk and Customer Support,True
+573,Healthy Habits,Health and Wellness,Jira Service Management,Help Desk and Customer Support,True
+574,Healthy Habits,Health and Wellness,Looker,Business Intelligence and Analytics,True
+575,Healthy Habits,Health and Wellness,Power BI,Business Intelligence and Analytics,True
+576,Healthy Habits,Health and Wellness,QlikView,Business Intelligence and Analytics,True
+577,Healthy Habits,Health and Wellness,Salesforce Service Cloud,Help Desk and Customer Support,True
+578,Healthy Habits,Health and Wellness,SAP Analytics Cloud,Business Intelligence and Analytics,True
+579,Healthy Habits,Health and Wellness,ServiceNow,Help Desk and Customer Support,True
+580,Healthy Habits,Health and Wellness,Sisense,Business Intelligence and Analytics,True
+581,Healthy Habits,Health and Wellness,Tableau,Business Intelligence and Analytics,True
+582,Healthy Habits,Health and Wellness,Tibco Spotfire,Business Intelligence and Analytics,True
+583,Healthy Habits,Health and Wellness,Zendesk,Help Desk and Customer Support,True
+584,HomeHaven,Home Decor Subscription Box,Alteryx,Business Intelligence and Analytics,True
+585,HomeHaven,Home Decor Subscription Box,Google Data Studio,Business Intelligence and Analytics,True
+586,HomeHaven,Home Decor Subscription Box,Jira Service Management,Help Desk and Customer Support,True
+587,HomeHaven,Home Decor Subscription Box,Salesforce Service Cloud,Help Desk and Customer Support,True
+588,HomeHaven,Home Decor Subscription Box,ServiceNow,Help Desk and Customer Support,True
+589,HomeHaven,Home Decor Subscription Box,Tableau,Business Intelligence and Analytics,True
+590,HomeHaven,Home Decor Subscription Box,Tibco Spotfire,Business Intelligence and Analytics,True
+591,HotelHaven,Hotel Booking Platform,Alteryx,Business Intelligence and Analytics,True
+592,HotelHaven,Hotel Booking Platform,Freshdesk,Help Desk and Customer Support,True
+593,HotelHaven,Hotel Booking Platform,Google Data Studio,Business Intelligence and Analytics,True
+594,HotelHaven,Hotel Booking Platform,Jira Service Management,Help Desk and Customer Support,True
+595,HotelHaven,Hotel Booking Platform,QlikView,Business Intelligence and Analytics,True
+596,HotelHaven,Hotel Booking Platform,Salesforce Service Cloud,Help Desk and Customer Support,True
+597,HotelHaven,Hotel Booking Platform,Tableau,Business Intelligence and Analytics,True
+598,HotelHaven,Hotel Booking Platform,Tibco Spotfire,Business Intelligence and Analytics,True
+599,Innovative Ideas,Creative Consulting,Alteryx,Business Intelligence and Analytics,True
+600,Innovative Ideas,Creative Consulting,Google Data Studio,Business Intelligence and Analytics,True
+601,Innovative Ideas,Creative Consulting,Jira Service Management,Help Desk and Customer Support,True
+602,Innovative Ideas,Creative Consulting,Power BI,Business Intelligence and Analytics,True
+603,Innovative Ideas,Creative Consulting,QlikView,Business Intelligence and Analytics,True
+604,Innovative Ideas,Creative Consulting,Salesforce Service Cloud,Help Desk and Customer Support,True
+605,Innovative Ideas,Creative Consulting,ServiceNow,Help Desk and Customer Support,True
+606,Innovative Ideas,Creative Consulting,Tableau,Business Intelligence and Analytics,True
+607,Innovative Ideas,Creative Consulting,Tibco Spotfire,Business Intelligence and Analytics,True
+608,InspireInnovations,Technology Incubator,Alteryx,Business Intelligence and Analytics,True
+609,InspireInnovations,Technology Incubator,Domo,Business Intelligence and Analytics,True
+610,InspireInnovations,Technology Incubator,Google Data Studio,Business Intelligence and Analytics,True
+611,InspireInnovations,Technology Incubator,HubSpot Service Hub,Help Desk and Customer Support,True
+612,InspireInnovations,Technology Incubator,Intercom,Help Desk and Customer Support,True
+613,InspireInnovations,Technology Incubator,Jira Service Management,Help Desk and Customer Support,True
+614,InspireInnovations,Technology Incubator,Looker,Business Intelligence and Analytics,True
+615,InspireInnovations,Technology Incubator,Power BI,Business Intelligence and Analytics,True
+616,InspireInnovations,Technology Incubator,QlikView,Business Intelligence and Analytics,True
+617,InspireInnovations,Technology Incubator,Salesforce Service Cloud,Help Desk and Customer Support,True
+618,InspireInnovations,Technology Incubator,SAP Analytics Cloud,Business Intelligence and Analytics,True
+619,InspireInnovations,Technology Incubator,ServiceNow,Help Desk and Customer Support,True
+620,InspireInnovations,Technology Incubator,Sisense,Business Intelligence and Analytics,True
+621,InspireInnovations,Technology Incubator,Tableau,Business Intelligence and Analytics,True
+622,InspireInnovations,Technology Incubator,Tibco Spotfire,Business Intelligence and Analytics,True
+623,InspireInnovations,Technology Incubator,Zendesk,Help Desk and Customer Support,True
+624,Inspiring Instruments,Musical Instrument Store,Alteryx,Business Intelligence and Analytics,True
+625,Inspiring Instruments,Musical Instrument Store,Google Data Studio,Business Intelligence and Analytics,True
+626,Inspiring Instruments,Musical Instrument Store,Jira Service Management,Help Desk and Customer Support,True
+627,Inspiring Instruments,Musical Instrument Store,Power BI,Business Intelligence and Analytics,True
+628,Inspiring Instruments,Musical Instrument Store,QlikView,Business Intelligence and Analytics,True
+629,Inspiring Instruments,Musical Instrument Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+630,Inspiring Instruments,Musical Instrument Store,Tableau,Business Intelligence and Analytics,True
+631,Inspiring Instruments,Musical Instrument Store,Tibco Spotfire,Business Intelligence and Analytics,True
+632,IotaIceCream,Ice Cream Subscription,Alteryx,Business Intelligence and Analytics,True
+633,IotaIceCream,Ice Cream Subscription,Google Data Studio,Business Intelligence and Analytics,True
+634,IotaIceCream,Ice Cream Subscription,Jira Service Management,Help Desk and Customer Support,True
+635,IotaIceCream,Ice Cream Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+636,IotaIceCream,Ice Cream Subscription,ServiceNow,Help Desk and Customer Support,True
+637,IotaIceCream,Ice Cream Subscription,Tableau,Business Intelligence and Analytics,True
+638,IotaIceCream,Ice Cream Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+639,IotaImprov,Improv Class Subscription,Alteryx,Business Intelligence and Analytics,True
+640,IotaImprov,Improv Class Subscription,Google Data Studio,Business Intelligence and Analytics,True
+641,IotaImprov,Improv Class Subscription,Jira Service Management,Help Desk and Customer Support,True
+642,IotaImprov,Improv Class Subscription,Power BI,Business Intelligence and Analytics,True
+643,IotaImprov,Improv Class Subscription,QlikView,Business Intelligence and Analytics,True
+644,IotaImprov,Improv Class Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+645,IotaImprov,Improv Class Subscription,ServiceNow,Help Desk and Customer Support,True
+646,IotaImprov,Improv Class Subscription,Tableau,Business Intelligence and Analytics,True
+647,IotaImprov,Improv Class Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+648,Joyful Jewels,Jewelry Store,Alteryx,Business Intelligence and Analytics,True
+649,Joyful Jewels,Jewelry Store,Google Data Studio,Business Intelligence and Analytics,True
+650,Joyful Jewels,Jewelry Store,Jira Service Management,Help Desk and Customer Support,True
+651,Joyful Jewels,Jewelry Store,Power BI,Business Intelligence and Analytics,True
+652,Joyful Jewels,Jewelry Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+653,Joyful Jewels,Jewelry Store,Tableau,Business Intelligence and Analytics,True
+654,Joyful Jewels,Jewelry Store,Tibco Spotfire,Business Intelligence and Analytics,True
+655,Joyful Journeys,Travel Agency,Alteryx,Business Intelligence and Analytics,True
+656,Joyful Journeys,Travel Agency,Freshdesk,Help Desk and Customer Support,True
+657,Joyful Journeys,Travel Agency,Google Data Studio,Business Intelligence and Analytics,True
+658,Joyful Journeys,Travel Agency,Jira Service Management,Help Desk and Customer Support,True
+659,Joyful Journeys,Travel Agency,QlikView,Business Intelligence and Analytics,True
+660,Joyful Journeys,Travel Agency,Salesforce Service Cloud,Help Desk and Customer Support,True
+661,Joyful Journeys,Travel Agency,Tableau,Business Intelligence and Analytics,True
+662,Joyful Journeys,Travel Agency,Tibco Spotfire,Business Intelligence and Analytics,True
+663,JunoJewelry,Fine Jewelry Retailer,Alteryx,Business Intelligence and Analytics,True
+664,JunoJewelry,Fine Jewelry Retailer,Google Data Studio,Business Intelligence and Analytics,True
+665,JunoJewelry,Fine Jewelry Retailer,Jira Service Management,Help Desk and Customer Support,True
+666,JunoJewelry,Fine Jewelry Retailer,Power BI,Business Intelligence and Analytics,True
+667,JunoJewelry,Fine Jewelry Retailer,QlikView,Business Intelligence and Analytics,True
+668,JunoJewelry,Fine Jewelry Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+669,JunoJewelry,Fine Jewelry Retailer,Tableau,Business Intelligence and Analytics,True
+670,JunoJewelry,Fine Jewelry Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+671,KaleidoscopeKids,Children's Clothing Retailer,Alteryx,Business Intelligence and Analytics,True
+672,KaleidoscopeKids,Children's Clothing Retailer,Freshdesk,Help Desk and Customer Support,True
+673,KaleidoscopeKids,Children's Clothing Retailer,Google Data Studio,Business Intelligence and Analytics,True
+674,KaleidoscopeKids,Children's Clothing Retailer,Jira Service Management,Help Desk and Customer Support,True
+675,KaleidoscopeKids,Children's Clothing Retailer,QlikView,Business Intelligence and Analytics,True
+676,KaleidoscopeKids,Children's Clothing Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+677,KaleidoscopeKids,Children's Clothing Retailer,Tableau,Business Intelligence and Analytics,True
+678,KaleidoscopeKids,Children's Clothing Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+679,KappaKids,Children's Book Subscription,Alteryx,Business Intelligence and Analytics,True
+680,KappaKids,Children's Book Subscription,Freshdesk,Help Desk and Customer Support,True
+681,KappaKids,Children's Book Subscription,Google Data Studio,Business Intelligence and Analytics,True
+682,KappaKids,Children's Book Subscription,Jira Service Management,Help Desk and Customer Support,True
+683,KappaKids,Children's Book Subscription,QlikView,Business Intelligence and Analytics,True
+684,KappaKids,Children's Book Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+685,KappaKids,Children's Book Subscription,Tableau,Business Intelligence and Analytics,True
+686,KappaKids,Children's Book Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+687,KappaKnitting,Knitting Subscription,Alteryx,Business Intelligence and Analytics,True
+688,KappaKnitting,Knitting Subscription,Google Data Studio,Business Intelligence and Analytics,True
+689,KappaKnitting,Knitting Subscription,Jira Service Management,Help Desk and Customer Support,True
+690,KappaKnitting,Knitting Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+691,KappaKnitting,Knitting Subscription,ServiceNow,Help Desk and Customer Support,True
+692,KappaKnitting,Knitting Subscription,Tableau,Business Intelligence and Analytics,True
+693,KappaKnitting,Knitting Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+694,KidKonnect,Educational Toys,Alteryx,Business Intelligence and Analytics,True
+695,KidKonnect,Educational Toys,Google Data Studio,Business Intelligence and Analytics,True
+696,KidKonnect,Educational Toys,Jira Service Management,Help Desk and Customer Support,True
+697,KidKonnect,Educational Toys,QlikView,Business Intelligence and Analytics,True
+698,KidKonnect,Educational Toys,Salesforce Service Cloud,Help Desk and Customer Support,True
+699,KidKonnect,Educational Toys,Tableau,Business Intelligence and Analytics,True
+700,KidKonnect,Educational Toys,Tibco Spotfire,Business Intelligence and Analytics,True
+701,Knowledge Navigators,Tutoring Services,Alteryx,Business Intelligence and Analytics,True
+702,Knowledge Navigators,Tutoring Services,Freshdesk,Help Desk and Customer Support,True
+703,Knowledge Navigators,Tutoring Services,Google Data Studio,Business Intelligence and Analytics,True
+704,Knowledge Navigators,Tutoring Services,Jira Service Management,Help Desk and Customer Support,True
+705,Knowledge Navigators,Tutoring Services,QlikView,Business Intelligence and Analytics,True
+706,Knowledge Navigators,Tutoring Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+707,Knowledge Navigators,Tutoring Services,Tableau,Business Intelligence and Analytics,True
+708,Knowledge Navigators,Tutoring Services,Tibco Spotfire,Business Intelligence and Analytics,True
+709,Knowledgeable Knits,Yarn Store,Alteryx,Business Intelligence and Analytics,True
+710,Knowledgeable Knits,Yarn Store,Google Data Studio,Business Intelligence and Analytics,True
+711,Knowledgeable Knits,Yarn Store,Jira Service Management,Help Desk and Customer Support,True
+712,Knowledgeable Knits,Yarn Store,Power BI,Business Intelligence and Analytics,True
+713,Knowledgeable Knits,Yarn Store,QlikView,Business Intelligence and Analytics,True
+714,Knowledgeable Knits,Yarn Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+715,Knowledgeable Knits,Yarn Store,Tableau,Business Intelligence and Analytics,True
+716,Knowledgeable Knits,Yarn Store,Tibco Spotfire,Business Intelligence and Analytics,True
+717,LambdaLanguages,Language Learning Subscription,Alteryx,Business Intelligence and Analytics,True
+718,LambdaLanguages,Language Learning Subscription,Google Data Studio,Business Intelligence and Analytics,True
+719,LambdaLanguages,Language Learning Subscription,Jira Service Management,Help Desk and Customer Support,True
+720,LambdaLanguages,Language Learning Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+721,LambdaLanguages,Language Learning Subscription,ServiceNow,Help Desk and Customer Support,True
+722,LambdaLanguages,Language Learning Subscription,Tableau,Business Intelligence and Analytics,True
+723,LambdaLanguages,Language Learning Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+724,LambdaLiterature,Literary Magazine Subscription,Alteryx,Business Intelligence and Analytics,True
+725,LambdaLiterature,Literary Magazine Subscription,Google Data Studio,Business Intelligence and Analytics,True
+726,LambdaLiterature,Literary Magazine Subscription,Jira Service Management,Help Desk and Customer Support,True
+727,LambdaLiterature,Literary Magazine Subscription,Power BI,Business Intelligence and Analytics,True
+728,LambdaLiterature,Literary Magazine Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+729,LambdaLiterature,Literary Magazine Subscription,Tableau,Business Intelligence and Analytics,True
+730,LambdaLiterature,Literary Magazine Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+731,LuxeLashes,False Eyelashes,Alteryx,Business Intelligence and Analytics,True
+732,LuxeLashes,False Eyelashes,Google Data Studio,Business Intelligence and Analytics,True
+733,LuxeLashes,False Eyelashes,Jira Service Management,Help Desk and Customer Support,True
+734,LuxeLashes,False Eyelashes,Salesforce Service Cloud,Help Desk and Customer Support,True
+735,LuxeLashes,False Eyelashes,ServiceNow,Help Desk and Customer Support,True
+736,LuxeLashes,False Eyelashes,Tableau,Business Intelligence and Analytics,True
+737,LuxeLashes,False Eyelashes,Tibco Spotfire,Business Intelligence and Analytics,True
+738,LuxeLuggage,Luggage Retailer,Alteryx,Business Intelligence and Analytics,True
+739,LuxeLuggage,Luggage Retailer,Google Data Studio,Business Intelligence and Analytics,True
+740,LuxeLuggage,Luggage Retailer,Jira Service Management,Help Desk and Customer Support,True
+741,LuxeLuggage,Luggage Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+742,LuxeLuggage,Luggage Retailer,ServiceNow,Help Desk and Customer Support,True
+743,LuxeLuggage,Luggage Retailer,Tableau,Business Intelligence and Analytics,True
+744,LuxeLuggage,Luggage Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+745,Luxurious Luggage,Luggage Store,Alteryx,Business Intelligence and Analytics,True
+746,Luxurious Luggage,Luggage Store,Google Data Studio,Business Intelligence and Analytics,True
+747,Luxurious Luggage,Luggage Store,Jira Service Management,Help Desk and Customer Support,True
+748,Luxurious Luggage,Luggage Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+749,Luxurious Luggage,Luggage Store,ServiceNow,Help Desk and Customer Support,True
+750,Luxurious Luggage,Luggage Store,Tableau,Business Intelligence and Analytics,True
+751,Luxurious Luggage,Luggage Store,Tibco Spotfire,Business Intelligence and Analytics,True
+752,Luxury Living,Real Estate,Alteryx,Business Intelligence and Analytics,True
+753,Luxury Living,Real Estate,Google Data Studio,Business Intelligence and Analytics,True
+754,Luxury Living,Real Estate,Jira Service Management,Help Desk and Customer Support,True
+755,Luxury Living,Real Estate,Power BI,Business Intelligence and Analytics,True
+756,Luxury Living,Real Estate,QlikView,Business Intelligence and Analytics,True
+757,Luxury Living,Real Estate,Salesforce Service Cloud,Help Desk and Customer Support,True
+758,Luxury Living,Real Estate,ServiceNow,Help Desk and Customer Support,True
+759,Luxury Living,Real Estate,Tableau,Business Intelligence and Analytics,True
+760,Luxury Living,Real Estate,Tibco Spotfire,Business Intelligence and Analytics,True
+761,Marvelous Maps,Map Store,Alteryx,Business Intelligence and Analytics,True
+762,Marvelous Maps,Map Store,Google Data Studio,Business Intelligence and Analytics,True
+763,Marvelous Maps,Map Store,Jira Service Management,Help Desk and Customer Support,True
+764,Marvelous Maps,Map Store,Power BI,Business Intelligence and Analytics,True
+765,Marvelous Maps,Map Store,QlikView,Business Intelligence and Analytics,True
+766,Marvelous Maps,Map Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+767,Marvelous Maps,Map Store,Tableau,Business Intelligence and Analytics,True
+768,Marvelous Maps,Map Store,Tibco Spotfire,Business Intelligence and Analytics,True
+769,MegaMovies,Streaming Service,Alteryx,Business Intelligence and Analytics,True
+770,MegaMovies,Streaming Service,Google Data Studio,Business Intelligence and Analytics,True
+771,MegaMovies,Streaming Service,Jira Service Management,Help Desk and Customer Support,True
+772,MegaMovies,Streaming Service,Power BI,Business Intelligence and Analytics,True
+773,MegaMovies,Streaming Service,Salesforce Service Cloud,Help Desk and Customer Support,True
+774,MegaMovies,Streaming Service,ServiceNow,Help Desk and Customer Support,True
+775,MegaMovies,Streaming Service,Tableau,Business Intelligence and Analytics,True
+776,MegaMovies,Streaming Service,Tibco Spotfire,Business Intelligence and Analytics,True
+777,Mindful Meditation,Mental Health Services,Alteryx,Business Intelligence and Analytics,True
+778,Mindful Meditation,Mental Health Services,Freshdesk,Help Desk and Customer Support,True
+779,Mindful Meditation,Mental Health Services,Google Data Studio,Business Intelligence and Analytics,True
+780,Mindful Meditation,Mental Health Services,Jira Service Management,Help Desk and Customer Support,True
+781,Mindful Meditation,Mental Health Services,QlikView,Business Intelligence and Analytics,True
+782,Mindful Meditation,Mental Health Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+783,Mindful Meditation,Mental Health Services,Tableau,Business Intelligence and Analytics,True
+784,Mindful Meditation,Mental Health Services,Tibco Spotfire,Business Intelligence and Analytics,True
+785,MindMeld,Team Collaboration Software,Alteryx,Business Intelligence and Analytics,True
+786,MindMeld,Team Collaboration Software,Google Data Studio,Business Intelligence and Analytics,True
+787,MindMeld,Team Collaboration Software,Jira Service Management,Help Desk and Customer Support,True
+788,MindMeld,Team Collaboration Software,Power BI,Business Intelligence and Analytics,True
+789,MindMeld,Team Collaboration Software,QlikView,Business Intelligence and Analytics,True
+790,MindMeld,Team Collaboration Software,Salesforce Service Cloud,Help Desk and Customer Support,True
+791,MindMeld,Team Collaboration Software,ServiceNow,Help Desk and Customer Support,True
+792,MindMeld,Team Collaboration Software,Tableau,Business Intelligence and Analytics,True
+793,MindMeld,Team Collaboration Software,Tibco Spotfire,Business Intelligence and Analytics,True
+794,MindMeld Therapy,Mental Health Services,Alteryx,Business Intelligence and Analytics,True
+795,MindMeld Therapy,Mental Health Services,Google Data Studio,Business Intelligence and Analytics,True
+796,MindMeld Therapy,Mental Health Services,Jira Service Management,Help Desk and Customer Support,True
+797,MindMeld Therapy,Mental Health Services,Power BI,Business Intelligence and Analytics,True
+798,MindMeld Therapy,Mental Health Services,QlikView,Business Intelligence and Analytics,True
+799,MindMeld Therapy,Mental Health Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+800,MindMeld Therapy,Mental Health Services,ServiceNow,Help Desk and Customer Support,True
+801,MindMeld Therapy,Mental Health Services,Tableau,Business Intelligence and Analytics,True
+802,MindMeld Therapy,Mental Health Services,Tibco Spotfire,Business Intelligence and Analytics,True
+803,Motivational Mentors,Life Coaching,Alteryx,Business Intelligence and Analytics,True
+804,Motivational Mentors,Life Coaching,Freshdesk,Help Desk and Customer Support,True
+805,Motivational Mentors,Life Coaching,Google Data Studio,Business Intelligence and Analytics,True
+806,Motivational Mentors,Life Coaching,HappyFox,Help Desk and Customer Support,True
+807,Motivational Mentors,Life Coaching,Jira Service Management,Help Desk and Customer Support,True
+808,Motivational Mentors,Life Coaching,QlikView,Business Intelligence and Analytics,True
+809,Motivational Mentors,Life Coaching,Salesforce Service Cloud,Help Desk and Customer Support,True
+810,Motivational Mentors,Life Coaching,Tableau,Business Intelligence and Analytics,True
+811,Motivational Mentors,Life Coaching,Tibco Spotfire,Business Intelligence and Analytics,True
+812,MuMusic,Music Streaming Subscription,Alteryx,Business Intelligence and Analytics,True
+813,MuMusic,Music Streaming Subscription,Google Data Studio,Business Intelligence and Analytics,True
+814,MuMusic,Music Streaming Subscription,Jira Service Management,Help Desk and Customer Support,True
+815,MuMusic,Music Streaming Subscription,Power BI,Business Intelligence and Analytics,True
+816,MuMusic,Music Streaming Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+817,MuMusic,Music Streaming Subscription,Tableau,Business Intelligence and Analytics,True
+818,MuMusic,Music Streaming Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+819,MuMystery,Mystery Box Subscription,Alteryx,Business Intelligence and Analytics,True
+820,MuMystery,Mystery Box Subscription,Google Data Studio,Business Intelligence and Analytics,True
+821,MuMystery,Mystery Box Subscription,Jira Service Management,Help Desk and Customer Support,True
+822,MuMystery,Mystery Box Subscription,Power BI,Business Intelligence and Analytics,True
+823,MuMystery,Mystery Box Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+824,MuMystery,Mystery Box Subscription,ServiceNow,Help Desk and Customer Support,True
+825,MuMystery,Mystery Box Subscription,Tableau,Business Intelligence and Analytics,True
+826,MuMystery,Mystery Box Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+827,MuseMusic,Music Streaming Service,Alteryx,Business Intelligence and Analytics,True
+828,MuseMusic,Music Streaming Service,Google Data Studio,Business Intelligence and Analytics,True
+829,MuseMusic,Music Streaming Service,Jira Service Management,Help Desk and Customer Support,True
+830,MuseMusic,Music Streaming Service,Power BI,Business Intelligence and Analytics,True
+831,MuseMusic,Music Streaming Service,Salesforce Service Cloud,Help Desk and Customer Support,True
+832,MuseMusic,Music Streaming Service,Tableau,Business Intelligence and Analytics,True
+833,MuseMusic,Music Streaming Service,Tibco Spotfire,Business Intelligence and Analytics,True
+834,MysticMoods,Candles and Aromatherapy,Alteryx,Business Intelligence and Analytics,True
+835,MysticMoods,Candles and Aromatherapy,Google Data Studio,Business Intelligence and Analytics,True
+836,MysticMoods,Candles and Aromatherapy,Jira Service Management,Help Desk and Customer Support,True
+837,MysticMoods,Candles and Aromatherapy,Salesforce Service Cloud,Help Desk and Customer Support,True
+838,MysticMoods,Candles and Aromatherapy,ServiceNow,Help Desk and Customer Support,True
+839,MysticMoods,Candles and Aromatherapy,Tableau,Business Intelligence and Analytics,True
+840,MysticMoods,Candles and Aromatherapy,Tibco Spotfire,Business Intelligence and Analytics,True
+841,NanoNails,Nail Polish Subscription,Alteryx,Business Intelligence and Analytics,True
+842,NanoNails,Nail Polish Subscription,Google Data Studio,Business Intelligence and Analytics,True
+843,NanoNails,Nail Polish Subscription,Jira Service Management,Help Desk and Customer Support,True
+844,NanoNails,Nail Polish Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+845,NanoNails,Nail Polish Subscription,ServiceNow,Help Desk and Customer Support,True
+846,NanoNails,Nail Polish Subscription,Tableau,Business Intelligence and Analytics,True
+847,NanoNails,Nail Polish Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+848,Natural Necessities,Organic Groceries,Alteryx,Business Intelligence and Analytics,True
+849,Natural Necessities,Organic Groceries,Google Data Studio,Business Intelligence and Analytics,True
+850,Natural Necessities,Organic Groceries,Jira Service Management,Help Desk and Customer Support,True
+851,Natural Necessities,Organic Groceries,Power BI,Business Intelligence and Analytics,True
+852,Natural Necessities,Organic Groceries,QlikView,Business Intelligence and Analytics,True
+853,Natural Necessities,Organic Groceries,Salesforce Service Cloud,Help Desk and Customer Support,True
+854,Natural Necessities,Organic Groceries,Tableau,Business Intelligence and Analytics,True
+855,Natural Necessities,Organic Groceries,Tibco Spotfire,Business Intelligence and Analytics,True
+856,NatureNook,Plant Subscription Box,Alteryx,Business Intelligence and Analytics,True
+857,NatureNook,Plant Subscription Box,Google Data Studio,Business Intelligence and Analytics,True
+858,NatureNook,Plant Subscription Box,Jira Service Management,Help Desk and Customer Support,True
+859,NatureNook,Plant Subscription Box,Salesforce Service Cloud,Help Desk and Customer Support,True
+860,NatureNook,Plant Subscription Box,ServiceNow,Help Desk and Customer Support,True
+861,NatureNook,Plant Subscription Box,Tableau,Business Intelligence and Analytics,True
+862,NatureNook,Plant Subscription Box,Tibco Spotfire,Business Intelligence and Analytics,True
+863,Novel Notions,Idea Lab,Alteryx,Business Intelligence and Analytics,True
+864,Novel Notions,Idea Lab,Google Data Studio,Business Intelligence and Analytics,True
+865,Novel Notions,Idea Lab,Jira Service Management,Help Desk and Customer Support,True
+866,Novel Notions,Idea Lab,Power BI,Business Intelligence and Analytics,True
+867,Novel Notions,Idea Lab,QlikView,Business Intelligence and Analytics,True
+868,Novel Notions,Idea Lab,Salesforce Service Cloud,Help Desk and Customer Support,True
+869,Novel Notions,Idea Lab,ServiceNow,Help Desk and Customer Support,True
+870,Novel Notions,Idea Lab,Tableau,Business Intelligence and Analytics,True
+871,Novel Notions,Idea Lab,Tibco Spotfire,Business Intelligence and Analytics,True
+872,NovelNotions,Innovative Products Retailer,Alteryx,Business Intelligence and Analytics,True
+873,NovelNotions,Innovative Products Retailer,Google Data Studio,Business Intelligence and Analytics,True
+874,NovelNotions,Innovative Products Retailer,Jira Service Management,Help Desk and Customer Support,True
+875,NovelNotions,Innovative Products Retailer,Power BI,Business Intelligence and Analytics,True
+876,NovelNotions,Innovative Products Retailer,QlikView,Business Intelligence and Analytics,True
+877,NovelNotions,Innovative Products Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+878,NovelNotions,Innovative Products Retailer,ServiceNow,Help Desk and Customer Support,True
+879,NovelNotions,Innovative Products Retailer,Tableau,Business Intelligence and Analytics,True
+880,NovelNotions,Innovative Products Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+881,NuNotebooks,Notebook Subscription,Alteryx,Business Intelligence and Analytics,True
+882,NuNotebooks,Notebook Subscription,Google Data Studio,Business Intelligence and Analytics,True
+883,NuNotebooks,Notebook Subscription,Jira Service Management,Help Desk and Customer Support,True
+884,NuNotebooks,Notebook Subscription,Power BI,Business Intelligence and Analytics,True
+885,NuNotebooks,Notebook Subscription,QlikView,Business Intelligence and Analytics,True
+886,NuNotebooks,Notebook Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+887,NuNotebooks,Notebook Subscription,ServiceNow,Help Desk and Customer Support,True
+888,NuNotebooks,Notebook Subscription,Tableau,Business Intelligence and Analytics,True
+889,NuNotebooks,Notebook Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+890,NuNutrition,Health Supplement Subscription,Alteryx,Business Intelligence and Analytics,True
+891,NuNutrition,Health Supplement Subscription,Google Data Studio,Business Intelligence and Analytics,True
+892,NuNutrition,Health Supplement Subscription,Jira Service Management,Help Desk and Customer Support,True
+893,NuNutrition,Health Supplement Subscription,Power BI,Business Intelligence and Analytics,True
+894,NuNutrition,Health Supplement Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+895,NuNutrition,Health Supplement Subscription,Tableau,Business Intelligence and Analytics,True
+896,NuNutrition,Health Supplement Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+897,OmegaOutdoors,Outdoor Gear Subscription,Alteryx,Business Intelligence and Analytics,True
+898,OmegaOutdoors,Outdoor Gear Subscription,Freshdesk,Help Desk and Customer Support,True
+899,OmegaOutdoors,Outdoor Gear Subscription,Google Data Studio,Business Intelligence and Analytics,True
+900,OmegaOutdoors,Outdoor Gear Subscription,HappyFox,Help Desk and Customer Support,True
+901,OmegaOutdoors,Outdoor Gear Subscription,Jira Service Management,Help Desk and Customer Support,True
+902,OmegaOutdoors,Outdoor Gear Subscription,QlikView,Business Intelligence and Analytics,True
+903,OmegaOutdoors,Outdoor Gear Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+904,OmegaOutdoors,Outdoor Gear Subscription,Tableau,Business Intelligence and Analytics,True
+905,OmegaOutdoors,Outdoor Gear Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+906,OmegaOuterwear,Outerwear Subscription,Alteryx,Business Intelligence and Analytics,True
+907,OmegaOuterwear,Outerwear Subscription,Google Data Studio,Business Intelligence and Analytics,True
+908,OmegaOuterwear,Outerwear Subscription,Jira Service Management,Help Desk and Customer Support,True
+909,OmegaOuterwear,Outerwear Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+910,OmegaOuterwear,Outerwear Subscription,ServiceNow,Help Desk and Customer Support,True
+911,OmegaOuterwear,Outerwear Subscription,Tableau,Business Intelligence and Analytics,True
+912,OmegaOuterwear,Outerwear Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+913,OmicronOrganics,Organic Produce Subscription,Alteryx,Business Intelligence and Analytics,True
+914,OmicronOrganics,Organic Produce Subscription,Google Data Studio,Business Intelligence and Analytics,True
+915,OmicronOrganics,Organic Produce Subscription,Jira Service Management,Help Desk and Customer Support,True
+916,OmicronOrganics,Organic Produce Subscription,Power BI,Business Intelligence and Analytics,True
+917,OmicronOrganics,Organic Produce Subscription,QlikView,Business Intelligence and Analytics,True
+918,OmicronOrganics,Organic Produce Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+919,OmicronOrganics,Organic Produce Subscription,Tableau,Business Intelligence and Analytics,True
+920,OmicronOrganics,Organic Produce Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+921,Optimal Organics,Organic Farming,Alteryx,Business Intelligence and Analytics,True
+922,Optimal Organics,Organic Farming,Google Data Studio,Business Intelligence and Analytics,True
+923,Optimal Organics,Organic Farming,Jira Service Management,Help Desk and Customer Support,True
+924,Optimal Organics,Organic Farming,Power BI,Business Intelligence and Analytics,True
+925,Optimal Organics,Organic Farming,QlikView,Business Intelligence and Analytics,True
+926,Optimal Organics,Organic Farming,Salesforce Service Cloud,Help Desk and Customer Support,True
+927,Optimal Organics,Organic Farming,Tableau,Business Intelligence and Analytics,True
+928,Optimal Organics,Organic Farming,Tibco Spotfire,Business Intelligence and Analytics,True
+929,Optimal Outcomes,Management Consulting,Alteryx,Business Intelligence and Analytics,True
+930,Optimal Outcomes,Management Consulting,Google Data Studio,Business Intelligence and Analytics,True
+931,Optimal Outcomes,Management Consulting,Jira Service Management,Help Desk and Customer Support,True
+932,Optimal Outcomes,Management Consulting,Power BI,Business Intelligence and Analytics,True
+933,Optimal Outcomes,Management Consulting,QlikView,Business Intelligence and Analytics,True
+934,Optimal Outcomes,Management Consulting,Salesforce Service Cloud,Help Desk and Customer Support,True
+935,Optimal Outcomes,Management Consulting,ServiceNow,Help Desk and Customer Support,True
+936,Optimal Outcomes,Management Consulting,Tableau,Business Intelligence and Analytics,True
+937,Optimal Outcomes,Management Consulting,Tibco Spotfire,Business Intelligence and Analytics,True
+938,OptimisticOutdoors,Outdoor Gear Retailer,Alteryx,Business Intelligence and Analytics,True
+939,OptimisticOutdoors,Outdoor Gear Retailer,Google Data Studio,Business Intelligence and Analytics,True
+940,OptimisticOutdoors,Outdoor Gear Retailer,Jira Service Management,Help Desk and Customer Support,True
+941,OptimisticOutdoors,Outdoor Gear Retailer,Power BI,Business Intelligence and Analytics,True
+942,OptimisticOutdoors,Outdoor Gear Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+943,OptimisticOutdoors,Outdoor Gear Retailer,Tableau,Business Intelligence and Analytics,True
+944,OptimisticOutdoors,Outdoor Gear Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+945,OptimumOptics,Eyewear,Alteryx,Business Intelligence and Analytics,True
+946,OptimumOptics,Eyewear,Google Data Studio,Business Intelligence and Analytics,True
+947,OptimumOptics,Eyewear,Jira Service Management,Help Desk and Customer Support,True
+948,OptimumOptics,Eyewear,Salesforce Service Cloud,Help Desk and Customer Support,True
+949,OptimumOptics,Eyewear,ServiceNow,Help Desk and Customer Support,True
+950,OptimumOptics,Eyewear,Tableau,Business Intelligence and Analytics,True
+951,OptimumOptics,Eyewear,Tibco Spotfire,Business Intelligence and Analytics,True
+952,Pet Palace,Pet Supplies,Alteryx,Business Intelligence and Analytics,True
+953,Pet Palace,Pet Supplies,Freshdesk,Help Desk and Customer Support,True
+954,Pet Palace,Pet Supplies,Google Data Studio,Business Intelligence and Analytics,True
+955,Pet Palace,Pet Supplies,HappyFox,Help Desk and Customer Support,True
+956,Pet Palace,Pet Supplies,Jira Service Management,Help Desk and Customer Support,True
+957,Pet Palace,Pet Supplies,QlikView,Business Intelligence and Analytics,True
+958,Pet Palace,Pet Supplies,Salesforce Service Cloud,Help Desk and Customer Support,True
+959,Pet Palace,Pet Supplies,Tableau,Business Intelligence and Analytics,True
+960,Pet Palace,Pet Supplies,Tibco Spotfire,Business Intelligence and Analytics,True
+961,PetPalace,Pet Supplies,Alteryx,Business Intelligence and Analytics,True
+962,PetPalace,Pet Supplies,Freshdesk,Help Desk and Customer Support,True
+963,PetPalace,Pet Supplies,Google Data Studio,Business Intelligence and Analytics,True
+964,PetPalace,Pet Supplies,HappyFox,Help Desk and Customer Support,True
+965,PetPalace,Pet Supplies,Intercom,Help Desk and Customer Support,True
+966,PetPalace,Pet Supplies,Jira Service Management,Help Desk and Customer Support,True
+967,PetPalace,Pet Supplies,Looker,Business Intelligence and Analytics,True
+968,PetPalace,Pet Supplies,Power BI,Business Intelligence and Analytics,True
+969,PetPalace,Pet Supplies,QlikView,Business Intelligence and Analytics,True
+970,PetPalace,Pet Supplies,Salesforce Service Cloud,Help Desk and Customer Support,True
+971,PetPalace,Pet Supplies,SAP Analytics Cloud,Business Intelligence and Analytics,True
+972,PetPalace,Pet Supplies,ServiceNow,Help Desk and Customer Support,True
+973,PetPalace,Pet Supplies,Sisense,Business Intelligence and Analytics,True
+974,PetPalace,Pet Supplies,Tableau,Business Intelligence and Analytics,True
+975,PetPalace,Pet Supplies,Tibco Spotfire,Business Intelligence and Analytics,True
+976,PhiFitness,Fitness App,Alteryx,Business Intelligence and Analytics,True
+977,PhiFitness,Fitness App,Google Data Studio,Business Intelligence and Analytics,True
+978,PhiFitness,Fitness App,Jira Service Management,Help Desk and Customer Support,True
+979,PhiFitness,Fitness App,Power BI,Business Intelligence and Analytics,True
+980,PhiFitness,Fitness App,Salesforce Service Cloud,Help Desk and Customer Support,True
+981,PhiFitness,Fitness App,Tableau,Business Intelligence and Analytics,True
+982,PhiFitness,Fitness App,Tibco Spotfire,Business Intelligence and Analytics,True
+983,PhiPhotography,Photography App Subscription,Alteryx,Business Intelligence and Analytics,True
+984,PhiPhotography,Photography App Subscription,Freshdesk,Help Desk and Customer Support,True
+985,PhiPhotography,Photography App Subscription,Google Data Studio,Business Intelligence and Analytics,True
+986,PhiPhotography,Photography App Subscription,Jira Service Management,Help Desk and Customer Support,True
+987,PhiPhotography,Photography App Subscription,QlikView,Business Intelligence and Analytics,True
+988,PhiPhotography,Photography App Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+989,PhiPhotography,Photography App Subscription,Tableau,Business Intelligence and Analytics,True
+990,PhiPhotography,Photography App Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+991,PicoPets,Pet Toy Subscription,Alteryx,Business Intelligence and Analytics,True
+992,PicoPets,Pet Toy Subscription,Freshdesk,Help Desk and Customer Support,True
+993,PicoPets,Pet Toy Subscription,Google Data Studio,Business Intelligence and Analytics,True
+994,PicoPets,Pet Toy Subscription,HappyFox,Help Desk and Customer Support,True
+995,PicoPets,Pet Toy Subscription,Jira Service Management,Help Desk and Customer Support,True
+996,PicoPets,Pet Toy Subscription,QlikView,Business Intelligence and Analytics,True
+997,PicoPets,Pet Toy Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+998,PicoPets,Pet Toy Subscription,Tableau,Business Intelligence and Analytics,True
+999,PicoPets,Pet Toy Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1000,PioneerPhones,Cell Phone Retailer,Alteryx,Business Intelligence and Analytics,True
+1001,PioneerPhones,Cell Phone Retailer,Freshdesk,Help Desk and Customer Support,True
+1002,PioneerPhones,Cell Phone Retailer,Google Data Studio,Business Intelligence and Analytics,True
+1003,PioneerPhones,Cell Phone Retailer,HappyFox,Help Desk and Customer Support,True
+1004,PioneerPhones,Cell Phone Retailer,Intercom,Help Desk and Customer Support,True
+1005,PioneerPhones,Cell Phone Retailer,Jira Service Management,Help Desk and Customer Support,True
+1006,PioneerPhones,Cell Phone Retailer,Looker,Business Intelligence and Analytics,True
+1007,PioneerPhones,Cell Phone Retailer,Power BI,Business Intelligence and Analytics,True
+1008,PioneerPhones,Cell Phone Retailer,QlikView,Business Intelligence and Analytics,True
+1009,PioneerPhones,Cell Phone Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+1010,PioneerPhones,Cell Phone Retailer,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1011,PioneerPhones,Cell Phone Retailer,ServiceNow,Help Desk and Customer Support,True
+1012,PioneerPhones,Cell Phone Retailer,Sisense,Business Intelligence and Analytics,True
+1013,PioneerPhones,Cell Phone Retailer,Tableau,Business Intelligence and Analytics,True
+1014,PioneerPhones,Cell Phone Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+1015,PiPizza,Pizza Subscription,Alteryx,Business Intelligence and Analytics,True
+1016,PiPizza,Pizza Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1017,PiPizza,Pizza Subscription,Jira Service Management,Help Desk and Customer Support,True
+1018,PiPizza,Pizza Subscription,Power BI,Business Intelligence and Analytics,True
+1019,PiPizza,Pizza Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1020,PiPizza,Pizza Subscription,Tableau,Business Intelligence and Analytics,True
+1021,PiPizza,Pizza Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1022,Precise Prints,Art Printing,Alteryx,Business Intelligence and Analytics,True
+1023,Precise Prints,Art Printing,Google Data Studio,Business Intelligence and Analytics,True
+1024,Precise Prints,Art Printing,Jira Service Management,Help Desk and Customer Support,True
+1025,Precise Prints,Art Printing,Power BI,Business Intelligence and Analytics,True
+1026,Precise Prints,Art Printing,QlikView,Business Intelligence and Analytics,True
+1027,Precise Prints,Art Printing,Salesforce Service Cloud,Help Desk and Customer Support,True
+1028,Precise Prints,Art Printing,Tableau,Business Intelligence and Analytics,True
+1029,Precise Prints,Art Printing,Tibco Spotfire,Business Intelligence and Analytics,True
+1030,Premier Printing,Printing Services,Alteryx,Business Intelligence and Analytics,True
+1031,Premier Printing,Printing Services,Google Data Studio,Business Intelligence and Analytics,True
+1032,Premier Printing,Printing Services,Jira Service Management,Help Desk and Customer Support,True
+1033,Premier Printing,Printing Services,Power BI,Business Intelligence and Analytics,True
+1034,Premier Printing,Printing Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+1035,Premier Printing,Printing Services,Tableau,Business Intelligence and Analytics,True
+1036,Premier Printing,Printing Services,Tibco Spotfire,Business Intelligence and Analytics,True
+1037,PremiumPens,Writing Instruments,Alteryx,Business Intelligence and Analytics,True
+1038,PremiumPens,Writing Instruments,Google Data Studio,Business Intelligence and Analytics,True
+1039,PremiumPens,Writing Instruments,Jira Service Management,Help Desk and Customer Support,True
+1040,PremiumPens,Writing Instruments,Salesforce Service Cloud,Help Desk and Customer Support,True
+1041,PremiumPens,Writing Instruments,ServiceNow,Help Desk and Customer Support,True
+1042,PremiumPens,Writing Instruments,Tableau,Business Intelligence and Analytics,True
+1043,PremiumPens,Writing Instruments,Tibco Spotfire,Business Intelligence and Analytics,True
+1044,PsiPlants,Plant Subscription,Alteryx,Business Intelligence and Analytics,True
+1045,PsiPlants,Plant Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1046,PsiPlants,Plant Subscription,Jira Service Management,Help Desk and Customer Support,True
+1047,PsiPlants,Plant Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1048,PsiPlants,Plant Subscription,ServiceNow,Help Desk and Customer Support,True
+1049,PsiPlants,Plant Subscription,Tableau,Business Intelligence and Analytics,True
+1050,PsiPlants,Plant Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1051,PsiSocks,Sock Subscription,Alteryx,Business Intelligence and Analytics,True
+1052,PsiSocks,Sock Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1053,PsiSocks,Sock Subscription,Jira Service Management,Help Desk and Customer Support,True
+1054,PsiSocks,Sock Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1055,PsiSocks,Sock Subscription,ServiceNow,Help Desk and Customer Support,True
+1056,PsiSocks,Sock Subscription,Tableau,Business Intelligence and Analytics,True
+1057,PsiSocks,Sock Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1058,Quality Quilting,Quilting Supplies,Alteryx,Business Intelligence and Analytics,True
+1059,Quality Quilting,Quilting Supplies,Freshdesk,Help Desk and Customer Support,True
+1060,Quality Quilting,Quilting Supplies,Google Data Studio,Business Intelligence and Analytics,True
+1061,Quality Quilting,Quilting Supplies,HappyFox,Help Desk and Customer Support,True
+1062,Quality Quilting,Quilting Supplies,Jira Service Management,Help Desk and Customer Support,True
+1063,Quality Quilting,Quilting Supplies,QlikView,Business Intelligence and Analytics,True
+1064,Quality Quilting,Quilting Supplies,Salesforce Service Cloud,Help Desk and Customer Support,True
+1065,Quality Quilting,Quilting Supplies,Tableau,Business Intelligence and Analytics,True
+1066,Quality Quilting,Quilting Supplies,Tibco Spotfire,Business Intelligence and Analytics,True
+1067,Quality Quilts,Home Decor,Alteryx,Business Intelligence and Analytics,True
+1068,Quality Quilts,Home Decor,Freshdesk,Help Desk and Customer Support,True
+1069,Quality Quilts,Home Decor,Google Data Studio,Business Intelligence and Analytics,True
+1070,Quality Quilts,Home Decor,Jira Service Management,Help Desk and Customer Support,True
+1071,Quality Quilts,Home Decor,QlikView,Business Intelligence and Analytics,True
+1072,Quality Quilts,Home Decor,Salesforce Service Cloud,Help Desk and Customer Support,True
+1073,Quality Quilts,Home Decor,Tableau,Business Intelligence and Analytics,True
+1074,Quality Quilts,Home Decor,Tibco Spotfire,Business Intelligence and Analytics,True
+1075,QuantaCoffee,Coffee Subscription,Alteryx,Business Intelligence and Analytics,True
+1076,QuantaCoffee,Coffee Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1077,QuantaCoffee,Coffee Subscription,Jira Service Management,Help Desk and Customer Support,True
+1078,QuantaCoffee,Coffee Subscription,Power BI,Business Intelligence and Analytics,True
+1079,QuantaCoffee,Coffee Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1080,QuantaCoffee,Coffee Subscription,Tableau,Business Intelligence and Analytics,True
+1081,QuantaCoffee,Coffee Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1082,QuillQuotes,Inspirational Quotes Retailer,Alteryx,Business Intelligence and Analytics,True
+1083,QuillQuotes,Inspirational Quotes Retailer,Freshdesk,Help Desk and Customer Support,True
+1084,QuillQuotes,Inspirational Quotes Retailer,Google Data Studio,Business Intelligence and Analytics,True
+1085,QuillQuotes,Inspirational Quotes Retailer,HappyFox,Help Desk and Customer Support,True
+1086,QuillQuotes,Inspirational Quotes Retailer,Jira Service Management,Help Desk and Customer Support,True
+1087,QuillQuotes,Inspirational Quotes Retailer,QlikView,Business Intelligence and Analytics,True
+1088,QuillQuotes,Inspirational Quotes Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+1089,QuillQuotes,Inspirational Quotes Retailer,Tableau,Business Intelligence and Analytics,True
+1090,QuillQuotes,Inspirational Quotes Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+1091,QuirkyQuills Writing,Content Writing,Alteryx,Business Intelligence and Analytics,True
+1092,QuirkyQuills Writing,Content Writing,Freshdesk,Help Desk and Customer Support,True
+1093,QuirkyQuills Writing,Content Writing,Google Data Studio,Business Intelligence and Analytics,True
+1094,QuirkyQuills Writing,Content Writing,HappyFox,Help Desk and Customer Support,True
+1095,QuirkyQuills Writing,Content Writing,Jira Service Management,Help Desk and Customer Support,True
+1096,QuirkyQuills Writing,Content Writing,QlikView,Business Intelligence and Analytics,True
+1097,QuirkyQuills Writing,Content Writing,Salesforce Service Cloud,Help Desk and Customer Support,True
+1098,QuirkyQuills Writing,Content Writing,Tableau,Business Intelligence and Analytics,True
+1099,QuirkyQuills Writing,Content Writing,Tibco Spotfire,Business Intelligence and Analytics,True
+1100,QuirkyQuilts,Quilt Subscription Box,Alteryx,Business Intelligence and Analytics,True
+1101,QuirkyQuilts,Quilt Subscription Box,Google Data Studio,Business Intelligence and Analytics,True
+1102,QuirkyQuilts,Quilt Subscription Box,Jira Service Management,Help Desk and Customer Support,True
+1103,QuirkyQuilts,Quilt Subscription Box,Salesforce Service Cloud,Help Desk and Customer Support,True
+1104,QuirkyQuilts,Quilt Subscription Box,ServiceNow,Help Desk and Customer Support,True
+1105,QuirkyQuilts,Quilt Subscription Box,Tableau,Business Intelligence and Analytics,True
+1106,QuirkyQuilts,Quilt Subscription Box,Tibco Spotfire,Business Intelligence and Analytics,True
+1107,Radiant Robotics,Robotics Education,Alteryx,Business Intelligence and Analytics,True
+1108,Radiant Robotics,Robotics Education,Google Data Studio,Business Intelligence and Analytics,True
+1109,Radiant Robotics,Robotics Education,Jira Service Management,Help Desk and Customer Support,True
+1110,Radiant Robotics,Robotics Education,Power BI,Business Intelligence and Analytics,True
+1111,Radiant Robotics,Robotics Education,QlikView,Business Intelligence and Analytics,True
+1112,Radiant Robotics,Robotics Education,Salesforce Service Cloud,Help Desk and Customer Support,True
+1113,Radiant Robotics,Robotics Education,ServiceNow,Help Desk and Customer Support,True
+1114,Radiant Robotics,Robotics Education,Tableau,Business Intelligence and Analytics,True
+1115,Radiant Robotics,Robotics Education,Tibco Spotfire,Business Intelligence and Analytics,True
+1116,RadiantReads,Book Club Subscription,Alteryx,Business Intelligence and Analytics,True
+1117,RadiantReads,Book Club Subscription,Domo,Business Intelligence and Analytics,True
+1118,RadiantReads,Book Club Subscription,Freshdesk,Help Desk and Customer Support,True
+1119,RadiantReads,Book Club Subscription,Freshservice,Help Desk and Customer Support,True
+1120,RadiantReads,Book Club Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1121,RadiantReads,Book Club Subscription,HappyFox,Help Desk and Customer Support,True
+1122,RadiantReads,Book Club Subscription,HubSpot Service Hub,Help Desk and Customer Support,True
+1123,RadiantReads,Book Club Subscription,Intercom,Help Desk and Customer Support,True
+1124,RadiantReads,Book Club Subscription,Jira Service Management,Help Desk and Customer Support,True
+1125,RadiantReads,Book Club Subscription,Looker,Business Intelligence and Analytics,True
+1126,RadiantReads,Book Club Subscription,Power BI,Business Intelligence and Analytics,True
+1127,RadiantReads,Book Club Subscription,QlikView,Business Intelligence and Analytics,True
+1128,RadiantReads,Book Club Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1129,RadiantReads,Book Club Subscription,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1130,RadiantReads,Book Club Subscription,ServiceNow,Help Desk and Customer Support,True
+1131,RadiantReads,Book Club Subscription,Sisense,Business Intelligence and Analytics,True
+1132,RadiantReads,Book Club Subscription,Tableau,Business Intelligence and Analytics,True
+1133,RadiantReads,Book Club Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1134,RadiantReads,Book Club Subscription,Zendesk,Help Desk and Customer Support,True
+1135,RadiantReady,Emergency Preparedness Kits,Alteryx,Business Intelligence and Analytics,True
+1136,RadiantReady,Emergency Preparedness Kits,Google Data Studio,Business Intelligence and Analytics,True
+1137,RadiantReady,Emergency Preparedness Kits,Jira Service Management,Help Desk and Customer Support,True
+1138,RadiantReady,Emergency Preparedness Kits,Power BI,Business Intelligence and Analytics,True
+1139,RadiantReady,Emergency Preparedness Kits,Salesforce Service Cloud,Help Desk and Customer Support,True
+1140,RadiantReady,Emergency Preparedness Kits,ServiceNow,Help Desk and Customer Support,True
+1141,RadiantReady,Emergency Preparedness Kits,Tableau,Business Intelligence and Analytics,True
+1142,RadiantReady,Emergency Preparedness Kits,Tibco Spotfire,Business Intelligence and Analytics,True
+1143,Restful Retreats,Bed and Breakfast,Alteryx,Business Intelligence and Analytics,True
+1144,Restful Retreats,Bed and Breakfast,Freshdesk,Help Desk and Customer Support,True
+1145,Restful Retreats,Bed and Breakfast,Google Data Studio,Business Intelligence and Analytics,True
+1146,Restful Retreats,Bed and Breakfast,HappyFox,Help Desk and Customer Support,True
+1147,Restful Retreats,Bed and Breakfast,Jira Service Management,Help Desk and Customer Support,True
+1148,Restful Retreats,Bed and Breakfast,QlikView,Business Intelligence and Analytics,True
+1149,Restful Retreats,Bed and Breakfast,Salesforce Service Cloud,Help Desk and Customer Support,True
+1150,Restful Retreats,Bed and Breakfast,Tableau,Business Intelligence and Analytics,True
+1151,Restful Retreats,Bed and Breakfast,Tibco Spotfire,Business Intelligence and Analytics,True
+1152,RhoRamen,Instant Noodle Subscription,Alteryx,Business Intelligence and Analytics,True
+1153,RhoRamen,Instant Noodle Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1154,RhoRamen,Instant Noodle Subscription,Jira Service Management,Help Desk and Customer Support,True
+1155,RhoRamen,Instant Noodle Subscription,Power BI,Business Intelligence and Analytics,True
+1156,RhoRamen,Instant Noodle Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1157,RhoRamen,Instant Noodle Subscription,Tableau,Business Intelligence and Analytics,True
+1158,RhoRamen,Instant Noodle Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1159,RhoRings,Jewelry Subscription,Alteryx,Business Intelligence and Analytics,True
+1160,RhoRings,Jewelry Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1161,RhoRings,Jewelry Subscription,Jira Service Management,Help Desk and Customer Support,True
+1162,RhoRings,Jewelry Subscription,Power BI,Business Intelligence and Analytics,True
+1163,RhoRings,Jewelry Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1164,RhoRings,Jewelry Subscription,Tableau,Business Intelligence and Analytics,True
+1165,RhoRings,Jewelry Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1166,SapphireStationery,Stationery Retailer,Alteryx,Business Intelligence and Analytics,True
+1167,SapphireStationery,Stationery Retailer,Google Data Studio,Business Intelligence and Analytics,True
+1168,SapphireStationery,Stationery Retailer,Jira Service Management,Help Desk and Customer Support,True
+1169,SapphireStationery,Stationery Retailer,QlikView,Business Intelligence and Analytics,True
+1170,SapphireStationery,Stationery Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+1171,SapphireStationery,Stationery Retailer,Tableau,Business Intelligence and Analytics,True
+1172,SapphireStationery,Stationery Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+1173,Savvy Savers,Financial Planning,Alteryx,Business Intelligence and Analytics,True
+1174,Savvy Savers,Financial Planning,Google Data Studio,Business Intelligence and Analytics,True
+1175,Savvy Savers,Financial Planning,Jira Service Management,Help Desk and Customer Support,True
+1176,Savvy Savers,Financial Planning,QlikView,Business Intelligence and Analytics,True
+1177,Savvy Savers,Financial Planning,Salesforce Service Cloud,Help Desk and Customer Support,True
+1178,Savvy Savers,Financial Planning,Tableau,Business Intelligence and Analytics,True
+1179,Savvy Savers,Financial Planning,Tibco Spotfire,Business Intelligence and Analytics,True
+1180,SavvySocks,Sock Subscription,Alteryx,Business Intelligence and Analytics,True
+1181,SavvySocks,Sock Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1182,SavvySocks,Sock Subscription,Jira Service Management,Help Desk and Customer Support,True
+1183,SavvySocks,Sock Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1184,SavvySocks,Sock Subscription,ServiceNow,Help Desk and Customer Support,True
+1185,SavvySocks,Sock Subscription,Tableau,Business Intelligence and Analytics,True
+1186,SavvySocks,Sock Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1187,Sensational Spices,Spice Shop,Alteryx,Business Intelligence and Analytics,True
+1188,Sensational Spices,Spice Shop,Freshdesk,Help Desk and Customer Support,True
+1189,Sensational Spices,Spice Shop,Freshservice,Help Desk and Customer Support,True
+1190,Sensational Spices,Spice Shop,Google Data Studio,Business Intelligence and Analytics,True
+1191,Sensational Spices,Spice Shop,HappyFox,Help Desk and Customer Support,True
+1192,Sensational Spices,Spice Shop,HubSpot Service Hub,Help Desk and Customer Support,True
+1193,Sensational Spices,Spice Shop,Intercom,Help Desk and Customer Support,True
+1194,Sensational Spices,Spice Shop,Jira Service Management,Help Desk and Customer Support,True
+1195,Sensational Spices,Spice Shop,Looker,Business Intelligence and Analytics,True
+1196,Sensational Spices,Spice Shop,Power BI,Business Intelligence and Analytics,True
+1197,Sensational Spices,Spice Shop,QlikView,Business Intelligence and Analytics,True
+1198,Sensational Spices,Spice Shop,Salesforce Service Cloud,Help Desk and Customer Support,True
+1199,Sensational Spices,Spice Shop,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1200,Sensational Spices,Spice Shop,ServiceNow,Help Desk and Customer Support,True
+1201,Sensational Spices,Spice Shop,Sisense,Business Intelligence and Analytics,True
+1202,Sensational Spices,Spice Shop,Tableau,Business Intelligence and Analytics,True
+1203,Sensational Spices,Spice Shop,Tibco Spotfire,Business Intelligence and Analytics,True
+1204,Sensational Spices,Spice Shop,Zendesk,Help Desk and Customer Support,True
+1205,SigmaShoes,Shoe Subscription,Alteryx,Business Intelligence and Analytics,True
+1206,SigmaShoes,Shoe Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1207,SigmaShoes,Shoe Subscription,Jira Service Management,Help Desk and Customer Support,True
+1208,SigmaShoes,Shoe Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1209,SigmaShoes,Shoe Subscription,ServiceNow,Help Desk and Customer Support,True
+1210,SigmaShoes,Shoe Subscription,Tableau,Business Intelligence and Analytics,True
+1211,SigmaShoes,Shoe Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1212,SigmaSweets,Dessert Subscription,Alteryx,Business Intelligence and Analytics,True
+1213,SigmaSweets,Dessert Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1214,SigmaSweets,Dessert Subscription,Jira Service Management,Help Desk and Customer Support,True
+1215,SigmaSweets,Dessert Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1216,SigmaSweets,Dessert Subscription,ServiceNow,Help Desk and Customer Support,True
+1217,SigmaSweets,Dessert Subscription,Tableau,Business Intelligence and Analytics,True
+1218,SigmaSweets,Dessert Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1219,SkyHigh Adventures,Adventure Tourism,Alteryx,Business Intelligence and Analytics,True
+1220,SkyHigh Adventures,Adventure Tourism,Google Data Studio,Business Intelligence and Analytics,True
+1221,SkyHigh Adventures,Adventure Tourism,Jira Service Management,Help Desk and Customer Support,True
+1222,SkyHigh Adventures,Adventure Tourism,Power BI,Business Intelligence and Analytics,True
+1223,SkyHigh Adventures,Adventure Tourism,Salesforce Service Cloud,Help Desk and Customer Support,True
+1224,SkyHigh Adventures,Adventure Tourism,Tableau,Business Intelligence and Analytics,True
+1225,SkyHigh Adventures,Adventure Tourism,Tibco Spotfire,Business Intelligence and Analytics,True
+1226,Smart Homes,Home Automation,Alteryx,Business Intelligence and Analytics,True
+1227,Smart Homes,Home Automation,Google Data Studio,Business Intelligence and Analytics,True
+1228,Smart Homes,Home Automation,Jira Service Management,Help Desk and Customer Support,True
+1229,Smart Homes,Home Automation,QlikView,Business Intelligence and Analytics,True
+1230,Smart Homes,Home Automation,Salesforce Service Cloud,Help Desk and Customer Support,True
+1231,Smart Homes,Home Automation,Tableau,Business Intelligence and Analytics,True
+1232,Smart Homes,Home Automation,Tibco Spotfire,Business Intelligence and Analytics,True
+1233,SmartSips,Coffee Subscription,Alteryx,Business Intelligence and Analytics,True
+1234,SmartSips,Coffee Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1235,SmartSips,Coffee Subscription,Jira Service Management,Help Desk and Customer Support,True
+1236,SmartSips,Coffee Subscription,Power BI,Business Intelligence and Analytics,True
+1237,SmartSips,Coffee Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1238,SmartSips,Coffee Subscription,Tableau,Business Intelligence and Analytics,True
+1239,SmartSips,Coffee Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1240,StyleSavvy,Fashion Subscription Box,Alteryx,Business Intelligence and Analytics,True
+1241,StyleSavvy,Fashion Subscription Box,Google Data Studio,Business Intelligence and Analytics,True
+1242,StyleSavvy,Fashion Subscription Box,Jira Service Management,Help Desk and Customer Support,True
+1243,StyleSavvy,Fashion Subscription Box,Salesforce Service Cloud,Help Desk and Customer Support,True
+1244,StyleSavvy,Fashion Subscription Box,ServiceNow,Help Desk and Customer Support,True
+1245,StyleSavvy,Fashion Subscription Box,Tableau,Business Intelligence and Analytics,True
+1246,StyleSavvy,Fashion Subscription Box,Tibco Spotfire,Business Intelligence and Analytics,True
+1247,Sustainable Solutions,Environmental Consulting,Alteryx,Business Intelligence and Analytics,True
+1248,Sustainable Solutions,Environmental Consulting,Google Data Studio,Business Intelligence and Analytics,True
+1249,Sustainable Solutions,Environmental Consulting,Jira Service Management,Help Desk and Customer Support,True
+1250,Sustainable Solutions,Environmental Consulting,QlikView,Business Intelligence and Analytics,True
+1251,Sustainable Solutions,Environmental Consulting,Salesforce Service Cloud,Help Desk and Customer Support,True
+1252,Sustainable Solutions,Environmental Consulting,Tableau,Business Intelligence and Analytics,True
+1253,Sustainable Solutions,Environmental Consulting,Tibco Spotfire,Business Intelligence and Analytics,True
+1254,Talented Tailors,Clothing Alterations,Alteryx,Business Intelligence and Analytics,True
+1255,Talented Tailors,Clothing Alterations,Google Data Studio,Business Intelligence and Analytics,True
+1256,Talented Tailors,Clothing Alterations,Jira Service Management,Help Desk and Customer Support,True
+1257,Talented Tailors,Clothing Alterations,Salesforce Service Cloud,Help Desk and Customer Support,True
+1258,Talented Tailors,Clothing Alterations,Tableau,Business Intelligence and Analytics,True
+1259,Talented Tailors,Clothing Alterations,Tibco Spotfire,Business Intelligence and Analytics,True
+1260,TauTea,Tea Subscription,Alteryx,Business Intelligence and Analytics,True
+1261,TauTea,Tea Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1262,TauTea,Tea Subscription,Jira Service Management,Help Desk and Customer Support,True
+1263,TauTea,Tea Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1264,TauTea,Tea Subscription,ServiceNow,Help Desk and Customer Support,True
+1265,TauTea,Tea Subscription,Tableau,Business Intelligence and Analytics,True
+1266,TauTea,Tea Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1267,TauTies,Tie Subscription,Alteryx,Business Intelligence and Analytics,True
+1268,TauTies,Tie Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1269,TauTies,Tie Subscription,Jira Service Management,Help Desk and Customer Support,True
+1270,TauTies,Tie Subscription,Power BI,Business Intelligence and Analytics,True
+1271,TauTies,Tie Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1272,TauTies,Tie Subscription,ServiceNow,Help Desk and Customer Support,True
+1273,TauTies,Tie Subscription,Tableau,Business Intelligence and Analytics,True
+1274,TauTies,Tie Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1275,Tech Titans,Technology Consulting,Alteryx,Business Intelligence and Analytics,True
+1276,Tech Titans,Technology Consulting,Domo,Business Intelligence and Analytics,True
+1277,Tech Titans,Technology Consulting,Google Data Studio,Business Intelligence and Analytics,True
+1278,Tech Titans,Technology Consulting,HubSpot Service Hub,Help Desk and Customer Support,True
+1279,Tech Titans,Technology Consulting,Intercom,Help Desk and Customer Support,True
+1280,Tech Titans,Technology Consulting,Jira Service Management,Help Desk and Customer Support,True
+1281,Tech Titans,Technology Consulting,Looker,Business Intelligence and Analytics,True
+1282,Tech Titans,Technology Consulting,Power BI,Business Intelligence and Analytics,True
+1283,Tech Titans,Technology Consulting,QlikView,Business Intelligence and Analytics,True
+1284,Tech Titans,Technology Consulting,Salesforce Service Cloud,Help Desk and Customer Support,True
+1285,Tech Titans,Technology Consulting,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1286,Tech Titans,Technology Consulting,ServiceNow,Help Desk and Customer Support,True
+1287,Tech Titans,Technology Consulting,Sisense,Business Intelligence and Analytics,True
+1288,Tech Titans,Technology Consulting,Tableau,Business Intelligence and Analytics,True
+1289,Tech Titans,Technology Consulting,Tibco Spotfire,Business Intelligence and Analytics,True
+1290,Tech Titans,Technology Consulting,Zendesk,Help Desk and Customer Support,True
+1291,TechTonic,IT Consulting,Alteryx,Business Intelligence and Analytics,True
+1292,TechTonic,IT Consulting,Google Data Studio,Business Intelligence and Analytics,True
+1293,TechTonic,IT Consulting,Jira Service Management,Help Desk and Customer Support,True
+1294,TechTonic,IT Consulting,Power BI,Business Intelligence and Analytics,True
+1295,TechTonic,IT Consulting,QlikView,Business Intelligence and Analytics,True
+1296,TechTonic,IT Consulting,Salesforce Service Cloud,Help Desk and Customer Support,True
+1297,TechTonic,IT Consulting,ServiceNow,Help Desk and Customer Support,True
+1298,TechTonic,IT Consulting,Tableau,Business Intelligence and Analytics,True
+1299,TechTonic,IT Consulting,Tibco Spotfire,Business Intelligence and Analytics,True
+1300,ThetaTech,Tech Gadget Subscription,Alteryx,Business Intelligence and Analytics,True
+1301,ThetaTech,Tech Gadget Subscription,Domo,Business Intelligence and Analytics,True
+1302,ThetaTech,Tech Gadget Subscription,Freshdesk,Help Desk and Customer Support,True
+1303,ThetaTech,Tech Gadget Subscription,Freshservice,Help Desk and Customer Support,True
+1304,ThetaTech,Tech Gadget Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1305,ThetaTech,Tech Gadget Subscription,HubSpot Service Hub,Help Desk and Customer Support,True
+1306,ThetaTech,Tech Gadget Subscription,Intercom,Help Desk and Customer Support,True
+1307,ThetaTech,Tech Gadget Subscription,Jira Service Management,Help Desk and Customer Support,True
+1308,ThetaTech,Tech Gadget Subscription,Looker,Business Intelligence and Analytics,True
+1309,ThetaTech,Tech Gadget Subscription,Power BI,Business Intelligence and Analytics,True
+1310,ThetaTech,Tech Gadget Subscription,QlikView,Business Intelligence and Analytics,True
+1311,ThetaTech,Tech Gadget Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1312,ThetaTech,Tech Gadget Subscription,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1313,ThetaTech,Tech Gadget Subscription,ServiceNow,Help Desk and Customer Support,True
+1314,ThetaTech,Tech Gadget Subscription,Sisense,Business Intelligence and Analytics,True
+1315,ThetaTech,Tech Gadget Subscription,Tableau,Business Intelligence and Analytics,True
+1316,ThetaTech,Tech Gadget Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1317,ThetaTech,Tech Gadget Subscription,Zendesk,Help Desk and Customer Support,True
+1318,ThetaTheater,Theater Ticket Subscription,Alteryx,Business Intelligence and Analytics,True
+1319,ThetaTheater,Theater Ticket Subscription,Freshdesk,Help Desk and Customer Support,True
+1320,ThetaTheater,Theater Ticket Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1321,ThetaTheater,Theater Ticket Subscription,HappyFox,Help Desk and Customer Support,True
+1322,ThetaTheater,Theater Ticket Subscription,Jira Service Management,Help Desk and Customer Support,True
+1323,ThetaTheater,Theater Ticket Subscription,QlikView,Business Intelligence and Analytics,True
+1324,ThetaTheater,Theater Ticket Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1325,ThetaTheater,Theater Ticket Subscription,Tableau,Business Intelligence and Analytics,True
+1326,ThetaTheater,Theater Ticket Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1327,Trendy Totes,Tote Bag Store,Alteryx,Business Intelligence and Analytics,True
+1328,Trendy Totes,Tote Bag Store,Google Data Studio,Business Intelligence and Analytics,True
+1329,Trendy Totes,Tote Bag Store,Jira Service Management,Help Desk and Customer Support,True
+1330,Trendy Totes,Tote Bag Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+1331,Trendy Totes,Tote Bag Store,ServiceNow,Help Desk and Customer Support,True
+1332,Trendy Totes,Tote Bag Store,Tableau,Business Intelligence and Analytics,True
+1333,Trendy Totes,Tote Bag Store,Tibco Spotfire,Business Intelligence and Analytics,True
+1334,TrendyTech,Consumer Electronics Retailer,Alteryx,Business Intelligence and Analytics,True
+1335,TrendyTech,Consumer Electronics Retailer,Domo,Business Intelligence and Analytics,True
+1336,TrendyTech,Consumer Electronics Retailer,Freshdesk,Help Desk and Customer Support,True
+1337,TrendyTech,Consumer Electronics Retailer,Freshservice,Help Desk and Customer Support,True
+1338,TrendyTech,Consumer Electronics Retailer,Google Data Studio,Business Intelligence and Analytics,True
+1339,TrendyTech,Consumer Electronics Retailer,HubSpot Service Hub,Help Desk and Customer Support,True
+1340,TrendyTech,Consumer Electronics Retailer,Intercom,Help Desk and Customer Support,True
+1341,TrendyTech,Consumer Electronics Retailer,Jira Service Management,Help Desk and Customer Support,True
+1342,TrendyTech,Consumer Electronics Retailer,Looker,Business Intelligence and Analytics,True
+1343,TrendyTech,Consumer Electronics Retailer,Power BI,Business Intelligence and Analytics,True
+1344,TrendyTech,Consumer Electronics Retailer,QlikView,Business Intelligence and Analytics,True
+1345,TrendyTech,Consumer Electronics Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+1346,TrendyTech,Consumer Electronics Retailer,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1347,TrendyTech,Consumer Electronics Retailer,ServiceNow,Help Desk and Customer Support,True
+1348,TrendyTech,Consumer Electronics Retailer,Sisense,Business Intelligence and Analytics,True
+1349,TrendyTech,Consumer Electronics Retailer,Tableau,Business Intelligence and Analytics,True
+1350,TrendyTech,Consumer Electronics Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+1351,TrendyTech,Consumer Electronics Retailer,Zendesk,Help Desk and Customer Support,True
+1352,TrendyTees,T-Shirt Subscription Box,Alteryx,Business Intelligence and Analytics,True
+1353,TrendyTees,T-Shirt Subscription Box,Google Data Studio,Business Intelligence and Analytics,True
+1354,TrendyTees,T-Shirt Subscription Box,Jira Service Management,Help Desk and Customer Support,True
+1355,TrendyTees,T-Shirt Subscription Box,Power BI,Business Intelligence and Analytics,True
+1356,TrendyTees,T-Shirt Subscription Box,Salesforce Service Cloud,Help Desk and Customer Support,True
+1357,TrendyTees,T-Shirt Subscription Box,Tableau,Business Intelligence and Analytics,True
+1358,TrendyTees,T-Shirt Subscription Box,Tibco Spotfire,Business Intelligence and Analytics,True
+1359,Ultimate Universes,Science Fiction Bookstore,Alteryx,Business Intelligence and Analytics,True
+1360,Ultimate Universes,Science Fiction Bookstore,Domo,Business Intelligence and Analytics,True
+1361,Ultimate Universes,Science Fiction Bookstore,Freshdesk,Help Desk and Customer Support,True
+1362,Ultimate Universes,Science Fiction Bookstore,Freshservice,Help Desk and Customer Support,True
+1363,Ultimate Universes,Science Fiction Bookstore,Google Data Studio,Business Intelligence and Analytics,True
+1364,Ultimate Universes,Science Fiction Bookstore,HappyFox,Help Desk and Customer Support,True
+1365,Ultimate Universes,Science Fiction Bookstore,HubSpot Service Hub,Help Desk and Customer Support,True
+1366,Ultimate Universes,Science Fiction Bookstore,Intercom,Help Desk and Customer Support,True
+1367,Ultimate Universes,Science Fiction Bookstore,Jira Service Management,Help Desk and Customer Support,True
+1368,Ultimate Universes,Science Fiction Bookstore,Looker,Business Intelligence and Analytics,True
+1369,Ultimate Universes,Science Fiction Bookstore,Power BI,Business Intelligence and Analytics,True
+1370,Ultimate Universes,Science Fiction Bookstore,QlikView,Business Intelligence and Analytics,True
+1371,Ultimate Universes,Science Fiction Bookstore,Salesforce Service Cloud,Help Desk and Customer Support,True
+1372,Ultimate Universes,Science Fiction Bookstore,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1373,Ultimate Universes,Science Fiction Bookstore,ServiceNow,Help Desk and Customer Support,True
+1374,Ultimate Universes,Science Fiction Bookstore,Sisense,Business Intelligence and Analytics,True
+1375,Ultimate Universes,Science Fiction Bookstore,Tableau,Business Intelligence and Analytics,True
+1376,Ultimate Universes,Science Fiction Bookstore,Tibco Spotfire,Business Intelligence and Analytics,True
+1377,Ultimate Universes,Science Fiction Bookstore,Zendesk,Help Desk and Customer Support,True
+1378,Ultimate University,Online Education,Alteryx,Business Intelligence and Analytics,True
+1379,Ultimate University,Online Education,Domo,Business Intelligence and Analytics,True
+1380,Ultimate University,Online Education,Freshdesk,Help Desk and Customer Support,True
+1381,Ultimate University,Online Education,Freshservice,Help Desk and Customer Support,True
+1382,Ultimate University,Online Education,Google Data Studio,Business Intelligence and Analytics,True
+1383,Ultimate University,Online Education,HappyFox,Help Desk and Customer Support,True
+1384,Ultimate University,Online Education,HubSpot Service Hub,Help Desk and Customer Support,True
+1385,Ultimate University,Online Education,Intercom,Help Desk and Customer Support,True
+1386,Ultimate University,Online Education,Jira Service Management,Help Desk and Customer Support,True
+1387,Ultimate University,Online Education,Looker,Business Intelligence and Analytics,True
+1388,Ultimate University,Online Education,Power BI,Business Intelligence and Analytics,True
+1389,Ultimate University,Online Education,QlikView,Business Intelligence and Analytics,True
+1390,Ultimate University,Online Education,Salesforce Service Cloud,Help Desk and Customer Support,True
+1391,Ultimate University,Online Education,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1392,Ultimate University,Online Education,ServiceNow,Help Desk and Customer Support,True
+1393,Ultimate University,Online Education,Sisense,Business Intelligence and Analytics,True
+1394,Ultimate University,Online Education,Tableau,Business Intelligence and Analytics,True
+1395,Ultimate University,Online Education,Tibco Spotfire,Business Intelligence and Analytics,True
+1396,Ultimate University,Online Education,Zendesk,Help Desk and Customer Support,True
+1397,UltimateUniversity,Online Education Platform,Alteryx,Business Intelligence and Analytics,True
+1398,UltimateUniversity,Online Education Platform,Domo,Business Intelligence and Analytics,True
+1399,UltimateUniversity,Online Education Platform,Freshdesk,Help Desk and Customer Support,True
+1400,UltimateUniversity,Online Education Platform,Freshservice,Help Desk and Customer Support,True
+1401,UltimateUniversity,Online Education Platform,Google Data Studio,Business Intelligence and Analytics,True
+1402,UltimateUniversity,Online Education Platform,HubSpot Service Hub,Help Desk and Customer Support,True
+1403,UltimateUniversity,Online Education Platform,Intercom,Help Desk and Customer Support,True
+1404,UltimateUniversity,Online Education Platform,Jira Service Management,Help Desk and Customer Support,True
+1405,UltimateUniversity,Online Education Platform,Looker,Business Intelligence and Analytics,True
+1406,UltimateUniversity,Online Education Platform,Power BI,Business Intelligence and Analytics,True
+1407,UltimateUniversity,Online Education Platform,QlikView,Business Intelligence and Analytics,True
+1408,UltimateUniversity,Online Education Platform,Salesforce Service Cloud,Help Desk and Customer Support,True
+1409,UltimateUniversity,Online Education Platform,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1410,UltimateUniversity,Online Education Platform,ServiceNow,Help Desk and Customer Support,True
+1411,UltimateUniversity,Online Education Platform,Sisense,Business Intelligence and Analytics,True
+1412,UltimateUniversity,Online Education Platform,Tableau,Business Intelligence and Analytics,True
+1413,UltimateUniversity,Online Education Platform,Tibco Spotfire,Business Intelligence and Analytics,True
+1414,UltimateUniversity,Online Education Platform,Zendesk,Help Desk and Customer Support,True
+1415,UltimateUtensils,Kitchen Tools,Alteryx,Business Intelligence and Analytics,True
+1416,UltimateUtensils,Kitchen Tools,Google Data Studio,Business Intelligence and Analytics,True
+1417,UltimateUtensils,Kitchen Tools,Jira Service Management,Help Desk and Customer Support,True
+1418,UltimateUtensils,Kitchen Tools,Power BI,Business Intelligence and Analytics,True
+1419,UltimateUtensils,Kitchen Tools,Salesforce Service Cloud,Help Desk and Customer Support,True
+1420,UltimateUtensils,Kitchen Tools,Tableau,Business Intelligence and Analytics,True
+1421,UltimateUtensils,Kitchen Tools,Tibco Spotfire,Business Intelligence and Analytics,True
+1422,UpsilonUndergarments,Undergarment Subscription,Alteryx,Business Intelligence and Analytics,True
+1423,UpsilonUndergarments,Undergarment Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1424,UpsilonUndergarments,Undergarment Subscription,Jira Service Management,Help Desk and Customer Support,True
+1425,UpsilonUndergarments,Undergarment Subscription,Looker,Business Intelligence and Analytics,True
+1426,UpsilonUndergarments,Undergarment Subscription,Power BI,Business Intelligence and Analytics,True
+1427,UpsilonUndergarments,Undergarment Subscription,QlikView,Business Intelligence and Analytics,True
+1428,UpsilonUndergarments,Undergarment Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1429,UpsilonUndergarments,Undergarment Subscription,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1430,UpsilonUndergarments,Undergarment Subscription,ServiceNow,Help Desk and Customer Support,True
+1431,UpsilonUndergarments,Undergarment Subscription,Sisense,Business Intelligence and Analytics,True
+1432,UpsilonUndergarments,Undergarment Subscription,Tableau,Business Intelligence and Analytics,True
+1433,UpsilonUndergarments,Undergarment Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1434,UpsilonUnderwear,Underwear Subscription,Alteryx,Business Intelligence and Analytics,True
+1435,UpsilonUnderwear,Underwear Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1436,UpsilonUnderwear,Underwear Subscription,Jira Service Management,Help Desk and Customer Support,True
+1437,UpsilonUnderwear,Underwear Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1438,UpsilonUnderwear,Underwear Subscription,ServiceNow,Help Desk and Customer Support,True
+1439,UpsilonUnderwear,Underwear Subscription,Tableau,Business Intelligence and Analytics,True
+1440,UpsilonUnderwear,Underwear Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1441,Vibrant Vases,Vase Store,Alteryx,Business Intelligence and Analytics,True
+1442,Vibrant Vases,Vase Store,Freshdesk,Help Desk and Customer Support,True
+1443,Vibrant Vases,Vase Store,Google Data Studio,Business Intelligence and Analytics,True
+1444,Vibrant Vases,Vase Store,HappyFox,Help Desk and Customer Support,True
+1445,Vibrant Vases,Vase Store,Jira Service Management,Help Desk and Customer Support,True
+1446,Vibrant Vases,Vase Store,QlikView,Business Intelligence and Analytics,True
+1447,Vibrant Vases,Vase Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+1448,Vibrant Vases,Vase Store,Tableau,Business Intelligence and Analytics,True
+1449,Vibrant Vases,Vase Store,Tibco Spotfire,Business Intelligence and Analytics,True
+1450,Vibrant Visions,Graphic Design,Alteryx,Business Intelligence and Analytics,True
+1451,Vibrant Visions,Graphic Design,Google Data Studio,Business Intelligence and Analytics,True
+1452,Vibrant Visions,Graphic Design,Jira Service Management,Help Desk and Customer Support,True
+1453,Vibrant Visions,Graphic Design,QlikView,Business Intelligence and Analytics,True
+1454,Vibrant Visions,Graphic Design,Salesforce Service Cloud,Help Desk and Customer Support,True
+1455,Vibrant Visions,Graphic Design,Tableau,Business Intelligence and Analytics,True
+1456,Vibrant Visions,Graphic Design,Tibco Spotfire,Business Intelligence and Analytics,True
+1457,VibrantVinyls,Record Subscription,Alteryx,Business Intelligence and Analytics,True
+1458,VibrantVinyls,Record Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1459,VibrantVinyls,Record Subscription,Jira Service Management,Help Desk and Customer Support,True
+1460,VibrantVinyls,Record Subscription,Power BI,Business Intelligence and Analytics,True
+1461,VibrantVinyls,Record Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1462,VibrantVinyls,Record Subscription,Tableau,Business Intelligence and Analytics,True
+1463,VibrantVinyls,Record Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1464,Virtuoso Virtual Assistants,Virtual Assistance,Alteryx,Business Intelligence and Analytics,True
+1465,Virtuoso Virtual Assistants,Virtual Assistance,Freshdesk,Help Desk and Customer Support,True
+1466,Virtuoso Virtual Assistants,Virtual Assistance,Google Data Studio,Business Intelligence and Analytics,True
+1467,Virtuoso Virtual Assistants,Virtual Assistance,HappyFox,Help Desk and Customer Support,True
+1468,Virtuoso Virtual Assistants,Virtual Assistance,Jira Service Management,Help Desk and Customer Support,True
+1469,Virtuoso Virtual Assistants,Virtual Assistance,QlikView,Business Intelligence and Analytics,True
+1470,Virtuoso Virtual Assistants,Virtual Assistance,Salesforce Service Cloud,Help Desk and Customer Support,True
+1471,Virtuoso Virtual Assistants,Virtual Assistance,Tableau,Business Intelligence and Analytics,True
+1472,Virtuoso Virtual Assistants,Virtual Assistance,Tibco Spotfire,Business Intelligence and Analytics,True
+1473,VirtuosoViolins,Musical Instruments Retailer,Alteryx,Business Intelligence and Analytics,True
+1474,VirtuosoViolins,Musical Instruments Retailer,Freshdesk,Help Desk and Customer Support,True
+1475,VirtuosoViolins,Musical Instruments Retailer,Google Data Studio,Business Intelligence and Analytics,True
+1476,VirtuosoViolins,Musical Instruments Retailer,Jira Service Management,Help Desk and Customer Support,True
+1477,VirtuosoViolins,Musical Instruments Retailer,QlikView,Business Intelligence and Analytics,True
+1478,VirtuosoViolins,Musical Instruments Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+1479,VirtuosoViolins,Musical Instruments Retailer,Tableau,Business Intelligence and Analytics,True
+1480,VirtuosoViolins,Musical Instruments Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+1481,VitalVibes,Health and Wellness Supplements,Alteryx,Business Intelligence and Analytics,True
+1482,VitalVibes,Health and Wellness Supplements,Google Data Studio,Business Intelligence and Analytics,True
+1483,VitalVibes,Health and Wellness Supplements,Jira Service Management,Help Desk and Customer Support,True
+1484,VitalVibes,Health and Wellness Supplements,Power BI,Business Intelligence and Analytics,True
+1485,VitalVibes,Health and Wellness Supplements,Salesforce Service Cloud,Help Desk and Customer Support,True
+1486,VitalVibes,Health and Wellness Supplements,Tableau,Business Intelligence and Analytics,True
+1487,VitalVibes,Health and Wellness Supplements,Tibco Spotfire,Business Intelligence and Analytics,True
+1488,WholesomeWatches,Watch Retailer,Alteryx,Business Intelligence and Analytics,True
+1489,WholesomeWatches,Watch Retailer,Domo,Business Intelligence and Analytics,True
+1490,WholesomeWatches,Watch Retailer,Freshdesk,Help Desk and Customer Support,True
+1491,WholesomeWatches,Watch Retailer,Freshservice,Help Desk and Customer Support,True
+1492,WholesomeWatches,Watch Retailer,Google Data Studio,Business Intelligence and Analytics,True
+1493,WholesomeWatches,Watch Retailer,HubSpot Service Hub,Help Desk and Customer Support,True
+1494,WholesomeWatches,Watch Retailer,Intercom,Help Desk and Customer Support,True
+1495,WholesomeWatches,Watch Retailer,Jira Service Management,Help Desk and Customer Support,True
+1496,WholesomeWatches,Watch Retailer,Looker,Business Intelligence and Analytics,True
+1497,WholesomeWatches,Watch Retailer,Power BI,Business Intelligence and Analytics,True
+1498,WholesomeWatches,Watch Retailer,QlikView,Business Intelligence and Analytics,True
+1499,WholesomeWatches,Watch Retailer,Salesforce Service Cloud,Help Desk and Customer Support,True
+1500,WholesomeWatches,Watch Retailer,SAP Analytics Cloud,Business Intelligence and Analytics,True
+1501,WholesomeWatches,Watch Retailer,ServiceNow,Help Desk and Customer Support,True
+1502,WholesomeWatches,Watch Retailer,Sisense,Business Intelligence and Analytics,True
+1503,WholesomeWatches,Watch Retailer,Tableau,Business Intelligence and Analytics,True
+1504,WholesomeWatches,Watch Retailer,Tibco Spotfire,Business Intelligence and Analytics,True
+1505,WholesomeWatches,Watch Retailer,Zendesk,Help Desk and Customer Support,True
+1506,WholesomeWhisk,Baking Supplies,Alteryx,Business Intelligence and Analytics,True
+1507,WholesomeWhisk,Baking Supplies,Google Data Studio,Business Intelligence and Analytics,True
+1508,WholesomeWhisk,Baking Supplies,Jira Service Management,Help Desk and Customer Support,True
+1509,WholesomeWhisk,Baking Supplies,Power BI,Business Intelligence and Analytics,True
+1510,WholesomeWhisk,Baking Supplies,Salesforce Service Cloud,Help Desk and Customer Support,True
+1511,WholesomeWhisk,Baking Supplies,Tableau,Business Intelligence and Analytics,True
+1512,WholesomeWhisk,Baking Supplies,Tibco Spotfire,Business Intelligence and Analytics,True
+1513,Wise Watches,Watch Store,Alteryx,Business Intelligence and Analytics,True
+1514,Wise Watches,Watch Store,Google Data Studio,Business Intelligence and Analytics,True
+1515,Wise Watches,Watch Store,Jira Service Management,Help Desk and Customer Support,True
+1516,Wise Watches,Watch Store,Power BI,Business Intelligence and Analytics,True
+1517,Wise Watches,Watch Store,QlikView,Business Intelligence and Analytics,True
+1518,Wise Watches,Watch Store,Salesforce Service Cloud,Help Desk and Customer Support,True
+1519,Wise Watches,Watch Store,ServiceNow,Help Desk and Customer Support,True
+1520,Wise Watches,Watch Store,Tableau,Business Intelligence and Analytics,True
+1521,Wise Watches,Watch Store,Tibco Spotfire,Business Intelligence and Analytics,True
+1522,Wise Words,Writing Services,Alteryx,Business Intelligence and Analytics,True
+1523,Wise Words,Writing Services,Freshdesk,Help Desk and Customer Support,True
+1524,Wise Words,Writing Services,Google Data Studio,Business Intelligence and Analytics,True
+1525,Wise Words,Writing Services,HappyFox,Help Desk and Customer Support,True
+1526,Wise Words,Writing Services,Jira Service Management,Help Desk and Customer Support,True
+1527,Wise Words,Writing Services,QlikView,Business Intelligence and Analytics,True
+1528,Wise Words,Writing Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+1529,Wise Words,Writing Services,Tableau,Business Intelligence and Analytics,True
+1530,Wise Words,Writing Services,Tibco Spotfire,Business Intelligence and Analytics,True
+1531,Xcellent Xeriscaping,Landscape Design,Alteryx,Business Intelligence and Analytics,True
+1532,Xcellent Xeriscaping,Landscape Design,Google Data Studio,Business Intelligence and Analytics,True
+1533,Xcellent Xeriscaping,Landscape Design,Jira Service Management,Help Desk and Customer Support,True
+1534,Xcellent Xeriscaping,Landscape Design,Power BI,Business Intelligence and Analytics,True
+1535,Xcellent Xeriscaping,Landscape Design,QlikView,Business Intelligence and Analytics,True
+1536,Xcellent Xeriscaping,Landscape Design,Salesforce Service Cloud,Help Desk and Customer Support,True
+1537,Xcellent Xeriscaping,Landscape Design,Tableau,Business Intelligence and Analytics,True
+1538,Xcellent Xeriscaping,Landscape Design,Tibco Spotfire,Business Intelligence and Analytics,True
+1539,Xceptional Xeroxing,Copy Center,Alteryx,Business Intelligence and Analytics,True
+1540,Xceptional Xeroxing,Copy Center,Google Data Studio,Business Intelligence and Analytics,True
+1541,Xceptional Xeroxing,Copy Center,Jira Service Management,Help Desk and Customer Support,True
+1542,Xceptional Xeroxing,Copy Center,Power BI,Business Intelligence and Analytics,True
+1543,Xceptional Xeroxing,Copy Center,QlikView,Business Intelligence and Analytics,True
+1544,Xceptional Xeroxing,Copy Center,Salesforce Service Cloud,Help Desk and Customer Support,True
+1545,Xceptional Xeroxing,Copy Center,ServiceNow,Help Desk and Customer Support,True
+1546,Xceptional Xeroxing,Copy Center,Tableau,Business Intelligence and Analytics,True
+1547,Xceptional Xeroxing,Copy Center,Tibco Spotfire,Business Intelligence and Analytics,True
+1548,XiXylophoneOrchestra,Xylophone Orchestra Subscription,Alteryx,Business Intelligence and Analytics,True
+1549,XiXylophoneOrchestra,Xylophone Orchestra Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1550,XiXylophoneOrchestra,Xylophone Orchestra Subscription,Jira Service Management,Help Desk and Customer Support,True
+1551,XiXylophoneOrchestra,Xylophone Orchestra Subscription,Power BI,Business Intelligence and Analytics,True
+1552,XiXylophoneOrchestra,Xylophone Orchestra Subscription,QlikView,Business Intelligence and Analytics,True
+1553,XiXylophoneOrchestra,Xylophone Orchestra Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1554,XiXylophoneOrchestra,Xylophone Orchestra Subscription,Tableau,Business Intelligence and Analytics,True
+1555,XiXylophoneOrchestra,Xylophone Orchestra Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1556,XiXylophones,Musical Instrument Subscription,Alteryx,Business Intelligence and Analytics,True
+1557,XiXylophones,Musical Instrument Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1558,XiXylophones,Musical Instrument Subscription,Jira Service Management,Help Desk and Customer Support,True
+1559,XiXylophones,Musical Instrument Subscription,Power BI,Business Intelligence and Analytics,True
+1560,XiXylophones,Musical Instrument Subscription,QlikView,Business Intelligence and Analytics,True
+1561,XiXylophones,Musical Instrument Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1562,XiXylophones,Musical Instrument Subscription,ServiceNow,Help Desk and Customer Support,True
+1563,XiXylophones,Musical Instrument Subscription,Tableau,Business Intelligence and Analytics,True
+1564,XiXylophones,Musical Instrument Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1565,XpressoXpress,Coffee Shop Chain,Alteryx,Business Intelligence and Analytics,True
+1566,XpressoXpress,Coffee Shop Chain,Google Data Studio,Business Intelligence and Analytics,True
+1567,XpressoXpress,Coffee Shop Chain,Jira Service Management,Help Desk and Customer Support,True
+1568,XpressoXpress,Coffee Shop Chain,Power BI,Business Intelligence and Analytics,True
+1569,XpressoXpress,Coffee Shop Chain,QlikView,Business Intelligence and Analytics,True
+1570,XpressoXpress,Coffee Shop Chain,Salesforce Service Cloud,Help Desk and Customer Support,True
+1571,XpressoXpress,Coffee Shop Chain,ServiceNow,Help Desk and Customer Support,True
+1572,XpressoXpress,Coffee Shop Chain,Tableau,Business Intelligence and Analytics,True
+1573,XpressoXpress,Coffee Shop Chain,Tibco Spotfire,Business Intelligence and Analytics,True
+1574,XtremeXercise,Fitness Equipment,Alteryx,Business Intelligence and Analytics,True
+1575,XtremeXercise,Fitness Equipment,Google Data Studio,Business Intelligence and Analytics,True
+1576,XtremeXercise,Fitness Equipment,Jira Service Management,Help Desk and Customer Support,True
+1577,XtremeXercise,Fitness Equipment,Power BI,Business Intelligence and Analytics,True
+1578,XtremeXercise,Fitness Equipment,Salesforce Service Cloud,Help Desk and Customer Support,True
+1579,XtremeXercise,Fitness Equipment,Tableau,Business Intelligence and Analytics,True
+1580,XtremeXercise,Fitness Equipment,Tibco Spotfire,Business Intelligence and Analytics,True
+1581,YogaYonder,Yoga Apparel,Alteryx,Business Intelligence and Analytics,True
+1582,YogaYonder,Yoga Apparel,Google Data Studio,Business Intelligence and Analytics,True
+1583,YogaYonder,Yoga Apparel,Jira Service Management,Help Desk and Customer Support,True
+1584,YogaYonder,Yoga Apparel,Salesforce Service Cloud,Help Desk and Customer Support,True
+1585,YogaYonder,Yoga Apparel,ServiceNow,Help Desk and Customer Support,True
+1586,YogaYonder,Yoga Apparel,Tableau,Business Intelligence and Analytics,True
+1587,YogaYonder,Yoga Apparel,Tibco Spotfire,Business Intelligence and Analytics,True
+1588,YogaYurt,Yoga Studio,Alteryx,Business Intelligence and Analytics,True
+1589,YogaYurt,Yoga Studio,Freshdesk,Help Desk and Customer Support,True
+1590,YogaYurt,Yoga Studio,Google Data Studio,Business Intelligence and Analytics,True
+1591,YogaYurt,Yoga Studio,Jira Service Management,Help Desk and Customer Support,True
+1592,YogaYurt,Yoga Studio,QlikView,Business Intelligence and Analytics,True
+1593,YogaYurt,Yoga Studio,Salesforce Service Cloud,Help Desk and Customer Support,True
+1594,YogaYurt,Yoga Studio,Tableau,Business Intelligence and Analytics,True
+1595,YogaYurt,Yoga Studio,Tibco Spotfire,Business Intelligence and Analytics,True
+1596,Youthful Yarns,Children's Bookstore,Alteryx,Business Intelligence and Analytics,True
+1597,Youthful Yarns,Children's Bookstore,Freshdesk,Help Desk and Customer Support,True
+1598,Youthful Yarns,Children's Bookstore,Google Data Studio,Business Intelligence and Analytics,True
+1599,Youthful Yarns,Children's Bookstore,HappyFox,Help Desk and Customer Support,True
+1600,Youthful Yarns,Children's Bookstore,Jira Service Management,Help Desk and Customer Support,True
+1601,Youthful Yarns,Children's Bookstore,QlikView,Business Intelligence and Analytics,True
+1602,Youthful Yarns,Children's Bookstore,Salesforce Service Cloud,Help Desk and Customer Support,True
+1603,Youthful Yarns,Children's Bookstore,Tableau,Business Intelligence and Analytics,True
+1604,Youthful Yarns,Children's Bookstore,Tibco Spotfire,Business Intelligence and Analytics,True
+1605,Youthful Yogis,Yoga Studio,Alteryx,Business Intelligence and Analytics,True
+1606,Youthful Yogis,Yoga Studio,Freshdesk,Help Desk and Customer Support,True
+1607,Youthful Yogis,Yoga Studio,Google Data Studio,Business Intelligence and Analytics,True
+1608,Youthful Yogis,Yoga Studio,Jira Service Management,Help Desk and Customer Support,True
+1609,Youthful Yogis,Yoga Studio,QlikView,Business Intelligence and Analytics,True
+1610,Youthful Yogis,Yoga Studio,Salesforce Service Cloud,Help Desk and Customer Support,True
+1611,Youthful Yogis,Yoga Studio,Tableau,Business Intelligence and Analytics,True
+1612,Youthful Yogis,Yoga Studio,Tibco Spotfire,Business Intelligence and Analytics,True
+1613,Zen Zoology,Pet Adoption Services,Alteryx,Business Intelligence and Analytics,True
+1614,Zen Zoology,Pet Adoption Services,Freshdesk,Help Desk and Customer Support,True
+1615,Zen Zoology,Pet Adoption Services,Google Data Studio,Business Intelligence and Analytics,True
+1616,Zen Zoology,Pet Adoption Services,HappyFox,Help Desk and Customer Support,True
+1617,Zen Zoology,Pet Adoption Services,Jira Service Management,Help Desk and Customer Support,True
+1618,Zen Zoology,Pet Adoption Services,QlikView,Business Intelligence and Analytics,True
+1619,Zen Zoology,Pet Adoption Services,Salesforce Service Cloud,Help Desk and Customer Support,True
+1620,Zen Zoology,Pet Adoption Services,Tableau,Business Intelligence and Analytics,True
+1621,Zen Zoology,Pet Adoption Services,Tibco Spotfire,Business Intelligence and Analytics,True
+1622,Zen Zumba,Dance Studio,Alteryx,Business Intelligence and Analytics,True
+1623,Zen Zumba,Dance Studio,Google Data Studio,Business Intelligence and Analytics,True
+1624,Zen Zumba,Dance Studio,Jira Service Management,Help Desk and Customer Support,True
+1625,Zen Zumba,Dance Studio,Salesforce Service Cloud,Help Desk and Customer Support,True
+1626,Zen Zumba,Dance Studio,ServiceNow,Help Desk and Customer Support,True
+1627,Zen Zumba,Dance Studio,Tableau,Business Intelligence and Analytics,True
+1628,Zen Zumba,Dance Studio,Tibco Spotfire,Business Intelligence and Analytics,True
+1629,ZenZenith,Executive Coaching,Alteryx,Business Intelligence and Analytics,True
+1630,ZenZenith,Executive Coaching,Google Data Studio,Business Intelligence and Analytics,True
+1631,ZenZenith,Executive Coaching,Jira Service Management,Help Desk and Customer Support,True
+1632,ZenZenith,Executive Coaching,QlikView,Business Intelligence and Analytics,True
+1633,ZenZenith,Executive Coaching,Salesforce Service Cloud,Help Desk and Customer Support,True
+1634,ZenZenith,Executive Coaching,ServiceNow,Help Desk and Customer Support,True
+1635,ZenZenith,Executive Coaching,Tableau,Business Intelligence and Analytics,True
+1636,ZenZenith,Executive Coaching,Tibco Spotfire,Business Intelligence and Analytics,True
+1637,ZenZone,Meditation App,Alteryx,Business Intelligence and Analytics,True
+1638,ZenZone,Meditation App,Google Data Studio,Business Intelligence and Analytics,True
+1639,ZenZone,Meditation App,Jira Service Management,Help Desk and Customer Support,True
+1640,ZenZone,Meditation App,QlikView,Business Intelligence and Analytics,True
+1641,ZenZone,Meditation App,Salesforce Service Cloud,Help Desk and Customer Support,True
+1642,ZenZone,Meditation App,Tableau,Business Intelligence and Analytics,True
+1643,ZenZone,Meditation App,Tibco Spotfire,Business Intelligence and Analytics,True
+1644,ZetaZen,Meditation App Subscription,Alteryx,Business Intelligence and Analytics,True
+1645,ZetaZen,Meditation App Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1646,ZetaZen,Meditation App Subscription,Jira Service Management,Help Desk and Customer Support,True
+1647,ZetaZen,Meditation App Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1648,ZetaZen,Meditation App Subscription,ServiceNow,Help Desk and Customer Support,True
+1649,ZetaZen,Meditation App Subscription,Tableau,Business Intelligence and Analytics,True
+1650,ZetaZen,Meditation App Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1651,ZetaZumba,Fitness Class Subscription,Alteryx,Business Intelligence and Analytics,True
+1652,ZetaZumba,Fitness Class Subscription,Google Data Studio,Business Intelligence and Analytics,True
+1653,ZetaZumba,Fitness Class Subscription,Jira Service Management,Help Desk and Customer Support,True
+1654,ZetaZumba,Fitness Class Subscription,Salesforce Service Cloud,Help Desk and Customer Support,True
+1655,ZetaZumba,Fitness Class Subscription,ServiceNow,Help Desk and Customer Support,True
+1656,ZetaZumba,Fitness Class Subscription,Tableau,Business Intelligence and Analytics,True
+1657,ZetaZumba,Fitness Class Subscription,Tibco Spotfire,Business Intelligence and Analytics,True
+1658,ZipZap Deliveries,Food Delivery,Alteryx,Business Intelligence and Analytics,True
+1659,ZipZap Deliveries,Food Delivery,Google Data Studio,Business Intelligence and Analytics,True
+1660,ZipZap Deliveries,Food Delivery,Jira Service Management,Help Desk and Customer Support,True
+1661,ZipZap Deliveries,Food Delivery,Salesforce Service Cloud,Help Desk and Customer Support,True
+1662,ZipZap Deliveries,Food Delivery,ServiceNow,Help Desk and Customer Support,True
+1663,ZipZap Deliveries,Food Delivery,Tableau,Business Intelligence and Analytics,True
+1664,ZipZap Deliveries,Food Delivery,Tibco Spotfire,Business Intelligence and Analytics,True
