@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -20,11 +21,7 @@ const Hero = () => {
       </div>
       {/* Right side image */}
       <div className="hidden md:block flex-1">
-        <img
-          src="/website/src/app/hero.jpg"
-          alt="AI Agent"
-          className="w-full h-auto"
-        />
+        <Image src={'/images/hero.jpg'} alt={'Pyramid'} width={500} height={500}/>
       </div>
     </div>
   </div>
@@ -32,3 +29,16 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+ 
+// export default function Page() {
+//   return (
+//     <Image
+//       src="/profile.png"
+//       width={500}
+//       height={500}
+//       alt="Picture of the author"
+//     />
+//   )
+// }
