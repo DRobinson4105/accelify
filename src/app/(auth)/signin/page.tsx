@@ -42,7 +42,7 @@ export default function LoginForm() {
 
     if (response.ok) {
       // Redirect to the homepage after successful login
-      router.push('/')
+      router.push('/userpage')
     } else {
       console.error('Failed to login')
     }
