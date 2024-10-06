@@ -143,14 +143,23 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
         # recommended_products = recommended_products - set(company_entitlements['Product'])
         
         scored_products = score_recommended_products(company_name, industry, used_products, recommended_products, cooccurrence_matrix, industry_groups, popular_products)
-        top_recommendations = scored_products
+        names = []
+        weights = []
+        
+        for product, score in scored_products.items():
+            if score >= 0.8: 
+                names.append(product)
+                weights.append(score)
                 
         train_data["Data"].append({
             "Input": {
                 "Industry": industry,
                 "Products": used_products
             },
-            "Output": top_recommendations
+            "Output": {
+                "Names": names,
+                "Weights": weights
+            }
         })
         
     additional_data = {
