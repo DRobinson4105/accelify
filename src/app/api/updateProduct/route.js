@@ -1,37 +1,50 @@
-// api/updateProduct.js
-import { prisma } from "@/lib/prisma";
+import { prisma } from "@/lib/prisma"; // Make sure to have prisma client properly set up
 
-export default async function handler(req, res) {
-  if (req.method === "POST") {
-    const { productName, companyId, implemented } = req.body;
+export async function POST(req) {
+  try {
+    // Parse the incoming request body
+    const { productName, companyId, implemented } = await req.json();
 
-    try {
-      // Find the productOnCompany record by product and company
-      const productOnCompany = await prisma.productOnCompany.findFirst({
-        where: {
-          companyId: companyId,
-          product: {
-            name: productName,
-          },
-        },
-      });
+    // Find the product by name
+    const product = await prisma.product.findFirst({
+      where: { name: productName },
+    });
 
-      if (!productOnCompany) {
-        return res.status(404).json({ message: "Product not found" });
-      }
-
-      // Update the implemented status
-      await prisma.productOnCompany.update({
-        where: { id: productOnCompany.id },
-        data: {
-          implemented: implemented,
-        },
-      });
-
-      res.status(200).json({ message: "Product status updated" });
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ message: "Failed to update product status" });
+    if (!product) {
+      return new Response(
+        JSON.stringify({ message: "Product not found" }),
+        { status: 404 }
+      );
     }
+
+    // Update the ProductOnCompany record to set 'implemented' status
+    const updatedProductOnCompany = await prisma.productOnCompany.updateMany({
+      where: {
+        productId: product.id,
+        companyId: companyId,
+      },
+      data: {
+        implemented: implemented,
+      },
+    });
+
+    if (updatedProductOnCompany.count === 0) {
+      return new Response(
+        JSON.stringify({ message: "Failed to update product" }),
+        { status: 404 }
+      );
+    }
+
+    // Respond with success
+    return new Response(
+      JSON.stringify({ message: "Product updated successfully" }),
+      { status: 200 }
+    );
+  } catch (error) {
+    console.error("Error updating product:", error);
+    return new Response(
+      JSON.stringify({ message: "Internal server error" }),
+      { status: 500 }
+    );
   }
 }
