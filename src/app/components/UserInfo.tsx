@@ -1,29 +1,27 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
 
 import { Button } from "@/components/ui/button";
 import ComboBoxInput from "./ComboBoxInput";
-import TableProduct from "./TableProduct";
 import { ChevronRight } from "lucide-react";
 
 import {
-Card,
-CardContent,
-CardDescription,
-CardHeader,
-CardTitle,
-} from "@/components/ui/card"
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 import {
-    Table,
-    TableBody,
-    TableCaption,
-    TableCell,
-    TableHead,
-    TableHeader,
-    TableRow,
-} from "@/components/ui/table"
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
 interface TableElement {
   name: string;
@@ -32,87 +30,97 @@ interface TableElement {
 }
 
 const UserInfo = () => {
+  const [products, setProducts] = useState<{ value: string; label: string; description: string }[]>([]);
+  const [selectedProduct, setSelectedProduct] = useState<TableElement | null>(null);
+  const [addedProducts, setAddedProducts] = useState<TableElement[]>([]);
 
-  const element: TableElement | null = null;
-    const industries = [
-        {
-          value: "test1",
-          label: "test1",
-        },
-        {
-          value: "test2",
-          label: "test2",
-        },
-    ]
-
-    const products = [
-      {
-        value: "testProduct1",
-        label: "testProduct1",
-      },
-      {
-        value: "testProduct2",
-        label: "testProduct2",
-      },
-    ]
-
-    const handleIndustryInput = async (e: React.FormEvent) => {
-
+  // Fetch products from the database when the component mounts
+  useEffect(() => {
+    async function fetchProducts() {
+      try {
+        const res = await fetch("/api/products"); // Call the API route we just created
+        const data = await res.json();
+        
+        // Map the fetched products to the structure expected by ComboBoxInput
+        const formattedProducts = data.map((product: any) => ({
+          value: product.id, // Assuming `id` is the unique identifier for the product
+          label: product.name,
+          description: product.description,
+        }));
+        
+        setProducts(formattedProducts); // Set the fetched products in state
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
     }
 
-    const handleProductInput = async (e: React.FormEvent) => {
+    fetchProducts();
+  }, []);
 
+  // Handle product selection from ComboBox
+  const handleProductInput = (productValue: string) => {
+    const selected = products.find((product) => product.value === productValue);
+    if (selected) {
+      setSelectedProduct({
+        name: selected.label,
+        description: selected.description,
+        implemented: false,
+      });
     }
+  };
 
-    const [data, setData] = useState<TableElement[]>()
-    return(
-        <div className="w-full h-full">
-        <Card className="mx-auto w-5/6 h-5/6 my-5">
-          <CardHeader>
-            <CardTitle className="text-xl">User Info</CardTitle>
-            <CardDescription>
-              Manage product and industry info
-            </CardDescription>
-            <div className="grid grid-row-2 gap-y-10">
-              <div className="mx-auto">
-                Industry
-                <div className="flex grid-column-2 gap-x-3">
-                  <ComboBoxInput
-                    type={{ list: industries, name: "Industries"}}
-                    onSelect={handleIndustryInput}/>
-                  <Button variant="outline" size="icon">
-                    <ChevronRight className="h-4 w-4"/>
-                  </Button>
-                </div>
+  // Add product to the table
+  const handleAddProduct = () => {
+    if (selectedProduct) {
+      setAddedProducts((prev) => [...prev, selectedProduct]);
+      setSelectedProduct(null); // Reset the selected product after adding
+    }
+  };
+
+  return (
+    <div className="w-full h-full">
+      <Card className="mx-auto w-5/6 h-5/6 my-5">
+        <CardHeader>
+          <CardTitle className="text-xl">User Info</CardTitle>
+          <CardDescription>Manage product and industry info</CardDescription>
+          <div className="grid grid-row-2 gap-y-10">
+            <div className="mx-auto">
+              Products
+              <div className="flex grid-column-2 gap-x-3">
+                <ComboBoxInput
+                  type={{ list: products, name: "Products" }} // Pass the fetched products to ComboBoxInput
+                  onSelect={handleProductInput}
+                />
+                <Button variant="outline" size="icon" onClick={handleAddProduct}>
+                  <ChevronRight className="h-4 w-4" />
+                </Button>
               </div>
-              <div className="mx-auto">
-                Products
-                <div className="flex grid-column-2 gap-x-3">
-                  <ComboBoxInput
-                  type={{ list: products, name: "Products"}}
-                  onSelect={handleProductInput}/>
-                  <Button variant="outline" size="icon">
-                    <ChevronRight className="h-4 w-4"/>
-                  </Button>
-                </div>
-                <div className="my-4">
-                  <Table>
-                    <TableHeader>
-                      <TableRow>
-                        <TableHead>Name</TableHead>
-                        <TableHead>Description</TableHead>
-                        <TableHead>Implemented</TableHead>
+              <div className="my-4">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Name</TableHead>
+                      <TableHead>Description</TableHead>
+                      <TableHead>Implemented</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {addedProducts.map((product, index) => (
+                      <TableRow key={index}>
+                        <TableCell>{product.name}</TableCell>
+                        <TableCell>{product.description}</TableCell>
+                        <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
                       </TableRow>
-                    </TableHeader>
-                    <TableProduct element={element}/>
-                  </Table>
-                </div>
+                    ))}
+                  </TableBody>
+                </Table>
               </div>
             </div>
-          </CardHeader>
-        </Card>
-      </div>
-    )
-}
+          </div>
+        </CardHeader>
+      </Card>
+    </div>
+  );
+};
 
-export default UserInfo
+export default UserInfo;
