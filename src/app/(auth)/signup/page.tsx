@@ -1,22 +1,46 @@
 "use client"
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import ComboBoxInput from '@/app/components/ComboBoxInput' // Import your ComboBoxInput component
 
-export default function SignUpPage() {
+export default function CompanySignUpPage() {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    companyName: '',
     email: '',
-    password: ''
+    password: '',
+    industry: '' // This will store the selected industry
   })
 
+  const [industries, setIndustries] = useState([]) // State to hold industries
   const router = useRouter()
+
+  // Fetch industries from the database on component mount
+  useEffect(() => {
+    async function fetchIndustries() {
+      try {
+        const res = await fetch('/api/industries') // Create this API to fetch all industries
+        const data = await res.json()
+        
+        // Format the data for ComboBoxInput
+        const formattedIndustries = data.map((industry: any) => ({
+          label: industry.name, 
+          value: industry.name
+        }))
+        
+        setIndustries(formattedIndustries)
+      } catch (error) {
+        console.error('Error fetching industries:', error)
+      }
+    }
+
+    fetchIndustries()
+  }, [])
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
@@ -25,11 +49,18 @@ export default function SignUpPage() {
     })
   }
 
+  const handleIndustryChange = (selectedIndustry: string) => {
+    setFormData({
+      ...formData,
+      industry: selectedIndustry // Set the selected industry
+    })
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
     try {
-      const response = await fetch('/api/signup', {
+      const response = await fetch('/api/company/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -38,7 +69,7 @@ export default function SignUpPage() {
       })
 
       if (response.ok) {
-        router.push('/userpage') // Redirect to dashboard or homepage after signup
+        router.push('/companypage') // Redirect to company dashboard after signup
       } else {
         console.error('Signup failed')
       }
@@ -50,38 +81,53 @@ export default function SignUpPage() {
   return (
     <Card className="mx-auto max-w-sm">
       <CardHeader>
-        <CardTitle className="text-xl">Sign Up</CardTitle>
+        <CardTitle className="text-xl">Company Sign Up</CardTitle>
         <CardDescription>
-          Enter your information to create an account
+          Enter your company information to create an account
         </CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit}>
           <div className="grid gap-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="grid gap-2">
-                <Label htmlFor="firstName">First name</Label>
-                <Input id="firstName" placeholder="John" onChange={handleChange} required />
-              </div>
-              <div className="grid gap-2">
-                <Label htmlFor="lastName">Last name</Label>
-                <Input id="lastName" placeholder="Doe" onChange={handleChange} required />
-              </div>
+            <div className="grid gap-2">
+              <Label htmlFor="companyName">Company Name</Label>
+              <Input
+                id="companyName"
+                placeholder="Your Company"
+                onChange={handleChange}
+                required
+              />
             </div>
             <div className="grid gap-2">
               <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
                 type="email"
-                placeholder="john.doe@example.com"
+                placeholder="company@example.com"
                 onChange={handleChange}
                 required
               />
             </div>
             <div className="grid gap-2">
               <Label htmlFor="password">Password</Label>
-              <Input id="password" type="password" onChange={handleChange} required />
+              <Input
+                id="password"
+                type="password"
+                onChange={handleChange}
+                required
+              />
             </div>
+
+            {/* ComboBox for selecting industry */}
+            <div className="grid gap-2">
+              <Label htmlFor="industry">Industry</Label>
+              <ComboBoxInput 
+                type={{ list: industries, name: "Industry" }} 
+                // Pass the selected industry to formData when selected
+                onSelect={handleIndustryChange}
+              />
+            </div>
+
             <Button type="submit" className="w-full">
               Create an account
             </Button>
