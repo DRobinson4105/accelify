@@ -83,4 +83,5 @@ def train(product_name_map, product_category_map, industry_map):
 
     torch.save(obj=model.state_dict(), f=MODEL_NAME)
 
-train(product_name_map, product_category_map, industry_map)
+if __name__ == "__main__":
+    train(product_name_map, product_category_map, industry_map)

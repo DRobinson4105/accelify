@@ -108,7 +108,7 @@ async def get_recommendations():
         output = model(industry, product_names, product_categories, product_is_implemented)
 
     output_labels = list(product_name_map.keys())
-    
+
     # TODO change threshold if needed
     output_labels = [name for score, name in sorted(zip(output.squeeze().cpu().numpy(), output_labels), reverse=True) if score > THRESHOLD]
 
