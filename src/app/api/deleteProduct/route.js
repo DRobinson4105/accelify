@@ -1,52 +1,48 @@
-import { NextResponse } from "next/server";
-import { PrismaClient } from "@prisma/client";
-import bcrypt from "bcrypt";
-import jwt from 'jsonwebtoken'
-import cookie from 'cookie'
+import { prisma } from "@/lib/prisma"; // Ensure Prisma client is properly set up
 
+export async function POST(req) {
+  try {
+    // Parse the incoming request body
+    const { productName, companyId } = await req.json();
 
-const prisma = new PrismaClient();
+    // Find the product by name to get its ID
+    const product = await prisma.product.findFirst({
+      where: { name: productName },
+    });
 
-const SECRET_KEY = process.env.JWT_SECRET_KEY || 'your-secret-key'
-
-export async function POST(request){
-    try {
-        const { productName, companyID, Implemented} = await request.json();
-
-        const query = await prisma.product.findFirst({
-            where: {
-                name : productName
-            }})
-
-        if(!query){
-            return NextResponse.json(
-                { error: "No Product Found" },
-                { status: 400 }
-                );
-        }
-        const delQuery = await prisma.productOnCompany.findFirst({
-            where: {
-                productId : query.id,
-                companyId : companyID
-            }});
-
-        if(!delQuery){
-            return NextResponse.json(
-                { error: "No Company with that product." },
-                { status: 400 }
-              );
-        }
-
-        await prisma.productOnCompany.delete({
-            where: {
-                productId : query.id,
-                companyId : companyID,
-            }});
-
-    } catch(err){
-        console.error("deletion error");
-        return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
-    } finally {
-        await prisma.$disconnect();
+    if (!product) {
+      return new Response(
+        JSON.stringify({ message: "Product not found" }),
+        { status: 404 }
+      );
     }
+
+    // Delete the ProductOnCompany record based on productId and companyId
+    const deletedProductOnCompany = await prisma.productOnCompany.deleteMany({
+      where: {
+        productId: product.id,
+        companyId: companyId,
+      },
+    });
+
+    // Check if any record was deleted
+    if (deletedProductOnCompany.count === 0) {
+      return new Response(
+        JSON.stringify({ message: "No matching product for the company found to delete" }),
+        { status: 404 }
+      );
+    }
+
+    // Respond with success if deletion was successful
+    return new Response(
+      JSON.stringify({ message: "Product successfully deleted from company" }),
+      { status: 200 }
+    );
+  } catch (error) {
+    console.error("Error deleting product:", error);
+    return new Response(
+      JSON.stringify({ message: "Internal server error" }),
+      { status: 500 }
+    );
+  }
 }
