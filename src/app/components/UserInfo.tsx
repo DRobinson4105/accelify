@@ -4,6 +4,8 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import ComboBoxInput from "./ComboBoxInput";
 import { ChevronRight } from "lucide-react";
+import { Pencil } from "lucide-react";
+import { TrashIcon } from "lucide-react";
 
 import {
   Dialog,
@@ -212,23 +214,34 @@ const UserInfo = ({ company }: { company: Company | null }) => {
                   <Table>
                     <TableHeader>
                       <TableRow>
-                        <TableHead>Name</TableHead>
-                        <TableHead>Description</TableHead>
-                        <TableHead>Implemented</TableHead>
+                        <TableHead className="w-[30px]">Name</TableHead>
+                        <TableHead className="w-[30px]">Description</TableHead>
+                        <TableHead className="w-[30px]">Implemented</TableHead>
+                        <TableHead className="w-[30px]"></TableHead>
                       </TableRow>
                     </TableHeader>
                     <TableBody>
                       {addedProducts.map((product, index) => (
                         <TableRow key={index} onClick={fetchIndex(index)}>
                           <DialogTrigger asChild>
-                            <TableCell>{product.name}</TableCell>
+                            <TableCell className="w-[30px]">{product.name}</TableCell>
                           </DialogTrigger>
                           <DialogTrigger asChild>
-                            <TableCell>{"..."}</TableCell>
+                            <TableCell className="w-[30px]">{"..."}</TableCell>
                           </DialogTrigger>
                           <DialogTrigger asChild>
-                            <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
+                            <TableCell className="w-[30px]">{product.implemented ? "Yes" : "No"}</TableCell>
                           </DialogTrigger>
+                          <TableCell>
+                            <div className="flex flex-row gap-x-6">
+                            <Button variant="outline" size="icon" className="h-8 w-8 mx-2">
+                                <Pencil className="h-4 w-4"/>
+                            </Button>
+                            <Button variant="outline" size="icon" className="h-8 w-8 mx-2">
+                                <TrashIcon className="h-4 w-4"/>
+                            </Button>
+                            </div>
+                          </TableCell>
                         </TableRow>
                       ))}
                     </TableBody>
