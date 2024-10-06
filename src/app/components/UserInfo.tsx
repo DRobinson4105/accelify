@@ -3,8 +3,8 @@ import { useState } from "react";
 import React from "react";
 
 import { Button } from "@/components/ui/button";
-
 import ComboBoxInput from "./ComboBoxInput";
+import TableProduct from "./TableProduct";
 
 import {
 Card,
@@ -29,9 +29,15 @@ interface Type {
     name: string;
 }
 
+interface TableElement {
+  name: string;
+  description: string;
+  implemented: boolean;
+}
+
 const UserInfo = () => {
     let type: Type | null = null;
-
+    let element: TableElement | null = null
     // const industries = [
     //     {
     //       value: "test1",
@@ -66,7 +72,6 @@ const UserInfo = () => {
                 <ComboBoxInput type={type}/>
                 <div className="my-4">
                   <Table>
-                    <TableCaption>Selected Products</TableCaption>
                     <TableHeader>
                       <TableRow>
                         <TableHead>Name</TableHead>
@@ -74,9 +79,7 @@ const UserInfo = () => {
                         <TableHead>Implemented</TableHead>
                       </TableRow>
                     </TableHeader>
-                    <TableBody>
-
-                    </TableBody>
+                    <TableProduct element={element}/>
                   </Table>
                 </div>
               </div>

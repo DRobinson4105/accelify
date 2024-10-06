@@ -40,11 +40,11 @@ export default async function Page() {
 
   return (
     <div>
+       <UserNavbar user={user}/>
       <div className="grid grid-column-2 grid-flow-col h-[650px] divide-x">
         <UserInfo/>
         <Recommend/>
       </div>
-      <UserNavbar user={user}/>
     </div>
   )
 }
