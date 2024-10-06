@@ -94,7 +94,6 @@ const UserInfo = () => {
       setIndexTable(index)
       event.preventDefault();
     }
-
   }
 
   return (
@@ -128,11 +127,15 @@ const UserInfo = () => {
                     <TableBody>
                       {addedProducts.map((product, index) => (
                         <TableRow key={index} onClick={fetchIndex(index)}>
-                          <TableCell>{product.name}</TableCell>
-                            <DialogTrigger asChild>
-                              <TableCell>{"..."}</TableCell>
-                            </DialogTrigger>
-                          <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
+                          <DialogTrigger asChild>
+                            <TableCell>{product.name}</TableCell>
+                          </DialogTrigger>
+                          <DialogTrigger asChild>
+                            <TableCell>{"..."}</TableCell>
+                          </DialogTrigger>
+                          <DialogTrigger asChild>
+                            <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
+                          </DialogTrigger>
                         </TableRow>
                       ))}
                     </TableBody>
