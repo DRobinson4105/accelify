@@ -16,6 +16,7 @@ export async function GET(req) {
       include: { product: true },  // Include product details
     });
 
+
     console.log("Fetched company products:", companyProducts); // Log the fetched products
 
     return new Response(JSON.stringify(companyProducts), { status: 200 });

@@ -32,7 +32,7 @@ export default function UserClient({ initialCompany }: { initialCompany: Company
       <UserNavbar company={company} />
       <div className="grid grid-column-2 grid-flow-col h-[650px] divide-x">
         <UserInfo company={company}/>
-        <Recommend />
+        <Recommend company={company} />
       </div>
     </div>
   );
