@@ -40,14 +40,14 @@ const UserInfo = () => {
       try {
         const res = await fetch("/api/products"); // Call the API route we just created
         const data = await res.json();
-        
+
         // Map the fetched products to the structure expected by ComboBoxInput
         const formattedProducts = data.map((product: any) => ({
           value: product.id, // Assuming `id` is the unique identifier for the product
           label: product.name,
           description: product.description,
         }));
-        
+
         setProducts(formattedProducts); // Set the fetched products in state
       } catch (error) {
         console.error("Error fetching products:", error);
@@ -83,8 +83,8 @@ const UserInfo = () => {
         <CardHeader>
           <CardTitle className="text-xl">User Info</CardTitle>
           <CardDescription>Manage product and industry info</CardDescription>
-          <div className="grid grid-row-2 gap-y-10">
-            <div className="mx-auto">
+          <div className="flex-col gap-y-10">
+            <div className="mx-auto flex flex-col">
               Products
               <div className="flex grid-column-2 gap-x-3">
                 <ComboBoxInput
@@ -95,7 +95,7 @@ const UserInfo = () => {
                   <ChevronRight className="h-4 w-4" />
                 </Button>
               </div>
-              <div className="my-4">
+              <div className="my-4 border">
                 <Table>
                   <TableHeader>
                     <TableRow>
@@ -106,9 +106,9 @@ const UserInfo = () => {
                   </TableHeader>
                   <TableBody>
                     {addedProducts.map((product, index) => (
-                      <TableRow key={index}>
+                      <TableRow key={index} onClick={}>
                         <TableCell>{product.name}</TableCell>
-                        <TableCell>{product.description}</TableCell>
+                        <TableCell>{"..."}</TableCell>
                         <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
                       </TableRow>
                     ))}
