@@ -1,50 +1,35 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input";
-import UserNavbar from "../components/UserNavbar";
-import Recommend from "../components/Recommend";
-import UserInfo from "../components/UserInfo";
-import { cookies } from 'next/headers'
-import jwt from 'jsonwebtoken'
+// src/app/userpage/page.tsx
+import { cookies } from 'next/headers';
+import jwt from 'jsonwebtoken';
+import UserClient from './UserClient'; // The client-side component
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-
-// Define the user type based on what you expect from JWT
-interface User {
+// Define the Company interface based on your JWT payload
+interface Company {
   id: string;
-  email: string;
-  name: string;
+  companyName: string;
+  industryId: string;
 }
 
-const SECRET_KEY = process.env.JWT_SECRET_KEY || 'your-secret-key'
+const SECRET_KEY = process.env.JWT_SECRET_KEY || 'your-secret-key';
 
 export default async function Page() {
-  const cookieStore = cookies()
-  const token = cookieStore.get('token')?.value
+  // Get the cookie from server-side
+  const cookieStore = cookies();
+  const token = cookieStore.get('token')?.value;
 
-  let user: User | null = null // Use the User type here
+  let company: Company | null = null;
 
   if (token) {
     try {
-      // Decode the JWT token and cast the result to User type
-      user = jwt.verify(token, SECRET_KEY) as User
+      // Decode the JWT token server-side
+      company = jwt.verify(token, SECRET_KEY) as Company;
     } catch (error) {
-      console.error("Error decoding JWT:", error)
+      console.error("Error decoding JWT:", error);
     }
   }
 
+  // Pass the decoded company data to a client-side component, now named `initialCompany`
   return (
-    <div>
-       <UserNavbar user={user}/>
-      <div className="grid grid-column-2 grid-flow-col h-[650px] divide-x">
-        <UserInfo/>
-        <Recommend/>
-      </div>
-    </div>
-  )
+    <UserClient initialCompany={company} />
+  );
 }

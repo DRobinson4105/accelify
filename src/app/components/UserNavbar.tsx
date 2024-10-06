@@ -1,37 +1,40 @@
-"use client"
+"use client";
 
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogClose } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { useRouter } from 'next/navigation'; // For handling logout redirection
 
-interface User {
+interface Company {
   id: string;
-  email: string;
-  name: string;
+  companyName: string;
+  industryId: string;
 }
 
-export default function UserNavbar({ user }: { user: User | null }) {
+export default function UserNavbar({ company }: { company: Company | null }) {
   const router = useRouter();
 
   // Function to handle logout
   const handleLogout = async () => {
-    // Clear JWT token (you may want to hit a logout API route to clear cookies)
+    // Clear JWT token by hitting a logout route (you may need to set up this API route to clear cookies)
     await fetch('/api/logout', {
       method: 'GET',
     });
 
-    // Redirect to login page after logout
-    router.push('/signin');
+    // Update the state to clear the company after logout
+    document.cookie = "token=; Max-Age=0"; // Clear the cookie
+    router.refresh(); // Refresh the page to clear the company state in the app
+    router.push('/');
   };
+
+  console.log("Navbar: ", company);
 
   return (
     <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
       <div className="text-lg font-bold">
-        Welcome, {user ? user.name : 'Guest'}!
+        Welcome, {company ? company.companyName : 'Guest'}!
       </div>
       <div className="flex space-x-4">
-        {/* Edit Company Button with Dialog */}
+        {/* Edit Company Button */}
         <Dialog>
           <DialogTrigger asChild>
             <Button>Edit Company</Button>
@@ -43,8 +46,8 @@ export default function UserNavbar({ user }: { user: User | null }) {
                 Update your company details below.
               </DialogDescription>
             </DialogHeader>
-            {/* Add form for editing company details */}
             <form>
+              {/* Company Editing Form */}
               <div className="space-y-4">
                 <div>
                   <label htmlFor="companyName" className="block text-sm font-medium">
@@ -53,20 +56,10 @@ export default function UserNavbar({ user }: { user: User | null }) {
                   <input
                     id="companyName"
                     type="text"
+                    defaultValue={company?.companyName || ""}
                     className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
                   />
                 </div>
-                <div>
-                  <label htmlFor="companyAddress" className="block text-sm font-medium">
-                    Company Address
-                  </label>
-                  <input
-                    id="companyAddress"
-                    type="text"
-                    className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
-                  />
-                </div>
-                {/* Additional fields for company details */}
                 <div className="flex justify-end space-x-2">
                   <DialogClose asChild>
                     <Button variant="secondary">Cancel</Button>
