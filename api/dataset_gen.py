@@ -95,10 +95,11 @@ def score_recommended_products(company, industry, used_products, recommended_pro
 
 def process_data(companies, entitlements, products, industry_groups, popular_products, cooccurrence_matrix):
     train_data = {"Data": []} 
-    product_names = set()
-    product_categories = set()
-    industries = set()
+    product_names = list()
+    product_categories = list()
+    industries = list()
     
+    # test = None
     for _, company_row in companies.iterrows():
         company_name = company_row['Name']
         industry = company_row['Industry']
@@ -106,8 +107,8 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
         company_entitlements = entitlements[entitlements['Company'] == company_name]
         used_products = [] 
         
-        industries.add(industry)
-        
+        if industry not in industries:
+            industries.append(industry)
         for _, entitlement_row in company_entitlements.iterrows():
             product_name = entitlement_row['Product']
             product_info = products[products['Name'] == product_name].iloc[0]
@@ -117,8 +118,10 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
                 'IsImplemented': entitlement_row['Implemented']
             })
         
-            product_names.add(product_info['Name'])
-            product_categories.add(product_info['Category'])
+            if product_info['Name'] not in product_names:
+                product_names.append(product_info['Name'])
+            if product_info['Category'] not in product_categories:
+                product_categories.append(product_info['Category'])
             
         recommended_products = set(popular_products)
         

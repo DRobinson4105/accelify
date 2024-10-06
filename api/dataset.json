@@ -13275,13 +13275,13 @@
             },
             "Output": {
                 "Names": [
-                    "Tableau",
-                    "Salesforce Service Cloud",
-                    "Google Data Studio",
-                    "ServiceNow",
                     "Tibco Spotfire",
+                    "Salesforce Service Cloud",
+                    "ServiceNow",
+                    "Alteryx",
+                    "Tableau",
                     "Jira Service Management",
-                    "Alteryx"
+                    "Google Data Studio"
                 ],
                 "Weights": [
                     1.0,
@@ -13301,13 +13301,13 @@
             },
             "Output": {
                 "Names": [
-                    "Jira Service Management",
-                    "Tableau",
-                    "Google Data Studio",
                     "Tibco Spotfire",
-                    "Alteryx",
+                    "ServiceNow",
+                    "Jira Service Management",
                     "Salesforce Service Cloud",
-                    "ServiceNow"
+                    "Alteryx",
+                    "Tableau",
+                    "Google Data Studio"
                 ],
                 "Weights": [
                     1.0,
