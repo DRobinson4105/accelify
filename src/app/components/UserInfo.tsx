@@ -7,6 +7,17 @@ import ComboBoxInput from "./ComboBoxInput";
 import { ChevronRight } from "lucide-react";
 
 import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
+import {
   Card,
   CardContent,
   CardDescription,
@@ -33,6 +44,7 @@ const UserInfo = () => {
   const [products, setProducts] = useState<{ value: string; label: string; description: string }[]>([]);
   const [selectedProduct, setSelectedProduct] = useState<TableElement | null>(null);
   const [addedProducts, setAddedProducts] = useState<TableElement[]>([]);
+  const [indexTable, setIndexTable] = useState(0);
 
   // Fetch products from the database when the component mounts
   useEffect(() => {
@@ -40,14 +52,14 @@ const UserInfo = () => {
       try {
         const res = await fetch("/api/products"); // Call the API route we just created
         const data = await res.json();
-        
+
         // Map the fetched products to the structure expected by ComboBoxInput
         const formattedProducts = data.map((product: any) => ({
           value: product.id, // Assuming `id` is the unique identifier for the product
           label: product.name,
           description: product.description,
         }));
-        
+
         setProducts(formattedProducts); // Set the fetched products in state
       } catch (error) {
         console.error("Error fetching products:", error);
@@ -77,14 +89,21 @@ const UserInfo = () => {
     }
   };
 
+  const fetchIndex = (index: number) => {
+    return (event: React.MouseEvent) => {
+      setIndexTable(index)
+      event.preventDefault();
+    }
+  }
+
   return (
     <div className="w-full h-full">
       <Card className="mx-auto w-5/6 h-5/6 my-5">
         <CardHeader>
           <CardTitle className="text-xl">User Info</CardTitle>
           <CardDescription>Manage product and industry info</CardDescription>
-          <div className="grid grid-row-2 gap-y-10">
-            <div className="mx-auto">
+          <div className="flex-col gap-y-10">
+            <div className="mx-auto flex flex-col">
               Products
               <div className="flex grid-column-2 gap-x-3">
                 <ComboBoxInput
@@ -95,25 +114,41 @@ const UserInfo = () => {
                   <ChevronRight className="h-4 w-4" />
                 </Button>
               </div>
-              <div className="my-4">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>Name</TableHead>
-                      <TableHead>Description</TableHead>
-                      <TableHead>Implemented</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {addedProducts.map((product, index) => (
-                      <TableRow key={index}>
-                        <TableCell>{product.name}</TableCell>
-                        <TableCell>{product.description}</TableCell>
-                        <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
+              <div className="my-4 border">
+                <Dialog>
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead>Name</TableHead>
+                        <TableHead>Description</TableHead>
+                        <TableHead>Implemented</TableHead>
                       </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
+                    </TableHeader>
+                    <TableBody>
+                      {addedProducts.map((product, index) => (
+                        <TableRow key={index} onClick={fetchIndex(index)}>
+                          <DialogTrigger asChild>
+                            <TableCell>{product.name}</TableCell>
+                          </DialogTrigger>
+                          <DialogTrigger asChild>
+                            <TableCell>{"..."}</TableCell>
+                          </DialogTrigger>
+                          <DialogTrigger asChild>
+                            <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
+                          </DialogTrigger>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>{addedProducts[indexTable]?.name}</DialogTitle>
+                      <DialogDescription>
+                        {addedProducts[indexTable]?.description}
+                      </DialogDescription>
+                    </DialogHeader>
+                  </DialogContent>
+                </Dialog>
               </div>
             </div>
           </div>
