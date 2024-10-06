@@ -6,10 +6,10 @@ import ComboBoxInput from "./ComboBoxInput";
 import { ChevronRight } from "lucide-react";
 import { Pencil } from "lucide-react";
 import { TrashIcon } from "lucide-react";
+import { Switch } from "@/components/ui/switch"; // For the toggle
 
 import {
   Dialog,
-  DialogClose,
   DialogContent,
   DialogDescription,
   DialogFooter,
@@ -51,6 +51,9 @@ const UserInfo = ({ company }: { company: Company | null }) => {
   const [selectedProduct, setSelectedProduct] = useState<TableElement | null>(null);
   const [addedProducts, setAddedProducts] = useState<TableElement[]>([]);
   const [indexTable, setIndexTable] = useState(0);
+  const [editDialogOpen, setEditDialogOpen] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false); // For delete confirmation dialog
+  const [editImplemented, setEditImplemented] = useState(false);
 
   // Fetch all available products for ComboBox
   useEffect(() => {
@@ -153,16 +156,12 @@ const UserInfo = ({ company }: { company: Company | null }) => {
     }
   };
 
-  // Handle toggle implemented status
-  const toggleImplemented = async (index: number) => {
+  const handleEditProduct = async () => {
     const updatedProducts = [...addedProducts];
-    const updatedProduct = updatedProducts[index];
-    updatedProduct.implemented = !updatedProduct.implemented;
+    updatedProducts[indexTable].implemented = editImplemented;
 
-    // Update the frontend state
     setAddedProducts(updatedProducts);
 
-    // Send a request to update the implemented status in the database
     try {
       const res = await fetch("/api/updateProduct", {
         method: "POST",
@@ -170,25 +169,62 @@ const UserInfo = ({ company }: { company: Company | null }) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          productName: updatedProduct.name,
-          companyId: company?.id, // Ensure correct company ID
-          implemented: updatedProduct.implemented,
+          productName: updatedProducts[indexTable].name,
+          companyId: company?.id,
+          implemented: editImplemented,
         }),
       });
 
       if (!res.ok) {
         throw new Error("Failed to update product status");
       }
+
+      setEditDialogOpen(false);
     } catch (error) {
       console.error("Error updating product status:", error);
+    }
+  };
+
+  const handleDeleteProduct = async () => {
+    const productToDelete = addedProducts[indexTable];
+    const updatedProducts = addedProducts.filter((_, i) => i !== indexTable);
+
+    setAddedProducts(updatedProducts);
+
+    try {
+      const res = await fetch("/api/deleteProduct", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          productName: productToDelete.name,
+          companyId: company?.id,
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to delete product");
+      }
+
+      setDeleteDialogOpen(false); // Close delete dialog after deletion
+    } catch (error) {
+      console.error("Error deleting product:", error);
     }
   };
 
   const fetchIndex = (index: number) => {
     return (event: React.MouseEvent) => {
       setIndexTable(index);
+      setEditImplemented(addedProducts[index].implemented);
+      setEditDialogOpen(true);
       event.preventDefault();
     };
+  };
+
+  const confirmDelete = (index: number) => {
+    setIndexTable(index); // Set the index for the product to delete
+    setDeleteDialogOpen(true); // Open the delete confirmation dialog
   };
 
   return (
@@ -210,56 +246,94 @@ const UserInfo = ({ company }: { company: Company | null }) => {
                 </Button>
               </div>
               <div className="my-4 border" style={{ maxHeight: '300px', overflowY: 'auto' }}>
-                <Dialog>
-                  <Table>
-                    <TableHeader>
-                      <TableRow>
-                        <TableHead className="w-[30px]">Name</TableHead>
-                        <TableHead className="w-[30px]">Description</TableHead>
-                        <TableHead className="w-[30px]">Implemented</TableHead>
-                        <TableHead className="w-[30px]"></TableHead>
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead className="w-[30px]">Name</TableHead>
+                      <TableHead className="w-[30px]">Description</TableHead>
+                      <TableHead className="w-[30px]">Implemented</TableHead>
+                      <TableHead className="w-[30px]"></TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {addedProducts.map((product, index) => (
+                      <TableRow key={index}>
+                        <TableCell className="w-[30px]">{product.name}</TableCell>
+                        <TableCell className="w-[30px]">
+                          <Dialog>
+                            <DialogTrigger asChild>
+                              <Button variant="link" className="text-left">
+                                {product.description.length > 30
+                                  ? `${product.description.slice(0, 30)}...`
+                                  : product.description}
+                              </Button>
+                            </DialogTrigger>
+                            <DialogContent>
+                              <DialogHeader>
+                                <DialogTitle>{product.name}</DialogTitle>
+                                <DialogDescription>{product.description}</DialogDescription>
+                              </DialogHeader>
+                            </DialogContent>
+                          </Dialog>
+                        </TableCell>
+                        <TableCell className="w-[30px]">{product.implemented ? "Yes" : "No"}</TableCell>
+                        <TableCell>
+                          <div className="flex flex-row gap-x-6">
+                            <Button variant="outline" size="icon" className="h-8 w-8 mx-2" onClick={fetchIndex(index)}>
+                              <Pencil className="h-4 w-4" />
+                            </Button>
+                            <Button variant="outline" size="icon" className="h-8 w-8 mx-2" onClick={() => confirmDelete(index)}>
+                              <TrashIcon className="h-4 w-4" />
+                            </Button>
+                          </div>
+                        </TableCell>
                       </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      {addedProducts.map((product, index) => (
-                        <TableRow key={index} onClick={fetchIndex(index)}>
-                          <DialogTrigger asChild>
-                            <TableCell className="w-[30px]">{product.name}</TableCell>
-                          </DialogTrigger>
-                          <DialogTrigger asChild>
-                            <TableCell className="w-[30px]">{"..."}</TableCell>
-                          </DialogTrigger>
-                          <DialogTrigger asChild>
-                            <TableCell className="w-[30px]">{product.implemented ? "Yes" : "No"}</TableCell>
-                          </DialogTrigger>
-                          <TableCell>
-                            <div className="flex flex-row gap-x-6">
-                            <Button variant="outline" size="icon" className="h-8 w-8 mx-2">
-                                <Pencil className="h-4 w-4"/>
-                            </Button>
-                            <Button variant="outline" size="icon" className="h-8 w-8 mx-2">
-                                <TrashIcon className="h-4 w-4"/>
-                            </Button>
-                            </div>
-                          </TableCell>
-                        </TableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
-                  <DialogContent>
-                    <DialogHeader>
-                      <DialogTitle>{addedProducts[indexTable]?.name}</DialogTitle>
-                      <DialogDescription>
-                        {addedProducts[indexTable]?.description}
-                      </DialogDescription>
-                    </DialogHeader>
-                  </DialogContent>
-                </Dialog>
+                    ))}
+                  </TableBody>
+                </Table>
               </div>
             </div>
           </div>
         </CardHeader>
       </Card>
+
+      {/* Edit Dialog */}
+      <Dialog open={editDialogOpen} onOpenChange={setEditDialogOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Edit Product</DialogTitle>
+            <DialogDescription>
+              Toggle the "Implemented" status for {addedProducts[indexTable]?.name}.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="my-4">
+            <div className="flex items-center">
+              <label className="mr-2">Implemented:</label>
+              <Switch checked={editImplemented} onCheckedChange={setEditImplemented} />
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setEditDialogOpen(false)}>Cancel</Button>
+            <Button onClick={handleEditProduct}>Save</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      {/* Delete Confirmation Dialog */}
+      <Dialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Confirm Deletion</DialogTitle>
+            <DialogDescription>
+              Are you sure you want to delete {addedProducts[indexTable]?.name}?
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setDeleteDialogOpen(false)}>Cancel</Button>
+            <Button onClick={handleDeleteProduct}>Delete</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
