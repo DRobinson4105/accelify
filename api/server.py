@@ -1,10 +1,22 @@
-from utils import *
 import torch
+import pymongo
 import pandas as pd
+from utils import * 
+from pymongo import MongoClient
 from flask import Flask, request, jsonify, send_file
 from train import train
 
+app = Flask(__name__)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+THRESHOLD = 1
+
+client = MongoClient("mongodb+srv://raudyb02:333L4tU6wRB6yyRS@user.chiq7.mongodb.net/servicenow", server_api=pymongo.server_api.ServerApi(
+version="1", strict=True, deprecation_errors=True))
+db = client['servicenow']
+companies_collection = db['Company']
+industries_collection = db['Industry']  
+products_collection = db['Product']
+
 
 # industry_map, product_name_map, product_category_map = label_to_idx()
 # industry_len, product_name_len, product_category_len = len(industry_map), len(product_name_map), len(product_category_map)
@@ -62,14 +74,21 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # print(f'Output: {output_labels}')
 
-app = Flask(__name__)
-
-THRESHOLD = 1
-
 def label_to_idx_maps():
-    #TODO mongodb retrieval data and build maps
+    products = {}
+    categories = {}
+    category_index = 0
 
-    return {}, {}, {}
+    for idx, doc in enumerate(products_collection.find({}, {'name': 1, 'category': 1})):
+        products[doc['name']] = idx
+        if doc['category'] not in categories:
+            categories[doc['category']] = category_index
+            category_index += 1
+
+    industries = {doc['name']: idx for idx, doc in enumerate(industries_collection.find({}, {'name': 1}))}
+   
+    return products, categories, industries
+
 
 @app.route('/add_product', methods=['POST'])
 async def add_product():
@@ -121,3 +140,10 @@ async def get_recommendations():
             accelerators.append([label, 'JumpStart'])
     
     return jsonify({"accelerators": accelerators})
+
+x, y, z = label_to_idx_maps()
+print(x)
+print()
+print(y)
+print()
+print(z)
