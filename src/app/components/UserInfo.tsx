@@ -7,6 +7,17 @@ import ComboBoxInput from "./ComboBoxInput";
 import { ChevronRight } from "lucide-react";
 
 import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
+import {
   Card,
   CardContent,
   CardDescription,
@@ -33,6 +44,7 @@ const UserInfo = () => {
   const [products, setProducts] = useState<{ value: string; label: string; description: string }[]>([]);
   const [selectedProduct, setSelectedProduct] = useState<TableElement | null>(null);
   const [addedProducts, setAddedProducts] = useState<TableElement[]>([]);
+  const [indexTable, setIndexTable] = useState(0);
 
   // Fetch products from the database when the component mounts
   useEffect(() => {
@@ -77,6 +89,14 @@ const UserInfo = () => {
     }
   };
 
+  const fetchIndex = (index: number) => {
+    return (event: React.MouseEvent) => {
+      setIndexTable(index)
+      event.preventDefault();
+    }
+
+  }
+
   return (
     <div className="w-full h-full">
       <Card className="mx-auto w-5/6 h-5/6 my-5">
@@ -96,24 +116,36 @@ const UserInfo = () => {
                 </Button>
               </div>
               <div className="my-4 border">
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>Name</TableHead>
-                      <TableHead>Description</TableHead>
-                      <TableHead>Implemented</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {addedProducts.map((product, index) => (
-                      <TableRow key={index} onClick={}>
-                        <TableCell>{product.name}</TableCell>
-                        <TableCell>{"..."}</TableCell>
-                        <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
+                <Dialog>
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead>Name</TableHead>
+                        <TableHead>Description</TableHead>
+                        <TableHead>Implemented</TableHead>
                       </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
+                    </TableHeader>
+                    <TableBody>
+                      {addedProducts.map((product, index) => (
+                        <TableRow key={index} onClick={fetchIndex(index)}>
+                          <TableCell>{product.name}</TableCell>
+                            <DialogTrigger asChild>
+                              <TableCell>{"..."}</TableCell>
+                            </DialogTrigger>
+                          <TableCell>{product.implemented ? "Yes" : "No"}</TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>{addedProducts[indexTable]?.name}</DialogTitle>
+                      <DialogDescription>
+                        {addedProducts[indexTable]?.description}
+                      </DialogDescription>
+                    </DialogHeader>
+                  </DialogContent>
+                </Dialog>
               </div>
             </div>
           </div>
