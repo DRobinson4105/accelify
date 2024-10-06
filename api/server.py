@@ -121,6 +121,9 @@ async def get_recommendations():
     return jsonify({"accelerators": accelerators})
 
 def test():
+    gen_csvs()
+    run_process()
+
     company_name = "Zen Zoology"
 
     companies = pd.read_csv('data/companies.csv')
@@ -153,9 +156,6 @@ def test():
     product_name_len, product_category_len = len(product_name_map), len(product_category_map)
 
     industry = torch.tensor(industry_map[industry]).to(device).view((1, 1))
-
-    gen_csvs()
-    run_process()
 
     train(product_name_map, product_category_map, industry_map, epochs=1)
 
@@ -190,7 +190,7 @@ def test():
 
     print(accelerators)
 
-# test()
+test()
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000)
