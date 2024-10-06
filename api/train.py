@@ -81,5 +81,5 @@ if __name__ == "__main__":
     product_name_map = {k: v for v, k in list(enumerate(info["Product_Names"]))}
     product_category_map = {k: v for v, k in list(enumerate(info["Product_Categories"]))}
     industry_map = {k: v for v, k in list(enumerate(info["Industries"]))}
-    
+
     train(product_name_map, product_category_map, industry_map, 25)

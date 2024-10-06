@@ -170,6 +170,7 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
     return train_data, additional_data
 
 def run_process():
+    global companies, products, entitlements
     companies = pd.read_csv('data/companies.csv')
     products = pd.read_csv('data/products.csv')
     entitlements = pd.read_csv('data/entitlements.csv')
