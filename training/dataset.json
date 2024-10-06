@@ -47,12 +47,21 @@
                 ]
             },
             "Output": [
+                "ServiceNow",
                 "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
                 "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
                 "Freshsales",
-                "ActiveCampaign"
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -186,7 +195,33 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Domo",
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
+            ]
         },
         {
             "Input": {
@@ -230,16 +265,23 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Monday.com",
-                "Basecamp",
-                "Constant Contact",
-                "Freshsales",
                 "Freshdesk",
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "QlikView"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -320,8 +362,22 @@
             },
             "Output": [
                 "Freshdesk",
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
                 "QlikView",
-                "ServiceNow"
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -370,7 +426,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -424,12 +490,21 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Constant Contact",
+                "ServiceNow",
                 "Basecamp",
-                "Freshsales",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -479,20 +554,28 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
+                "Freshdesk",
                 "Basecamp",
-                "HappyFox",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "ActiveCampaign",
-                "ServiceNow",
                 "Monday.com",
-                "Looker"
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -547,7 +630,17 @@
                 ]
             },
             "Output": [
-                "Power BI"
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -592,17 +685,24 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
-                "Sisense",
                 "SAP Analytics Cloud",
-                "ActiveCampaign",
+                "ServiceNow",
+                "Looker",
+                "Jira",
+                "Tableau",
                 "QlikView",
-                "Looker"
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -802,20 +902,39 @@
                 ]
             },
             "Output": [
-                "Jira",
+                "Freshdesk",
+                "Basecamp",
+                "Looker",
+                "Freshsales",
+                "Monday.com",
+                "Pipedrive",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "GetResponse",
-                "Sendinblue",
+                "Microsoft Dynamics 365",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
+                "Intercom",
                 "Mailchimp",
                 "Zoho CRM",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
                 "Constant Contact",
-                "Freshsales",
-                "Pipedrive",
-                "Basecamp",
-                "Wrike",
-                "Smartsheet",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com",
-                "Microsoft Dynamics 365"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -1015,20 +1134,39 @@
                 ]
             },
             "Output": [
-                "Jira",
+                "Freshdesk",
+                "Basecamp",
+                "Looker",
+                "Freshsales",
+                "Monday.com",
+                "Pipedrive",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "GetResponse",
-                "Sendinblue",
+                "Microsoft Dynamics 365",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
+                "Intercom",
                 "Mailchimp",
                 "Zoho CRM",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
                 "Constant Contact",
-                "Freshsales",
-                "Pipedrive",
-                "Basecamp",
-                "Wrike",
-                "Smartsheet",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com",
-                "Microsoft Dynamics 365"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -1072,7 +1210,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -1126,16 +1274,25 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "HubSpot Service Hub",
-                "Zendesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
+                "Freshdesk",
                 "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Freshservice"
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -1215,7 +1372,21 @@
                 ]
             },
             "Output": [
-                "QlikView"
+                "ServiceNow",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -1270,11 +1441,20 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sisense",
+                "Freshdesk",
                 "SAP Analytics Cloud",
                 "ServiceNow",
-                "Looker"
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -1328,7 +1508,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -1382,12 +1572,21 @@
                 ]
             },
             "Output": [
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
                 "SAP Analytics Cloud",
-                "Looker"
+                "ServiceNow",
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Intercom",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -1442,15 +1641,24 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "HubSpot Service Hub",
-                "Freshservice",
-                "Zendesk",
-                "Sisense",
-                "Intercom",
+                "Freshdesk",
                 "SAP Analytics Cloud",
                 "ServiceNow",
-                "Looker"
+                "Freshservice",
+                "Looker",
+                "Zendesk",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Intercom",
+                "Alteryx",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -1494,7 +1702,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -1538,8 +1756,16 @@
                 ]
             },
             "Output": [
-                "QlikView",
                 "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "HappyFox"
             ]
         },
@@ -1610,18 +1836,30 @@
                 ]
             },
             "Output": [
-                "Jira",
+                "Freshdesk",
+                "Looker",
+                "Freshsales",
+                "Google Data Studio",
                 "GetResponse",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Jira",
+                "Zendesk",
+                "Tableau",
                 "Sendinblue",
                 "HubSpot Service Hub",
-                "Zendesk",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "HappyFox",
-                "Freshsales",
-                "Freshdesk",
-                "Intercom",
-                "Domo",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Freshservice"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -1726,13 +1964,32 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Mailchimp",
+                "Freshdesk",
                 "Basecamp",
-                "Constant Contact",
+                "Looker",
                 "Freshsales",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -1812,18 +2069,32 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Freshservice",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
+                "Basecamp",
+                "Monday.com",
+                "Freshsales",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
                 "QlikView",
-                "Looker"
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -1867,7 +2138,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -1956,13 +2237,29 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Zendesk",
-                "Sisense",
+                "Looker",
+                "Freshsales",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "Microsoft Dynamics 365",
+                "ServiceNow",
                 "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
                 "SAP Analytics Cloud",
-                "Domo",
-                "Looker"
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -2017,30 +2314,39 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "GetResponse",
-                "Sendinblue",
-                "Freshsales",
                 "Freshdesk",
-                "Microsoft Dynamics 365",
-                "HubSpot Service Hub",
-                "Zoho CRM",
-                "Constant Contact",
-                "Mailchimp",
-                "Zendesk",
-                "Pipedrive",
                 "Basecamp",
+                "Monday.com",
+                "Looker",
+                "Pipedrive",
+                "Google Data Studio",
+                "GetResponse",
+                "Tibco Spotfire",
+                "Microsoft Dynamics 365",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
+                "Intercom",
+                "Mailchimp",
+                "Zoho CRM",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
                 "SAP Analytics Cloud",
                 "Domo",
                 "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com",
-                "HappyFox",
-                "Wrike",
-                "Smartsheet",
                 "Sisense",
-                "Intercom",
-                "Looker"
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -2095,11 +2401,20 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sisense",
+                "Freshdesk",
                 "SAP Analytics Cloud",
                 "ServiceNow",
-                "Looker"
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -2194,10 +2509,27 @@
                 ]
             },
             "Output": [
+                "Freshdesk",
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
                 "Mailchimp",
                 "Jira",
-                "Freshdesk",
-                "HappyFox"
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -2247,11 +2579,21 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Constant Contact",
-                "Freshsales",
+                "Freshdesk",
+                "ServiceNow",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -2351,9 +2693,27 @@
                 ]
             },
             "Output": [
-                "HappyFox",
                 "Freshdesk",
-                "Monday.com"
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -2478,16 +2838,39 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Freshservice",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
+                "Basecamp",
+                "Monday.com",
+                "Looker",
+                "Pipedrive",
+                "Google Data Studio",
+                "GetResponse",
+                "Tibco Spotfire",
+                "Microsoft Dynamics 365",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
                 "Intercom",
+                "Mailchimp",
+                "Zoho CRM",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
                 "SAP Analytics Cloud",
                 "Domo",
-                "Looker"
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -2541,7 +2924,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -2590,8 +2983,16 @@
                 ]
             },
             "Output": [
-                "QlikView",
                 "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "HappyFox"
             ]
         },
@@ -2636,7 +3037,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -2689,7 +3100,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -2733,7 +3154,15 @@
                 ]
             },
             "Output": [
-                "ServiceNow"
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -2817,7 +3246,24 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -2901,16 +3347,31 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "HubSpot Service Hub",
-                "Freshservice",
-                "Zendesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
+                "Freshdesk",
+                "Looker",
+                "Freshsales",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Looker"
+                "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -2985,18 +3446,31 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Freshservice",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
+                "Looker",
+                "Freshsales",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Freshservice",
                 "QlikView",
-                "Looker"
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -3071,12 +3545,25 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Monday.com",
-                "Basecamp",
-                "HappyFox",
                 "Freshdesk",
-                "QlikView"
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "QlikView",
+                "ActiveCampaign",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -3155,7 +3642,24 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Basecamp",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -3208,7 +3712,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -3261,7 +3775,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -3330,14 +3854,26 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Constant Contact",
+                "Freshdesk",
                 "Basecamp",
-                "Freshsales",
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
                 "HappyFox",
-                "Freshdesk",
+                "SAP Analytics Cloud",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -3457,17 +3993,31 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Freshservice",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
+                "Looker",
+                "Freshsales",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
                 "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
                 "SAP Analytics Cloud",
-                "Domo",
+                "Freshservice",
                 "QlikView",
-                "Looker"
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -3587,17 +4137,31 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Freshservice",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
+                "Looker",
+                "Freshsales",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
                 "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
                 "SAP Analytics Cloud",
-                "Domo",
+                "Freshservice",
                 "QlikView",
-                "Looker"
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -3701,7 +4265,27 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
+            ]
         },
         {
             "Input": {
@@ -3804,7 +4388,27 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
+            ]
         },
         {
             "Input": {
@@ -3857,7 +4461,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -3906,12 +4520,21 @@
                 ]
             },
             "Output": [
+                "ServiceNow",
                 "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
                 "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
                 "Freshsales",
-                "ActiveCampaign"
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -3966,12 +4589,21 @@
                 ]
             },
             "Output": [
+                "ServiceNow",
                 "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
                 "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
                 "Freshsales",
-                "ActiveCampaign"
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -4016,11 +4648,18 @@
                 ]
             },
             "Output": [
-                "Sisense",
                 "SAP Analytics Cloud",
                 "ServiceNow",
+                "Looker",
+                "Tableau",
                 "QlikView",
-                "Looker"
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -4075,18 +4714,27 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
-                "Sisense",
-                "SAP Analytics Cloud",
-                "ActiveCampaign",
-                "ServiceNow",
+                "Freshdesk",
+                "Looker",
                 "Monday.com",
-                "Looker"
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -4166,11 +4814,26 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Power BI",
-                "Mailchimp",
+                "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "Smartsheet",
+                "ServiceNow",
                 "Wrike",
-                "Smartsheet"
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "QlikView",
+                "ActiveCampaign",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -4275,12 +4938,31 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
+                "Freshdesk",
+                "Looker",
                 "Freshsales",
-                "ActiveCampaign"
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -4325,25 +5007,32 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Freshsales",
                 "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Freshsales",
                 "Looker",
-                "QlikView",
-                "Power BI",
-                "HubSpot Service Hub",
-                "Constant Contact",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
                 "Mailchimp",
                 "Zendesk",
-                "Basecamp",
-                "SAP Analytics Cloud",
-                "Domo",
-                "ActiveCampaign",
-                "Monday.com",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
                 "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
                 "Sisense",
-                "Intercom",
-                "Freshservice"
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -4397,7 +5086,19 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
+            ]
         },
         {
             "Input": {
@@ -4451,13 +5152,22 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Zendesk",
-                "Sisense",
-                "Intercom",
                 "SAP Analytics Cloud",
+                "ServiceNow",
+                "Looker",
+                "Zendesk",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "HubSpot Service Hub",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Intercom",
+                "Alteryx",
                 "Domo",
-                "Looker"
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -4547,13 +5257,29 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "Microsoft Dynamics 365",
+                "ServiceNow",
+                "Intercom",
                 "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "Constant Contact",
-                "Freshsales",
+                "SAP Analytics Cloud",
+                "Domo",
+                "QlikView",
                 "ActiveCampaign",
-                "Microsoft Dynamics 365"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -4603,7 +5329,15 @@
                 ]
             },
             "Output": [
-                "ServiceNow"
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -4677,7 +5411,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -4760,7 +5510,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -4804,14 +5570,21 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Constant Contact",
-                "Basecamp",
-                "Freshsales",
-                "QlikView",
-                "ActiveCampaign",
                 "ServiceNow",
-                "Monday.com"
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -4900,7 +5673,26 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "HappyFox",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -4974,7 +5766,21 @@
                 ]
             },
             "Output": [
-                "Basecamp"
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -5024,7 +5830,16 @@
                 ]
             },
             "Output": [
+                "Freshdesk",
                 "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "HappyFox"
             ]
         },
@@ -5080,23 +5895,32 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "HubSpot Service Hub",
-                "Sendinblue",
+                "Freshdesk",
+                "Basecamp",
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
                 "Mailchimp",
                 "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "Constant Contact",
-                "Freshsales",
-                "Basecamp",
-                "Sisense",
-                "Intercom",
+                "HappyFox",
                 "SAP Analytics Cloud",
                 "Domo",
+                "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Looker",
-                "ServiceNow",
-                "Monday.com",
-                "Freshservice"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -5140,7 +5964,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -5188,7 +6022,18 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -5242,11 +6087,20 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sisense",
+                "Freshdesk",
                 "SAP Analytics Cloud",
                 "ServiceNow",
-                "Looker"
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -5295,7 +6149,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -5339,22 +6203,29 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "GetResponse",
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Monday.com",
-                "Zoho CRM",
-                "Constant Contact",
-                "Freshsales",
-                "Pipedrive",
                 "Basecamp",
-                "Wrike",
+                "Monday.com",
+                "Pipedrive",
+                "Google Data Studio",
+                "GetResponse",
+                "Tibco Spotfire",
+                "Microsoft Dynamics 365",
                 "Smartsheet",
-                "ActiveCampaign",
+                "ServiceNow",
+                "Wrike",
+                "Mailchimp",
+                "Zoho CRM",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
                 "QlikView",
-                "Microsoft Dynamics 365"
+                "ActiveCampaign",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -5398,7 +6269,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -5466,7 +6347,22 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -5510,12 +6406,21 @@
                 ]
             },
             "Output": [
+                "ServiceNow",
                 "Jira",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Microsoft Dynamics 365"
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -5589,7 +6494,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -5642,7 +6563,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -5690,7 +6621,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -5783,7 +6724,26 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Monday.com",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Smartsheet",
+                "Power BI",
+                "Wrike",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -5837,11 +6797,20 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sisense",
+                "Freshdesk",
                 "SAP Analytics Cloud",
                 "ServiceNow",
-                "Looker"
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -5965,7 +6934,31 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Basecamp",
+                "Monday.com",
+                "Pipedrive",
+                "Google Data Studio",
+                "GetResponse",
+                "Tibco Spotfire",
+                "Microsoft Dynamics 365",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
+                "Mailchimp",
+                "Zoho CRM",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "QlikView",
+                "ActiveCampaign",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
+            ]
         },
         {
             "Input": {
@@ -6019,11 +7012,20 @@
                 ]
             },
             "Output": [
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
                 "SAP Analytics Cloud",
-                "Looker"
+                "ServiceNow",
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -6078,13 +7080,23 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Mailchimp",
+                "Freshdesk",
+                "ServiceNow",
                 "Constant Contact",
-                "Freshsales",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "ServiceNow"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -6129,16 +7141,24 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Constant Contact",
-                "Freshsales",
-                "Wrike",
-                "Smartsheet",
-                "ActiveCampaign",
                 "ServiceNow",
                 "Monday.com",
-                "Microsoft Dynamics 365"
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Smartsheet",
+                "Power BI",
+                "Wrike",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -6188,13 +7208,22 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Mailchimp",
+                "ServiceNow",
                 "Basecamp",
-                "Constant Contact",
-                "Freshsales",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -6239,16 +7268,24 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Constant Contact",
-                "Freshsales",
-                "Wrike",
-                "Smartsheet",
-                "ActiveCampaign",
                 "ServiceNow",
                 "Monday.com",
-                "Microsoft Dynamics 365"
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Smartsheet",
+                "Power BI",
+                "Wrike",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -6292,7 +7329,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -6335,7 +7382,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -6428,7 +7485,26 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Wrike",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Mailchimp",
+                "Jira Service Management",
+                "Smartsheet",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -6472,14 +7548,22 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
+                "ServiceNow",
                 "Basecamp",
-                "Constant Contact",
-                "Freshsales",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -6578,7 +7662,26 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Monday.com",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Smartsheet",
+                "Power BI",
+                "Wrike",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -6661,7 +7764,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -6744,7 +7863,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -6818,9 +7953,23 @@
                 ]
             },
             "Output": [
-                "QlikView",
                 "Freshdesk",
-                "HappyFox"
+                "ServiceNow",
+                "HappyFox",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -6875,7 +8024,17 @@
                 ]
             },
             "Output": [
-                "Power BI"
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -6919,7 +8078,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -6967,7 +8136,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -7016,15 +8195,24 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Mailchimp",
+                "ServiceNow",
                 "Basecamp",
-                "Constant Contact",
-                "Wrike",
-                "Smartsheet",
+                "Monday.com",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Wrike",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Mailchimp",
+                "Jira Service Management",
+                "Smartsheet",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -7079,13 +8267,22 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Zendesk",
-                "Sisense",
-                "Intercom",
                 "SAP Analytics Cloud",
+                "ServiceNow",
+                "Looker",
+                "Zendesk",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "HubSpot Service Hub",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Intercom",
+                "Alteryx",
                 "Domo",
-                "Looker"
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -7130,8 +8327,16 @@
                 ]
             },
             "Output": [
-                "QlikView",
                 "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "HappyFox"
             ]
         },
@@ -7176,7 +8381,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -7265,12 +8480,28 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
+                "Freshdesk",
+                "Basecamp",
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Looker"
+                "Intercom",
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -7355,13 +8586,28 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Mailchimp",
+                "Freshdesk",
                 "Basecamp",
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
                 "Constant Contact",
-                "Freshsales",
+                "SAP Analytics Cloud",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -7436,12 +8682,25 @@
                 ]
             },
             "Output": [
-                "Basecamp",
-                "HappyFox",
-                "QlikView",
                 "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Monday.com"
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "QlikView",
+                "ActiveCampaign",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -7531,9 +8790,25 @@
                 ]
             },
             "Output": [
+                "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Mailchimp",
                 "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "QlikView",
+                "ActiveCampaign",
                 "Power BI",
-                "ServiceNow"
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -7588,19 +8863,28 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
+                "Freshdesk",
                 "Basecamp",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "ActiveCampaign",
-                "ServiceNow",
+                "Looker",
                 "Monday.com",
-                "Looker"
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -7684,7 +8968,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "SAP Analytics Cloud",
+                "ServiceNow",
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Intercom",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
+            ]
         },
         {
             "Input": {
@@ -7727,7 +9027,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -7776,14 +9086,23 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Basecamp",
-                "Freshsales",
                 "Freshdesk",
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -7828,11 +9147,18 @@
                 ]
             },
             "Output": [
-                "Sisense",
                 "SAP Analytics Cloud",
                 "ServiceNow",
+                "Looker",
+                "Tableau",
                 "QlikView",
-                "Looker"
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -7902,11 +9228,24 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "HappyFox",
                 "Freshdesk",
+                "ServiceNow",
+                "HappyFox",
+                "Jira",
+                "Tableau",
                 "QlikView",
-                "Microsoft Dynamics 365"
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -7950,7 +9289,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -7993,7 +9342,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -8047,19 +9406,28 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
+                "Freshdesk",
                 "Basecamp",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "ActiveCampaign",
-                "ServiceNow",
+                "Looker",
                 "Monday.com",
-                "Looker"
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -8114,23 +9482,32 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "HubSpot Service Hub",
-                "Sendinblue",
+                "Freshdesk",
+                "Basecamp",
+                "Looker",
+                "Freshsales",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
                 "Mailchimp",
                 "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
                 "Constant Contact",
-                "Freshsales",
-                "Basecamp",
-                "Sisense",
-                "Intercom",
                 "SAP Analytics Cloud",
-                "Domo",
+                "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Looker",
-                "ServiceNow",
-                "Monday.com",
-                "Freshservice"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -8176,7 +9553,14 @@
             },
             "Output": [
                 "ServiceNow",
-                "QlikView"
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -8230,7 +9614,19 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
+            ]
         },
         {
             "Input": {
@@ -8284,12 +9680,22 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Mailchimp",
+                "Freshdesk",
+                "ServiceNow",
                 "Constant Contact",
-                "Freshsales",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "ServiceNow"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -8334,14 +9740,22 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
+                "ServiceNow",
                 "Basecamp",
-                "Constant Contact",
-                "Freshsales",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -8421,16 +9835,30 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
                 "Looker",
-                "Freshservice"
+                "Freshsales",
+                "Google Data Studio",
+                "GetResponse",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -8569,7 +9997,34 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Basecamp",
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Domo",
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
+            ]
         },
         {
             "Input": {
@@ -8617,7 +10072,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -8705,7 +10170,26 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Insightly",
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "HappyFox",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -8778,7 +10262,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -8853,7 +10353,20 @@
             },
             "Output": [
                 "ServiceNow",
-                "QlikView"
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -8902,7 +10415,18 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -8975,7 +10499,23 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -9018,7 +10558,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -9116,7 +10666,26 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "SAP Analytics Cloud",
+                "ServiceNow",
+                "Freshservice",
+                "Looker",
+                "Zendesk",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Intercom",
+                "Alteryx",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
+            ]
         },
         {
             "Input": {
@@ -9159,7 +10728,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -9202,7 +10781,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -9245,7 +10834,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -9294,15 +10893,24 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
+                "Freshdesk",
+                "ServiceNow",
                 "Basecamp",
-                "Constant Contact",
-                "Freshsales",
+                "Monday.com",
                 "HappyFox",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -9348,7 +10956,14 @@
             },
             "Output": [
                 "ServiceNow",
-                "QlikView"
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -9423,8 +11038,22 @@
                 ]
             },
             "Output": [
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
                 "Mailchimp",
-                "Power BI"
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -9474,15 +11103,23 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "HubSpot Service Hub",
-                "Zendesk",
-                "Sisense",
-                "Intercom",
+                "Freshdesk",
                 "SAP Analytics Cloud",
-                "Domo",
                 "ServiceNow",
-                "Looker"
+                "Looker",
+                "Zendesk",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "HubSpot Service Hub",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Intercom",
+                "Alteryx",
+                "Domo",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -9522,15 +11159,22 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Basecamp",
-                "Constant Contact",
-                "Freshsales",
-                "ActiveCampaign",
                 "ServiceNow",
-                "Monday.com"
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -9574,7 +11218,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -9622,7 +11276,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -9711,14 +11375,30 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
                 "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "Microsoft Dynamics 365",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Domo",
+                "QlikView",
                 "ActiveCampaign",
-                "Microsoft Dynamics 365"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -9773,14 +11453,23 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Zendesk",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
                 "SAP Analytics Cloud",
+                "ServiceNow",
+                "Looker",
+                "Zendesk",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "HubSpot Service Hub",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Intercom",
+                "Alteryx",
                 "Domo",
-                "Looker"
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         },
         {
@@ -9884,7 +11573,27 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
+            ]
         },
         {
             "Input": {
@@ -9938,8 +11647,17 @@
                 ]
             },
             "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "Power BI",
-                "ServiceNow"
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -9983,7 +11701,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -10087,12 +11815,31 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
+                "Freshdesk",
+                "Looker",
                 "Freshsales",
-                "ActiveCampaign"
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -10167,8 +11914,22 @@
                 ]
             },
             "Output": [
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
                 "Mailchimp",
-                "ServiceNow"
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -10272,7 +12033,27 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
+            ]
         },
         {
             "Input": {
@@ -10376,20 +12157,39 @@
                 ]
             },
             "Output": [
-                "Jira",
+                "Freshdesk",
+                "Basecamp",
+                "Looker",
+                "Freshsales",
+                "Monday.com",
+                "Pipedrive",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "GetResponse",
-                "Sendinblue",
+                "Microsoft Dynamics 365",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
+                "Intercom",
                 "Mailchimp",
                 "Zoho CRM",
+                "Jira",
+                "Zendesk",
+                "Tableau",
+                "Sendinblue",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
                 "Constant Contact",
-                "Freshsales",
-                "Pipedrive",
-                "Basecamp",
-                "Wrike",
-                "Smartsheet",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com",
-                "Microsoft Dynamics 365"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -10493,7 +12293,27 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
+            ]
         },
         {
             "Input": {
@@ -10536,7 +12356,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -10604,7 +12434,20 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "SAP Analytics Cloud",
+                "ServiceNow",
+                "Looker",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Sisense",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -10647,7 +12490,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -10725,7 +12578,24 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Monday.com",
+                "HappyFox",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
+            ]
         },
         {
             "Input": {
@@ -10819,7 +12689,25 @@
                 ]
             },
             "Output": [
+                "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "QlikView",
+                "ActiveCampaign",
                 "Power BI",
+                "Alteryx",
                 "Freshsales"
             ]
         },
@@ -10864,7 +12752,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -10917,7 +12815,19 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
+            ]
         },
         {
             "Input": {
@@ -10996,9 +12906,23 @@
                 ]
             },
             "Output": [
-                "Power BI",
+                "Freshdesk",
                 "ServiceNow",
-                "Sendinblue"
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -11043,18 +12967,25 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
                 "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
                 "QlikView",
-                "Freshservice"
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -11158,7 +13089,27 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
+            ]
         },
         {
             "Input": {
@@ -11202,21 +13153,28 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
-                "Mailchimp",
-                "Monday.com",
-                "Constant Contact",
-                "Freshsales",
-                "Basecamp",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "ActiveCampaign",
+                "Basecamp",
+                "Looker",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
+                "Intercom",
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
                 "QlikView",
-                "Looker"
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -11271,16 +13229,25 @@
                 ]
             },
             "Output": [
-                "HubSpot Service Hub",
-                "Zendesk",
-                "HappyFox",
                 "Freshdesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
                 "Looker",
-                "Freshservice"
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -11335,16 +13302,25 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
-                "Sisense",
-                "SAP Analytics Cloud",
-                "ActiveCampaign",
+                "Freshdesk",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Looker"
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -11394,17 +13370,26 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
-                "Basecamp",
-                "Wrike",
-                "Smartsheet",
                 "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "Smartsheet",
+                "ServiceNow",
+                "Wrike",
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact",
+                "QlikView",
                 "ActiveCampaign",
-                "Monday.com"
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -11458,7 +13443,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -11506,7 +13501,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -11560,13 +13565,22 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
                 "Freshdesk",
+                "ServiceNow",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "Microsoft Dynamics 365"
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Microsoft Dynamics 365",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -11620,7 +13634,17 @@
                     }
                 ]
             },
-            "Output": []
+            "Output": [
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
+            ]
         },
         {
             "Input": {
@@ -11694,10 +13718,23 @@
                 ]
             },
             "Output": [
-                "QlikView",
                 "Freshdesk",
+                "ServiceNow",
                 "HappyFox",
-                "ServiceNow"
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -11742,8 +13779,16 @@
                 ]
             },
             "Output": [
-                "QlikView",
                 "Freshdesk",
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
                 "HappyFox"
             ]
         },
@@ -11799,13 +13844,23 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
+                "Freshdesk",
+                "ServiceNow",
                 "Constant Contact",
                 "Basecamp",
-                "Freshsales",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "ServiceNow",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -11860,16 +13915,25 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "HubSpot Service Hub",
-                "Zendesk",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
-                "Domo",
+                "Freshdesk",
                 "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Freshservice"
+                "Intercom",
+                "Zendesk",
+                "Tableau",
+                "HubSpot Service Hub",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "SAP Analytics Cloud",
+                "Freshservice",
+                "QlikView",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Domo"
             ]
         },
         {
@@ -11924,13 +13988,23 @@
                 ]
             },
             "Output": [
-                "Sendinblue",
+                "Freshdesk",
+                "ServiceNow",
                 "Constant Contact",
                 "Basecamp",
-                "Freshsales",
+                "Monday.com",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
                 "ActiveCampaign",
-                "ServiceNow",
-                "Monday.com"
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox"
             ]
         },
         {
@@ -12015,13 +14089,28 @@
                 ]
             },
             "Output": [
-                "Power BI",
-                "Mailchimp",
-                "Sisense",
-                "Intercom",
-                "SAP Analytics Cloud",
+                "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Looker",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Looker"
+                "Intercom",
+                "Mailchimp",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "SAP Analytics Cloud",
+                "QlikView",
+                "ActiveCampaign",
+                "Sisense",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -12096,9 +14185,23 @@
                 ]
             },
             "Output": [
-                "QlikView",
                 "Freshdesk",
-                "HappyFox"
+                "ServiceNow",
+                "Basecamp",
+                "Monday.com",
+                "HappyFox",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -12179,7 +14282,22 @@
             },
             "Output": [
                 "Freshdesk",
-                "HappyFox"
+                "ServiceNow",
+                "HappyFox",
+                "Jira",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "ActiveCampaign",
+                "Sendinblue",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Freshsales",
+                "Mailchimp",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "Constant Contact"
             ]
         },
         {
@@ -12229,17 +14347,25 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Constant Contact",
-                "Freshsales",
+                "Freshdesk",
                 "Basecamp",
-                "HappyFox",
-                "ActiveCampaign",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
                 "ServiceNow",
-                "Monday.com"
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "QlikView",
+                "ActiveCampaign",
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -12284,18 +14410,25 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Monday.com",
-                "Constant Contact",
-                "Freshsales",
-                "Basecamp",
-                "HappyFox",
                 "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "QlikView",
                 "ActiveCampaign",
-                "QlikView"
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -12340,18 +14473,25 @@
                 ]
             },
             "Output": [
-                "Jira",
-                "Power BI",
-                "Sendinblue",
-                "Mailchimp",
-                "Monday.com",
-                "Constant Contact",
-                "Freshsales",
-                "Basecamp",
-                "HappyFox",
                 "Freshdesk",
+                "Basecamp",
+                "Monday.com",
+                "Google Data Studio",
+                "Tibco Spotfire",
+                "ServiceNow",
+                "Mailchimp",
+                "Jira",
+                "Tableau",
+                "Sendinblue",
+                "Jira Service Management",
+                "Salesforce Service Cloud",
+                "HappyFox",
+                "Constant Contact",
+                "QlikView",
                 "ActiveCampaign",
-                "QlikView"
+                "Power BI",
+                "Alteryx",
+                "Freshsales"
             ]
         },
         {
@@ -12396,7 +14536,15 @@
                 ]
             },
             "Output": [
-                "Power BI"
+                "ServiceNow",
+                "Tableau",
+                "QlikView",
+                "Tibco Spotfire",
+                "Power BI",
+                "Google Data Studio",
+                "Alteryx",
+                "Jira Service Management",
+                "Salesforce Service Cloud"
             ]
         }
     ]

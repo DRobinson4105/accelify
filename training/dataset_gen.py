@@ -23,11 +23,22 @@ def industry_grouping(companies, threshold=0.4):
                 industry_groups[industry].append(industry_names[j])
     return industry_groups
 
-def get_popular_products(entitlements, threshold=0.8):
+def get_popular_products(entitlements, threshold=0.5):
     product_count = entitlements.groupby('Product')['Company'].nunique()
     total_companies = companies['Name'].nunique()
     popular_products = product_count[product_count / total_companies >= threshold].index.tolist()
     return popular_products
+
+def create_cooccurrence_matrix(entitlements):
+    cooccurrence = pd.DataFrame(0, index=entitlements['Product'].unique(), columns=entitlements['Product'].unique())
+    for company, group in entitlements.groupby('Company'):
+        products = group['Product'].tolist()
+        for i in range(len(products)):
+            for j in range(i + 1, len(products)):
+                cooccurrence.loc[products[i], products[j]] += 1
+                cooccurrence.loc[products[j], products[i]] += 1
+    return cooccurrence
+
 
 
 def process_data(companies, entitlements, products, industry_groups, popular_products):
@@ -65,6 +76,17 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
         
         recommended_products.update(industry_products)
         
+        industry_products = entitlements[entitlements['Company'].isin(
+            companies[companies['Industry'] == industry]['Name']
+        )]['Product'].unique()
+        recommended_products.update(industry_products)
+        
+        similar_products = entitlements[entitlements['Company'].isin(
+            companies[companies['Industry'] == industry]['Name']
+        )]['Product'].unique()
+        print(similar_products)
+        recommended_products.update(similar_products)
+    
         similar_industries = industry_groups.get(industry, [])
         for similar_industry in similar_industries:
             similar_industry_products = entitlements[entitlements['Company'].isin(
@@ -72,7 +94,7 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
             )]['Product'].unique()
             recommended_products.update(similar_industry_products)
         
-        recommended_products = recommended_products - set(company_entitlements['Product'])
+        # recommended_products = recommended_products - set(company_entitlements['Product'])
         
         train_data["Data"].append({
             "Input": {
@@ -102,7 +124,6 @@ data = json.dumps(train_data, indent=4)
 
 add_data = json.dumps(additional_data, indent=4)
 
-print(train_data)
 
 with open('additional_data.json', 'w') as f:
     f.write(add_data)
