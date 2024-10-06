@@ -22,6 +22,7 @@ class RecommenderModel(nn.Module):
 
         self.product_name_size = product_name_size
         self.padding_value = padding_value
+        self.hidden_dim = hidden_dim
 
         self.industry_embedding = nn.Embedding(num_embeddings=industry_size+1, embedding_dim=hidden_dim, padding_idx=industry_size)
         self.product_name_embedding = nn.Embedding(num_embeddings=product_name_size+1, embedding_dim=hidden_dim, padding_idx=product_name_size)
@@ -58,13 +59,17 @@ class RecommenderModel(nn.Module):
             self.expand_product_name_size(new_size)
 
         industry_embedded = self.industry_embedding(industry)
-        product_name_embedded = self.product_name_embedding(product_name)
-        product_category_embedded = self.product_category_embedding(product_category)
-        product_is_implemented_embedded = self.product_is_implemented_embedding(product_is_implemented)
 
-        product_embedded = torch.cat([product_name_embedded, product_category_embedded, product_is_implemented_embedded], dim=-1)
+        if product_name.shape[0] != 0:
+            product_name_embedded = self.product_name_embedding(product_name)
+            product_category_embedded = self.product_category_embedding(product_category)
+            product_is_implemented_embedded = self.product_is_implemented_embedding(product_is_implemented)
 
-        product = self.lstm(product_embedded)
+            product_embedded = torch.cat([product_name_embedded, product_category_embedded, product_is_implemented_embedded], dim=-1)
+
+            product = self.lstm(product_embedded)
+        else:
+            product = torch.zeros((1, self.hidden_dim))
 
         combined = torch.cat([industry_embedded.squeeze(1), product], dim=1)
 
@@ -109,16 +114,6 @@ class RecommenderDataset(Dataset):
     
     def __getitem__(self, index):
         return self.industries[index], self.product_names[index], self.product_categories[index], self.product_is_implemented[index], self.output[index]
-    
-def idx_to_label(file_path="labels.json"):
-    with open(file_path, "r") as file:
-        info = json.load(file)
-
-        product_name_map = {k: v for k, v in list(enumerate(info["Product_Names"]))}
-        product_category_map = {k: v for k, v in list(enumerate(info["Product_Categories"]))}
-        industry_map = {k: v for k, v in list(enumerate(info["Industries"]))}
-
-    return industry_map, product_name_map, product_category_map
 
 def label_to_idx(file_path="labels.json"):
     with open(file_path, "r") as file:
