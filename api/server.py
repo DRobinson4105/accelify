@@ -1,6 +1,8 @@
 import torch
 import pymongo
 import pandas as pd
+import dataset_gen 
+from dataset_gen import run_process
 from utils import * 
 from pymongo import MongoClient
 from flask import Flask, request, jsonify, send_file
@@ -16,6 +18,40 @@ db = client['servicenow']
 companies_collection = db['Company']
 industries_collection = db['Industry']  
 products_collection = db['Product']
+product_company_collection = db['ProductOnCompany']
+
+def gen_csvs():
+    companies_data = []
+    for company in companies_collection.find():
+        industry = industries_collection.find_one({"_id": company['industryId']})
+        companies_data.append({
+            "Name": company['companyName'],
+            "Industry": industry['name'],
+        })
+    companies_df = pd.DataFrame(companies_data)
+    companies_df.to_csv('data/companies.csv', index=False)
+
+    products_data = []
+    for product in products_collection.find():
+        products_data.append({
+            "Category": product['category'],
+            "Name": product['name'],
+            "Description": product['description']
+        })
+    products_df = pd.DataFrame(products_data)
+    products_df.to_csv('data/products.csv', index=False)
+
+    entitlements_data = []
+    for product_company in product_company_collection.find():
+        product = products_collection.find_one({"_id": product_company['productId']})
+        company = companies_collection.find_one({"_id": product_company['companyId']})
+        entitlements_data.append({
+            "Company": company['companyName'],
+            "Implemented": "TRUE" if product_company['implemented'] else "FALSE",
+            "Product": product['name']
+        })
+    entitlements_df = pd.DataFrame(entitlements_data)
+    entitlements_df.to_csv('data/entitlements.csv', index=False)
 
 
 # industry_map, product_name_map, product_category_map = label_to_idx()
@@ -92,8 +128,20 @@ def label_to_idx_maps():
 
 @app.route('/add_product', methods=['POST'])
 async def add_product():
-    #TODO mongodb retrieval dataset
-
+    data = request.get_json()
+    new_row = {
+        "Company": data.get("company"),
+        "Product":  data.get("product"),
+        "Implemented": data.get("implemented")
+    }
+    
+    gen_csvs()
+    entitlements_df = pd.read_csv('data/entitlements.csv')
+    entitlements_df = entitlements_df.append(new_row, ignore_index=True)
+    entitlements_df.to_csv('data/entitlements.csv', index=False)
+    
+    run_process()
+    
     product_name_map, product_category_map, industry_map = label_to_idx_maps()
     train(product_name_map, product_category_map, industry_map, epochs=20)
 
@@ -129,7 +177,7 @@ async def get_recommendations():
 
     output_labels = list(product_name_map.keys())
 
-    # change threshold if needed
+    # TODO change threshold if needed
     output_labels = [name for score, name in sorted(zip(output.squeeze().cpu().numpy(), output_labels), reverse=True) if score > THRESHOLD]
 
     accelerators = []

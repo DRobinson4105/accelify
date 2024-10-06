@@ -6,10 +6,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from collections import defaultdict, Counter
 from sklearn.preprocessing import MinMaxScaler
 
-accelerators = pd.read_csv('data/accelerators.csv')
-companies = pd.read_csv('data/companies.csv')
-products = pd.read_csv('data/products.csv')
-entitlements = pd.read_csv('data/entitlements.csv')
+companies = pd.DataFrame()
+products = pd.DataFrame()
+entitlements = pd.DataFrame()
 
 def industry_grouping(companies, threshold=0.4):
     industry_names = companies['Industry'].unique()
@@ -170,15 +169,20 @@ def process_data(companies, entitlements, products, industry_groups, popular_pro
         
     return train_data, additional_data
 
-industry_groups = industry_grouping(companies)
-popular_products = get_popular_products(entitlements)
-cooccurrence_matrix = create_cooccurrence_matrix(entitlements)
+def run_process():
+    companies = pd.read_csv('data/companies.csv')
+    products = pd.read_csv('data/products.csv')
+    entitlements = pd.read_csv('data/entitlements.csv')
+    
+    industry_groups = industry_grouping(companies)
+    popular_products = get_popular_products(entitlements)
+    cooccurrence_matrix = create_cooccurrence_matrix(entitlements)
 
-train_data, additional_data = process_data(companies, entitlements, products, industry_groups, popular_products, cooccurrence_matrix)
+    train_data, additional_data = process_data(companies, entitlements, products, industry_groups, popular_products, cooccurrence_matrix)
 
-data = json.dumps(train_data, indent=4)
-add_data = json.dumps(additional_data, indent=4)
-with open('labels.json', 'w') as f:
-    f.write(add_data)
-with open('dataset.json', 'w') as f:
-    f.write(data)
+    data = json.dumps(train_data, indent=4)
+    add_data = json.dumps(additional_data, indent=4)
+    with open('labels.json', 'w') as f:
+        f.write(add_data)
+    with open('dataset.json', 'w') as f:
+        f.write(data)

@@ -88,6 +88,7 @@ GlowGuru,TRUE,Alteryx
 Global Goods,TRUE,Alteryx
 SigmaSweets,TRUE,Alteryx
 GolfGenius,TRUE,Alteryx
+BitzBooks,TRUE,Alteryx
 Vibrant Vases,TRUE,Alteryx
 PhiPhotography,TRUE,Alteryx
 JunoJewelry,TRUE,Alteryx
@@ -211,6 +212,7 @@ OptimumOptics,TRUE,Alteryx
 Chic Chocolates,TRUE,Alteryx
 ThetaTech,TRUE,Alteryx
 MuseMusic,TRUE,Alteryx
+GigaGadgets,TRUE,Alteryx
 Gourmet Grub,TRUE,Alteryx
 PicoPets,TRUE,Alteryx
 VibrantVinyls,TRUE,Alteryx
@@ -299,6 +301,7 @@ TrendyTech,TRUE,Domo
 AlphaAccessories,TRUE,Domo
 DeltaDecor,TRUE,Domo
 Ultimate Universes,TRUE,Domo
+BitzBooks,TRUE,Domo
 ThetaTech,TRUE,Domo
 WholesomeWatches,TRUE,Domo
 UltimateUniversity,TRUE,Domo
@@ -348,6 +351,7 @@ Motivational Mentors,TRUE,Freshdesk
 Ultimate Universes,TRUE,Freshdesk
 Healthy Habits,TRUE,Freshdesk
 Global Goods,TRUE,Freshdesk
+BitzBooks,TRUE,Freshdesk
 AlphaAccessories,TRUE,Freshdesk
 Restful Retreats,TRUE,Freshdesk
 PetPalace,TRUE,Freshdesk
@@ -418,6 +422,7 @@ AlphaAccessories,TRUE,Freshservice
 TrendyTech,TRUE,Freshservice
 DeltaDecor,TRUE,Freshservice
 Ultimate Universes,TRUE,Freshservice
+BitzBooks,TRUE,Freshservice
 ThetaTech,TRUE,Freshservice
 WholesomeWatches,TRUE,Freshservice
 UltimateUniversity,TRUE,Freshservice
@@ -566,6 +571,7 @@ GlowGuru,TRUE,Google Data Studio
 Global Goods,TRUE,Google Data Studio
 SigmaSweets,TRUE,Google Data Studio
 GolfGenius,TRUE,Google Data Studio
+BitzBooks,TRUE,Google Data Studio
 Vibrant Vases,TRUE,Google Data Studio
 NuNotebooks,TRUE,Google Data Studio
 ZenZenith,TRUE,Google Data Studio
@@ -592,6 +598,7 @@ PhiPhotography,TRUE,Google Data Studio
 JunoJewelry,TRUE,Google Data Studio
 Novel Notions,TRUE,Google Data Studio
 Fit For Life,TRUE,Google Data Studio
+GigaGadgets,TRUE,Google Data Studio
 PetPalace,TRUE,Google Data Studio
 Quality Quilts,TRUE,Google Data Studio
 DeltaDrinks,TRUE,Google Data Studio
@@ -623,6 +630,7 @@ Vibrant Vases,TRUE,HappyFox
 YogaYurt,FALSE,HappyFox
 Chic Chocolates,TRUE,HappyFox
 TrendyTech,FALSE,HappyFox
+BitzBooks,TRUE,HappyFox
 Bright Beginnings,TRUE,HappyFox
 Zen Zoology,TRUE,HappyFox
 PetPalace,TRUE,HappyFox
@@ -658,6 +666,7 @@ RadiantReads,TRUE,HubSpot Service Hub
 TrendyTech,TRUE,HubSpot Service Hub
 AlphaAccessories,TRUE,HubSpot Service Hub
 DeltaDecor,TRUE,HubSpot Service Hub
+BitzBooks,TRUE,HubSpot Service Hub
 Ultimate Universes,TRUE,HubSpot Service Hub
 WholesomeWatches,TRUE,HubSpot Service Hub
 ThetaTech,TRUE,HubSpot Service Hub
@@ -683,6 +692,7 @@ Global Goods,TRUE,Intercom
 UltimateUniversity,TRUE,Intercom
 Tech Titans,TRUE,Intercom
 Glamorous Gaming,TRUE,Intercom
+BitzBooks,TRUE,Intercom
 FitFusion,FALSE,Jira
 Luxurious Luggage,FALSE,Jira
 NuNutrition,FALSE,Jira
@@ -729,6 +739,7 @@ GlowGuru,TRUE,Jira Service Management
 Global Goods,TRUE,Jira Service Management
 SigmaSweets,TRUE,Jira Service Management
 GolfGenius,TRUE,Jira Service Management
+BitzBooks,TRUE,Jira Service Management
 Zen Zoology,TRUE,Jira Service Management
 PhiPhotography,TRUE,Jira Service Management
 JunoJewelry,TRUE,Jira Service Management
@@ -853,6 +864,7 @@ OptimumOptics,TRUE,Jira Service Management
 Chic Chocolates,TRUE,Jira Service Management
 ThetaTech,TRUE,Jira Service Management
 MuseMusic,TRUE,Jira Service Management
+GigaGadgets,TRUE,Jira Service Management
 Gourmet Grub,TRUE,Jira Service Management
 PicoPets,TRUE,Jira Service Management
 VibrantVinyls,TRUE,Jira Service Management
@@ -899,6 +911,7 @@ Glamorous Gaming,TRUE,Looker
 GigaBytes Tech,TRUE,Looker
 InspireInnovations,TRUE,Looker
 Healthy Habits,TRUE,Looker
+BitzBooks,TRUE,Looker
 PetPalace,TRUE,Looker
 PioneerPhones,TRUE,Looker
 WholesomeWatches,TRUE,Looker
@@ -1052,6 +1065,7 @@ AlphaAccessories,TRUE,Power BI
 Radiant Robotics,TRUE,Power BI
 MindMeld,TRUE,Power BI
 PhiFitness,TRUE,Power BI
+GigaGadgets,TRUE,Power BI
 PiPizza,TRUE,Power BI
 Artisan Oven,TRUE,Power BI
 OmicronOrganics,TRUE,Power BI
@@ -1060,6 +1074,7 @@ Brilliant Blooms,TRUE,Power BI
 Creative Coding,TRUE,Power BI
 Wise Watches,TRUE,Power BI
 Inspiring Instruments,TRUE,Power BI
+BitzBooks,TRUE,Power BI
 RhoRamen,TRUE,Power BI
 Fashion Forward,TRUE,Power BI
 FoxtrotFitness,TRUE,Power BI
@@ -1138,6 +1153,7 @@ KidKonnect,TRUE,QlikView
 ArtisanArmor,TRUE,QlikView
 Luxury Living,TRUE,QlikView
 Xcellent Xeriscaping,TRUE,QlikView
+BitzBooks,TRUE,QlikView
 QuirkyQuills Writing,TRUE,QlikView
 Inspiring Instruments,TRUE,QlikView
 Esteemed Education,TRUE,QlikView
@@ -1292,6 +1308,7 @@ GlowGuru,TRUE,Salesforce Service Cloud
 Global Goods,TRUE,Salesforce Service Cloud
 SigmaSweets,TRUE,Salesforce Service Cloud
 GolfGenius,TRUE,Salesforce Service Cloud
+BitzBooks,TRUE,Salesforce Service Cloud
 Vibrant Vases,TRUE,Salesforce Service Cloud
 NuNotebooks,TRUE,Salesforce Service Cloud
 ZenZenith,TRUE,Salesforce Service Cloud
@@ -1319,6 +1336,7 @@ PhiPhotography,TRUE,Salesforce Service Cloud
 JunoJewelry,TRUE,Salesforce Service Cloud
 Novel Notions,TRUE,Salesforce Service Cloud
 Fit For Life,TRUE,Salesforce Service Cloud
+GigaGadgets,TRUE,Salesforce Service Cloud
 PetPalace,TRUE,Salesforce Service Cloud
 Quality Quilts,TRUE,Salesforce Service Cloud
 DeltaDrinks,TRUE,Salesforce Service Cloud
@@ -1369,6 +1387,7 @@ UltimateUniversity,TRUE,SAP Analytics Cloud
 GigaBytes Tech,TRUE,SAP Analytics Cloud
 AlphaAccessories,TRUE,SAP Analytics Cloud
 Glamorous Gaming,TRUE,SAP Analytics Cloud
+BitzBooks,TRUE,SAP Analytics Cloud
 InspireInnovations,TRUE,SAP Analytics Cloud
 Healthy Habits,TRUE,SAP Analytics Cloud
 WholesomeWatches,TRUE,SAP Analytics Cloud
@@ -1512,8 +1531,10 @@ IotaImprov,TRUE,ServiceNow
 BravoBites,TRUE,ServiceNow
 SavvySocks,TRUE,ServiceNow
 ThetaTech,TRUE,ServiceNow
+GigaGadgets,TRUE,ServiceNow
 Xceptional Xeroxing,TRUE,ServiceNow
 LuxeLuggage,TRUE,ServiceNow
+BitzBooks,TRUE,ServiceNow
 ChiCheese,TRUE,ServiceNow
 QuirkyQuilts,TRUE,ServiceNow
 MysticMoods,TRUE,ServiceNow
@@ -1531,6 +1552,7 @@ Glamorous Gaming,TRUE,Sisense
 GigaBytes Tech,TRUE,Sisense
 InspireInnovations,TRUE,Sisense
 Healthy Habits,TRUE,Sisense
+BitzBooks,TRUE,Sisense
 PetPalace,TRUE,Sisense
 PioneerPhones,TRUE,Sisense
 WholesomeWatches,TRUE,Sisense
@@ -1632,6 +1654,7 @@ LambdaLiterature,TRUE,Tableau
 PioneerPhones,TRUE,Tableau
 Trendy Totes,TRUE,Tableau
 Creative Coding,TRUE,Tableau
+BitzBooks,TRUE,Tableau
 GlowGuru,TRUE,Tableau
 Global Goods,TRUE,Tableau
 SigmaSweets,TRUE,Tableau
@@ -1642,6 +1665,7 @@ PhiPhotography,TRUE,Tableau
 JunoJewelry,TRUE,Tableau
 Novel Notions,TRUE,Tableau
 Fit For Life,TRUE,Tableau
+GigaGadgets,TRUE,Tableau
 PetPalace,TRUE,Tableau
 Quality Quilts,TRUE,Tableau
 DeltaDrinks,TRUE,Tableau
@@ -1838,6 +1862,7 @@ EchoEducation,TRUE,Tibco Spotfire
 Marvelous Maps,TRUE,Tibco Spotfire
 ThetaTech,TRUE,Tibco Spotfire
 MuseMusic,TRUE,Tibco Spotfire
+GigaGadgets,TRUE,Tibco Spotfire
 Gourmet Grub,TRUE,Tibco Spotfire
 PicoPets,TRUE,Tibco Spotfire
 VibrantVinyls,TRUE,Tibco Spotfire
@@ -1891,6 +1916,7 @@ GlowGuru,TRUE,Tibco Spotfire
 Global Goods,TRUE,Tibco Spotfire
 SigmaSweets,TRUE,Tibco Spotfire
 GolfGenius,TRUE,Tibco Spotfire
+BitzBooks,TRUE,Tibco Spotfire
 Vibrant Vases,TRUE,Tibco Spotfire
 NuNotebooks,TRUE,Tibco Spotfire
 ZenZenith,TRUE,Tibco Spotfire
@@ -1920,6 +1946,7 @@ Global Goods,TRUE,Zendesk
 Glamorous Gaming,TRUE,Zendesk
 Tech Titans,TRUE,Zendesk
 InspireInnovations,TRUE,Zendesk
+BitzBooks,TRUE,Zendesk
 Ultimate University,TRUE,Zendesk
 Healthy Habits,TRUE,Zendesk
 MindMeld,FALSE,Zoho CRM
