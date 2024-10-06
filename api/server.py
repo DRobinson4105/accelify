@@ -127,19 +127,8 @@ def label_to_idx_maps():
 
 
 @app.route('/add_product', methods=['POST'])
-async def add_product():
-    data = request.get_json()
-    new_row = {
-        "Company": data.get("company"),
-        "Product":  data.get("product"),
-        "Implemented": data.get("implemented")
-    }
-    
+async def add_product():    
     gen_csvs()
-    entitlements_df = pd.read_csv('data/entitlements.csv')
-    entitlements_df = entitlements_df.append(new_row, ignore_index=True)
-    entitlements_df.to_csv('data/entitlements.csv', index=False)
-    
     run_process()
     
     product_name_map, product_category_map, industry_map = label_to_idx_maps()
