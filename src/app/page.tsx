@@ -8,13 +8,6 @@ export default function Home() {
     <div>
       <Navbar/>
       <Hero/>
-      <div>
-        <Link href='/userpage'>
-          <Button>
-            Test
-          </Button>
-        </Link>
-      </div>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import ComboBoxInput from "./ComboBoxInput";
 import TableProduct from "./TableProduct";
+import { ChevronRight } from "lucide-react";
 
 import {
 Card,
@@ -24,11 +25,6 @@ import {
     TableRow,
 } from "@/components/ui/table"
 
-interface Type {
-    list: [];
-    name: string;
-}
-
 interface TableElement {
   name: string;
   description: string;
@@ -36,24 +32,39 @@ interface TableElement {
 }
 
 const UserInfo = () => {
-    let type: Type | null = null;
-    let element: TableElement | null = null
-    // const industries = [
-    //     {
-    //       value: "test1",
-    //       label: "test1",
-    //     },
-    //     {
-    //       value: "test2",
-    //       label: "test2",
-    //     },
-    // ]
 
-    // const typeIndustries: Type {
-    //     list: industries,
-    //     name: "industries"
-    //   };
+  const element: TableElement | null = null;
+    const industries = [
+        {
+          value: "test1",
+          label: "test1",
+        },
+        {
+          value: "test2",
+          label: "test2",
+        },
+    ]
 
+    const products = [
+      {
+        value: "testProduct1",
+        label: "testProduct1",
+      },
+      {
+        value: "testProduct2",
+        label: "testProduct2",
+      },
+    ]
+
+    const handleIndustryInput = async (e: React.FormEvent) => {
+
+    }
+
+    const handleProductInput = async (e: React.FormEvent) => {
+
+    }
+
+    const [data, setData] = useState<TableElement[]>()
     return(
         <div className="w-full h-full">
         <Card className="mx-auto w-5/6 h-5/6 my-5">
@@ -65,11 +76,25 @@ const UserInfo = () => {
             <div className="grid grid-row-2 gap-y-10">
               <div className="mx-auto">
                 Industry
-                <ComboBoxInput type={type}/>
+                <div className="flex grid-column-2 gap-x-3">
+                  <ComboBoxInput
+                    type={{ list: industries, name: "Industries"}}
+                    onSelect={handleIndustryInput}/>
+                  <Button variant="outline" size="icon">
+                    <ChevronRight className="h-4 w-4"/>
+                  </Button>
+                </div>
               </div>
               <div className="mx-auto">
                 Products
-                <ComboBoxInput type={type}/>
+                <div className="flex grid-column-2 gap-x-3">
+                  <ComboBoxInput
+                  type={{ list: products, name: "Products"}}
+                  onSelect={handleProductInput}/>
+                  <Button variant="outline" size="icon">
+                    <ChevronRight className="h-4 w-4"/>
+                  </Button>
+                </div>
                 <div className="my-4">
                   <Table>
                     <TableHeader>
