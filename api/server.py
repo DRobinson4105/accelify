@@ -1,11 +1,10 @@
 import torch
 import pymongo
 import pandas as pd
-import dataset_gen 
 from dataset_gen import run_process
 from utils import * 
 from pymongo import MongoClient
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify
 from train import train
 
 app = Flask(__name__)
@@ -178,10 +177,3 @@ async def get_recommendations():
             accelerators.append([label, 'JumpStart'])
     
     return jsonify({"accelerators": accelerators})
-
-x, y, z = label_to_idx_maps()
-print(x)
-print()
-print(y)
-print()
-print(z)
