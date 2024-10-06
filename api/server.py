@@ -95,7 +95,7 @@ async def add_product():
     #TODO mongodb retrieval dataset
 
     product_name_map, product_category_map, industry_map = label_to_idx_maps()
-    train(product_name_map, product_category_map, industry_map)
+    train(product_name_map, product_category_map, industry_map, epochs=20)
 
 @app.route('/get_recommendations', methods=['POST'])
 async def get_recommendations():
@@ -106,6 +106,7 @@ async def get_recommendations():
     is_implemented = data["product_is_implemented"]
 
     product_name_map, product_category_map, industry_map = label_to_idx_maps()
+    train(product_name_map, product_category_map, industry_map, epochs=1)
     product_name_len, product_category_len, industry_len = len(product_name_map), len(product_category_map), len(industry_map)
 
     industry = torch.tensor(industry_map[industry]).to(device).view((1, 1))

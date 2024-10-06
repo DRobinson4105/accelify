@@ -26,7 +26,7 @@ product_name_map = {k: v for v, k in list(enumerate(info["Product_Names"]))}
 product_category_map = {k: v for v, k in list(enumerate(info["Product_Categories"]))}
 industry_map = {k: v for v, k in list(enumerate(info["Industries"]))}
 
-def train(product_name_map, product_category_map, industry_map):
+def train(product_name_map, product_category_map, industry_map, epochs):
     #TODO build dataset from mongodb data
     product_name_len, product_category_len, industry_len = len(product_name_map), len(product_category_map), len(industry_map)
     train_dataset = RecommenderDataset(data[:TRAIN_TEST_SPLIT], industry_map, product_name_map, product_category_map, device)
@@ -46,8 +46,6 @@ def train(product_name_map, product_category_map, industry_map):
 
     optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
     criterion = nn.BCEWithLogitsLoss()
-
-    epochs = 25
 
     for epoch in tqdm(range(epochs)):
         avg_train_loss, avg_test_loss = 0, 0
@@ -84,4 +82,4 @@ def train(product_name_map, product_category_map, industry_map):
     torch.save(obj=model.state_dict(), f=MODEL_NAME)
 
 if __name__ == "__main__":
-    train(product_name_map, product_category_map, industry_map)
+    train(product_name_map, product_category_map, industry_map, 25)
