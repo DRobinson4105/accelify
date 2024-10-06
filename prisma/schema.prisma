@@ -13,9 +13,42 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id      String   @id @default(auto()) @map("_id") @db.ObjectId
-  email   String   @unique
-  name    String?
-  password String
+// schema.prisma
+
+model Company {
+  id               String             @id @default(auto()) @map("_id") @db.ObjectId
+  companyName      String
+  email            String             @unique
+  password         String
+  programStartDate DateTime           // New field to track the start date of the company's program
+  products         ProductOnCompany[] // Products linked to the company
+  industryId       String?            @db.ObjectId  // Reference to the industry
+  industry         Industry?          @relation(fields: [industryId], references: [id]) // Relation to Industry model
 }
+
+model Product {
+  id               String             @id @default(auto()) @map("_id") @db.ObjectId
+  name             String
+  description      String
+  category         String             // New field to categorize the product
+  companies        ProductOnCompany[] // Many-to-many relationship with Company
+}
+
+model ProductOnCompany {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  companyId        String   @db.ObjectId // Reference to Company
+  productId        String   @db.ObjectId // Reference to Product
+  implemented      Boolean
+
+  company          Company  @relation(fields: [companyId], references: [id])
+  product          Product  @relation(fields: [productId], references: [id])
+
+  @@map("product_on_company") // Collection name in MongoDB
+}
+
+model Industry {
+  id               String    @id @default(auto()) @map("_id") @db.ObjectId
+  name             String
+  companies        Company[] // No need for 'fields' or 'references'; simply links companies to industry
+}
+
