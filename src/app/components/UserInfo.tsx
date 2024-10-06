@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import React from "react";
-
 import { Button } from "@/components/ui/button";
 import ComboBoxInput from "./ComboBoxInput";
 import { ChevronRight } from "lucide-react";
@@ -15,11 +14,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
+} from "@/components/ui/dialog";
 
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
@@ -40,27 +38,33 @@ interface TableElement {
   implemented: boolean;
 }
 
-const UserInfo = () => {
+interface Company {
+  id: string;
+  companyName: string;
+  industryId: string;
+}
+
+const UserInfo = ({ company }: { company: Company | null }) => {
   const [products, setProducts] = useState<{ value: string; label: string; description: string }[]>([]);
   const [selectedProduct, setSelectedProduct] = useState<TableElement | null>(null);
   const [addedProducts, setAddedProducts] = useState<TableElement[]>([]);
   const [indexTable, setIndexTable] = useState(0);
 
-  // Fetch products from the database when the component mounts
+  // Fetch all available products for ComboBox
   useEffect(() => {
     async function fetchProducts() {
       try {
-        const res = await fetch("/api/products"); // Call the API route we just created
+        const res = await fetch("/api/products");
         const data = await res.json();
 
         // Map the fetched products to the structure expected by ComboBoxInput
         const formattedProducts = data.map((product: any) => ({
-          value: product.id, // Assuming `id` is the unique identifier for the product
+          value: product.id,
           label: product.name,
           description: product.description,
         }));
 
-        setProducts(formattedProducts); // Set the fetched products in state
+        setProducts(formattedProducts);
       } catch (error) {
         console.error("Error fetching products:", error);
       }
@@ -68,6 +72,36 @@ const UserInfo = () => {
 
     fetchProducts();
   }, []);
+
+  // Fetch the company's products when the component mounts
+  useEffect(() => {
+    async function fetchCompanyProducts() {
+      if (!company) return; // Return if no company is provided
+      try {
+        const res = await fetch(`/api/companyProducts?companyId=${company.id}`);
+        const data = await res.json();
+
+        console.log("Fetched company products on frontend:", data); // Log the fetched products
+
+        // Map fetched company products to TableElement structure
+        const formattedCompanyProducts = data.map((product: any) => ({
+          name: product.product.name,
+          description: product.product.description,
+          implemented: product.implemented,
+        }));
+
+        setAddedProducts(formattedCompanyProducts); // Set fetched products in state
+      } catch (error) {
+        console.error("Error fetching company products:", error);
+      }
+    }
+
+    fetchCompanyProducts();
+  }, [company]);
+
+  useEffect(() => {
+    console.log("Updated addedProducts state:", addedProducts);
+  }, [addedProducts]);
 
   // Handle product selection from ComboBox
   const handleProductInput = (productValue: string) => {
@@ -81,20 +115,79 @@ const UserInfo = () => {
     }
   };
 
-  // Add product to the table
-  const handleAddProduct = () => {
-    if (selectedProduct) {
-      setAddedProducts((prev) => [...prev, selectedProduct]);
-      setSelectedProduct(null); // Reset the selected product after adding
+  // Add product to the table and send to database
+  const handleAddProduct = async () => {
+    if (selectedProduct && company) {
+      const newProduct = {
+        name: selectedProduct.name,
+        description: selectedProduct.description,
+        implemented: false,
+      };
+
+      // Add the product to the frontend state
+      setAddedProducts((prev) => [...prev, newProduct]);
+
+      // Send a request to add the product to the company in the database
+      try {
+        const res = await fetch("/api/addProduct", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            productName: selectedProduct.name,
+            companyId: company.id,
+          }),
+        });
+
+        if (!res.ok) {
+          throw new Error("Failed to add product to the database");
+        }
+
+        setSelectedProduct(null); // Reset the selected product after adding
+      } catch (error) {
+        console.error("Error adding product:", error);
+      }
+    }
+  };
+
+  // Handle toggle implemented status
+  const toggleImplemented = async (index: number) => {
+    const updatedProducts = [...addedProducts];
+    const updatedProduct = updatedProducts[index];
+    updatedProduct.implemented = !updatedProduct.implemented;
+
+    // Update the frontend state
+    setAddedProducts(updatedProducts);
+
+    // Send a request to update the implemented status in the database
+    try {
+      const res = await fetch("/api/updateProduct", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          productName: updatedProduct.name,
+          companyId: company?.id, // Ensure correct company ID
+          implemented: updatedProduct.implemented,
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to update product status");
+      }
+    } catch (error) {
+      console.error("Error updating product status:", error);
     }
   };
 
   const fetchIndex = (index: number) => {
     return (event: React.MouseEvent) => {
-      setIndexTable(index)
+      setIndexTable(index);
       event.preventDefault();
-    }
-  }
+    };
+  };
 
   return (
     <div className="w-full h-full">
@@ -107,14 +200,14 @@ const UserInfo = () => {
               Products
               <div className="flex grid-column-2 gap-x-3">
                 <ComboBoxInput
-                  type={{ list: products, name: "Products" }} // Pass the fetched products to ComboBoxInput
+                  type={{ list: products, name: "Products" }}
                   onSelect={handleProductInput}
                 />
                 <Button variant="outline" size="icon" onClick={handleAddProduct}>
                   <ChevronRight className="h-4 w-4" />
                 </Button>
               </div>
-              <div className="my-4 border">
+              <div className="my-4 border" style={{ maxHeight: '300px', overflowY: 'auto' }}>
                 <Dialog>
                   <Table>
                     <TableHeader>

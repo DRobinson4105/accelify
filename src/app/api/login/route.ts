@@ -13,23 +13,23 @@ export async function POST(req: Request) {
     const { email, password } = await req.json()
 
     // Find the user in the database
-    const user = await prisma.user.findUnique({
+    const company = await prisma.company.findUnique({
       where: { email },
     })
 
-    if (!user) {
+    if (!company) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 })
     }
 
     // Check if the password is correct
-    const passwordMatch = await bcrypt.compare(password, user.password)
+    const passwordMatch = await bcrypt.compare(password, company.password)
     if (!passwordMatch) {
       return NextResponse.json({ error: 'Invalid credentials' }, { status: 401 })
     }
 
     // Generate a JWT
     const token = jwt.sign(
-      { id: user.id, email: user.email, name: user.name }, // Payload (user info to be encoded)
+      { id: company.id, email: company.email, name: company.companyName }, // Payload (user info to be encoded)
       SECRET_KEY, // Secret key for signing
       { expiresIn: '1h' } // Token expiration (e.g., 1 hour)
     )

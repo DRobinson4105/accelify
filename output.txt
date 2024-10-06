@@ -1,0 +1,662 @@
+[
+  {
+    "id": "67020366cc7d72ce56e5ad9e",
+    "name": "Sports Equipment"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ad9f",
+    "name": "Accessory Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada0",
+    "name": "Clothing Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada1",
+    "name": "Art Subscription Box"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada2",
+    "name": "Artisanal Bakery"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada3",
+    "name": "Custom Jewelry"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada4",
+    "name": "Art Supplies"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada5",
+    "name": "Baking Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada6",
+    "name": "Beauty Product Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada7",
+    "name": "Online Bookstore"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada8",
+    "name": "Flower Delivery"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ada9",
+    "name": "Bookstore"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adaa",
+    "name": "Meal Delivery Service"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adab",
+    "name": "Child Care Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adac",
+    "name": "Floral Arrangements"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adad",
+    "name": "Phone Accessories"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adae",
+    "name": "Chocolate Shop"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adaf",
+    "name": "Cheese Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb0",
+    "name": "Chocolate Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb1",
+    "name": "Coding Education"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb2",
+    "name": "Home Decor Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb3",
+    "name": "Home Decor Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb4",
+    "name": "Drink Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb5",
+    "name": "Drone Technology"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb6",
+    "name": "Online Learning Platform"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb7",
+    "name": "Cleaning Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb8",
+    "name": "Eco-friendly Products"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adb9",
+    "name": "Event Planning"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adba",
+    "name": "Eco-Friendly Product Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adbb",
+    "name": "Online Learning Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adbc",
+    "name": "Private School"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adbd",
+    "name": "Movie Ticket Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adbe",
+    "name": "Escape Room Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adbf",
+    "name": "Furniture Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc0",
+    "name": "Organic Food Delivery"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc1",
+    "name": "Clothing Retail"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc2",
+    "name": "Health and Fitness"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc3",
+    "name": "Fitness App"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc4",
+    "name": "Gym Chain"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc5",
+    "name": "Board Game Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc6",
+    "name": "Gardening Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc7",
+    "name": "IT Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc8",
+    "name": "Electronics Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adc9",
+    "name": "Video Game Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adca",
+    "name": "Fair Trade Imports"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adcb",
+    "name": "Skincare Products"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adcc",
+    "name": "Golf Equipment"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adcd",
+    "name": "Landscaping Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adce",
+    "name": "Eco-friendly Cleaning Products"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adcf",
+    "name": "Interior Design"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add0",
+    "name": "Health and Wellness"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add1",
+    "name": "Home Decor Subscription Box"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add2",
+    "name": "Hotel Booking Platform"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add3",
+    "name": "Creative Consulting"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add4",
+    "name": "Technology Incubator"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add5",
+    "name": "Musical Instrument Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add6",
+    "name": "Ice Cream Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add7",
+    "name": "Improv Class Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add8",
+    "name": "Jewelry Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5add9",
+    "name": "Travel Agency"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adda",
+    "name": "Fine Jewelry Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5addb",
+    "name": "Children's Clothing Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5addc",
+    "name": "Children's Book Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5addd",
+    "name": "Knitting Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adde",
+    "name": "Educational Toys"
+  },
+  {
+    "id": "67020366cc7d72ce56e5addf",
+    "name": "Tutoring Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade0",
+    "name": "Yarn Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade1",
+    "name": "Language Learning Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade2",
+    "name": "Literary Magazine Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade3",
+    "name": "False Eyelashes"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade4",
+    "name": "Luggage Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade5",
+    "name": "Luggage Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade6",
+    "name": "Real Estate"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade7",
+    "name": "Map Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade8",
+    "name": "Streaming Service"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ade9",
+    "name": "Mental Health Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adea",
+    "name": "Team Collaboration Software"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adeb",
+    "name": "Life Coaching"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adec",
+    "name": "Music Streaming Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5aded",
+    "name": "Mystery Box Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adee",
+    "name": "Music Streaming Service"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adef",
+    "name": "Candles and Aromatherapy"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf0",
+    "name": "Nail Polish Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf1",
+    "name": "Organic Groceries"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf2",
+    "name": "Plant Subscription Box"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf3",
+    "name": "Idea Lab"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf4",
+    "name": "Innovative Products Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf5",
+    "name": "Notebook Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf6",
+    "name": "Health Supplement Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf7",
+    "name": "Outdoor Gear Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf8",
+    "name": "Outerwear Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adf9",
+    "name": "Organic Produce Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adfa",
+    "name": "Organic Farming"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adfb",
+    "name": "Management Consulting"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adfc",
+    "name": "Outdoor Gear Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adfd",
+    "name": "Eyewear"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adfe",
+    "name": "Pet Supplies"
+  },
+  {
+    "id": "67020366cc7d72ce56e5adff",
+    "name": "Fitness App"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae00",
+    "name": "Photography App Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae01",
+    "name": "Pet Toy Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae02",
+    "name": "Cell Phone Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae03",
+    "name": "Pizza Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae04",
+    "name": "Art Printing"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae05",
+    "name": "Printing Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae06",
+    "name": "Writing Instruments"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae07",
+    "name": "Sock Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae08",
+    "name": "Quilting Supplies"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae09",
+    "name": "Home Decor"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae0a",
+    "name": "Coffee Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae0b",
+    "name": "Inspirational Quotes Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae0c",
+    "name": "Content Writing"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae0d",
+    "name": "Quilt Subscription Box"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae0e",
+    "name": "Robotics Education"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae0f",
+    "name": "Book Club Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae10",
+    "name": "Emergency Preparedness Kits"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae11",
+    "name": "Bed and Breakfast"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae12",
+    "name": "Instant Noodle Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae13",
+    "name": "Jewelry Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae14",
+    "name": "Stationery Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae15",
+    "name": "Financial Planning"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae16",
+    "name": "Spice Shop"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae17",
+    "name": "Shoe Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae18",
+    "name": "Dessert Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae19",
+    "name": "Adventure Tourism"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae1a",
+    "name": "Home Automation"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae1b",
+    "name": "Environmental Consulting"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae1c",
+    "name": "Clothing Alterations"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae1d",
+    "name": "Tea Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae20",
+    "name": "Tie Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae21",
+    "name": "Technology Consulting"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae22",
+    "name": "IT Consulting"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae23",
+    "name": "Tech Gadget Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae24",
+    "name": "Theater Ticket Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae25",
+    "name": "Tote Bag Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae26",
+    "name": "Consumer Electronics Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae27",
+    "name": "Science Fiction Bookstore"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae28",
+    "name": "Online Education"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae29",
+    "name": "Kitchen Tools"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae2a",
+    "name": "Undergarment Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae2b",
+    "name": "Vase Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae2c",
+    "name": "Graphic Design"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae2d",
+    "name": "Record Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae2e",
+    "name": "Virtual Assistance"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae2f",
+    "name": "Musical Instruments Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae30",
+    "name": "Health and Wellness Supplements"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae31",
+    "name": "Watch Retailer"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae32",
+    "name": "Baking Supplies"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae33",
+    "name": "Watch Store"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae34",
+    "name": "Writing Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae35",
+    "name": "Landscape Design"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae36",
+    "name": "Copy Center"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae37",
+    "name": "Xylophone Orchestra Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae38",
+    "name": "Musical Instrument Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae39",
+    "name": "Coffee Shop Chain"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae3a",
+    "name": "Fitness Equipment"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae3b",
+    "name": "Yoga Apparel"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae3c",
+    "name": "Yoga Studio"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae3d",
+    "name": "Children's Bookstore"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae3e",
+    "name": "Pet Adoption Services"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae3f",
+    "name": "Dance Studio"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae40",
+    "name": "Executive Coaching"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae41",
+    "name": "Meditation App"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae42",
+    "name": "Meditation App Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae43",
+    "name": "Fitness Class Subscription"
+  },
+  {
+    "id": "67020366cc7d72ce56e5ae44",
+    "name": "Food Delivery"
+  }
+]

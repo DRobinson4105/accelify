@@ -6,12 +6,13 @@ import { useRouter } from 'next/navigation'; // For handling logout redirection
 
 interface Company {
   id: string;
-  companyName: string;
+  name: string;
   industryId: string;
 }
 
 export default function UserNavbar({ company }: { company: Company | null }) {
   const router = useRouter();
+  console.log("FROM NAVBAR:", company);
 
   // Function to handle logout
   const handleLogout = async () => {
@@ -31,7 +32,7 @@ export default function UserNavbar({ company }: { company: Company | null }) {
   return (
     <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
       <div className="text-lg font-bold">
-        Welcome, {company ? company.companyName : 'Guest'}!
+        Welcome, {company ? company.name : 'Guest'}!
       </div>
       <div className="flex space-x-4">
         {/* Edit Company Button */}
@@ -56,7 +57,7 @@ export default function UserNavbar({ company }: { company: Company | null }) {
                   <input
                     id="companyName"
                     type="text"
-                    defaultValue={company?.companyName || ""}
+                    defaultValue={company?.name || ""}
                     className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500"
                   />
                 </div>

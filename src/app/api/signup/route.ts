@@ -35,7 +35,6 @@ export async function POST(request: Request) {
         email,
         password: hashedPassword,
         industryId, // Set the industry relation using the industryId
-        programStartDate: new Date(), // Optional: Use current date or omit it if default is set in Prisma schema
       },
     });
 
@@ -48,15 +47,15 @@ export async function POST(request: Request) {
 
     // Set the token in an HTTP-only cookie
     const response = NextResponse.json(newCompany, { status: 201 });
-response.headers.set(
-  'Set-Cookie',
-  cookie.serialize('token', token, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production', // Only use secure cookies in production
-    sameSite: 'strict',
-    maxAge: 3600, // 1 hour
-    path: '/',
-  })
+    response.headers.set(
+      'Set-Cookie',
+      cookie.serialize('token', token, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === 'production', // Only use secure cookies in production
+        sameSite: 'strict',
+        maxAge: 3600, // 1 hour
+        path: '/',
+      })
 );
 
 return response;

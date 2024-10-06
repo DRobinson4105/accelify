@@ -20,7 +20,6 @@ model Company {
   companyName      String
   email            String             @unique
   password         String
-  programStartDate DateTime           @default(now())
   products         ProductOnCompany[] // Products linked to the company
   industryId       String?            @db.ObjectId  // Reference to the industry
   industry         Industry?          @relation(fields: [industryId], references: [id]) // Relation to Industry model
@@ -36,6 +35,7 @@ model ProductOnCompany {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
   productId String   @db.ObjectId
   companyId String   @db.ObjectId
+  implemented Boolean
   company   Company  @relation(fields: [companyId], references: [id])
   product   Product  @relation(fields: [productId], references: [id])
 }
