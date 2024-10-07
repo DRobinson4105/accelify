@@ -3,7 +3,9 @@ numpy
 pandas
 torch
 matplotlib
-flask
+flask[async]
 pymongo
 python-dotenv
 scikit-learn
+pymongo
+flask_cors

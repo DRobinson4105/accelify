@@ -60,7 +60,7 @@ class RecommenderModel(nn.Module):
 
         industry_embedded = self.industry_embedding(industry)
 
-        if product_name.shape[0] != 0:
+        if product_name.numel() != 0:
             product_name_embedded = self.product_name_embedding(product_name)
             product_category_embedded = self.product_category_embedding(product_category)
             product_is_implemented_embedded = self.product_is_implemented_embedding(product_is_implemented)
@@ -69,7 +69,8 @@ class RecommenderModel(nn.Module):
 
             product = self.lstm(product_embedded)
         else:
-            product = torch.zeros((1, self.hidden_dim))
+            device = next(self.parameters()).device
+            product = torch.zeros((1, self.hidden_dim), device=device)
 
         combined = torch.cat([industry_embedded.squeeze(1), product], dim=1)
 
@@ -118,9 +119,11 @@ class RecommenderDataset(Dataset):
 def label_to_idx(file_path="labels.json"):
     with open(file_path, "r") as file:
         info = json.load(file)
+        # print(info)
 
         product_name_map = {k: v for v, k in list(enumerate(info["Product_Names"]))}
         product_category_map = {k: v for v, k in list(enumerate(info["Product_Categories"]))}
         industry_map = {k: v for v, k in list(enumerate(info["Industries"]))}
+        # print(industry_map)
 
     return industry_map, product_name_map, product_category_map

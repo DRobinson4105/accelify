@@ -345,12 +345,16 @@
                 "Names": [
                     "QlikView",
                     "Jira Service Management",
-                    "Salesforce Service Cloud"
+                    "Salesforce Service Cloud",
+                    "ServiceNow",
+                    "Google Data Studio"
                 ],
                 "Weights": [
-                    1.0,
-                    0.8423974378304777,
-                    0.8002977399753274
+                    1.0000000000000002,
+                    0.8584269755335575,
+                    0.8206091794747213,
+                    0.8146684126459072,
+                    0.8144825930610794
                 ]
             }
         },
@@ -533,14 +537,16 @@
                     "Salesforce Service Cloud",
                     "ServiceNow",
                     "Jira Service Management",
-                    "Google Data Studio"
+                    "Google Data Studio",
+                    "Tableau"
                 ],
                 "Weights": [
-                    1.0,
-                    0.8703784753893611,
-                    0.851379964112654,
-                    0.8483116319922741,
-                    0.8165707214419003
+                    0.9999999999999999,
+                    0.883990808106587,
+                    0.8669874442979207,
+                    0.8642413361124548,
+                    0.8358337287033398,
+                    0.8175949576825866
                 ]
             }
         },
@@ -7534,14 +7540,16 @@
                     "Jira Service Management",
                     "Google Data Studio",
                     "Salesforce Service Cloud",
-                    "ServiceNow"
+                    "ServiceNow",
+                    "Tableau"
                 ],
                 "Weights": [
                     1.0,
-                    0.9355579285189572,
-                    0.9355551302490832,
-                    0.9014591134872205,
-                    0.8153487680681966
+                    0.9426241000023448,
+                    0.9426216085670329,
+                    0.9122642720772757,
+                    0.8355960574470417,
+                    0.8077005689355393
                 ]
             }
         },
@@ -7634,10 +7642,10 @@
                     "Google Data Studio"
                 ],
                 "Weights": [
-                    0.9999999999999999,
-                    0.9642472721479552,
-                    0.8826780920590006,
-                    0.8604142969650929
+                    1.0,
+                    0.9675301741377985,
+                    0.89345087355488,
+                    0.873231394002928
                 ]
             }
         },
@@ -8097,11 +8105,11 @@
                     "Google Data Studio"
                 ],
                 "Weights": [
-                    1.0,
-                    0.9657244142504209,
-                    0.942555597807367,
-                    0.8676622567445846,
-                    0.8386703905533919
+                    1.0000000000000002,
+                    0.9691539022199899,
+                    0.9483032716087152,
+                    0.8809034804462086,
+                    0.8548124328447982
                 ]
             }
         },
@@ -8409,12 +8417,12 @@
                     "Tableau"
                 ],
                 "Weights": [
-                    1.0,
-                    0.9030124176282446,
-                    0.8905569628523551,
-                    0.8861824849180691,
-                    0.8549820193928124,
-                    0.8091105976705206
+                    0.9999999999999999,
+                    0.9137285037860238,
+                    0.9026492429851644,
+                    0.8987580978785741,
+                    0.8710049486855248,
+                    0.8302018263819333
                 ]
             }
         },
@@ -11951,10 +11959,12 @@
             },
             "Output": {
                 "Names": [
-                    "QlikView"
+                    "QlikView",
+                    "ServiceNow"
                 ],
                 "Weights": [
-                    1.0
+                    0.9999999999999999,
+                    0.8019374199671354
                 ]
             }
         },
@@ -13275,13 +13285,13 @@
             },
             "Output": {
                 "Names": [
-                    "Tibco Spotfire",
-                    "Salesforce Service Cloud",
-                    "ServiceNow",
+                    "Google Data Studio",
                     "Alteryx",
+                    "ServiceNow",
                     "Tableau",
                     "Jira Service Management",
-                    "Google Data Studio"
+                    "Tibco Spotfire",
+                    "Salesforce Service Cloud"
                 ],
                 "Weights": [
                     1.0,
@@ -13301,13 +13311,13 @@
             },
             "Output": {
                 "Names": [
-                    "Tibco Spotfire",
-                    "ServiceNow",
-                    "Jira Service Management",
+                    "Google Data Studio",
+                    "Tableau",
                     "Salesforce Service Cloud",
                     "Alteryx",
-                    "Tableau",
-                    "Google Data Studio"
+                    "Tibco Spotfire",
+                    "ServiceNow",
+                    "Jira Service Management"
                 ],
                 "Weights": [
                     1.0,
@@ -13339,6 +13349,57 @@
             "Output": {
                 "Names": [
                     "Google Data Studio"
+                ],
+                "Weights": [
+                    1.0
+                ]
+            }
+        },
+        {
+            "Input": {
+                "Industry": "Cheese Subscription",
+                "Products": []
+            },
+            "Output": {
+                "Names": [
+                    "Google Data Studio",
+                    "Alteryx",
+                    "ServiceNow",
+                    "Tableau",
+                    "Jira Service Management",
+                    "Tibco Spotfire",
+                    "Salesforce Service Cloud"
+                ],
+                "Weights": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "Input": {
+                "Industry": "Art Supplies",
+                "Products": [
+                    {
+                        "ProductName": "Domo",
+                        "ProductCategory": "Business Intelligence and Analytics",
+                        "IsImplemented": false
+                    },
+                    {
+                        "ProductName": "Wrike",
+                        "ProductCategory": "Project Management",
+                        "IsImplemented": false
+                    }
+                ]
+            },
+            "Output": {
+                "Names": [
+                    "Alteryx"
                 ],
                 "Weights": [
                     1.0

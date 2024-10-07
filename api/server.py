@@ -6,8 +6,10 @@ from utils import *
 from pymongo import MongoClient
 from flask import Flask, request, jsonify
 from train import train
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 THRESHOLD = 1
@@ -19,6 +21,25 @@ companies_collection = db['Company']
 industries_collection = db['Industry']  
 products_collection = db['Product']
 product_company_collection = db['ProductOnCompany']
+
+def get_company_info(company_name):
+    try:
+        company = companies_collection.find_one({"companyName": company_name})
+        industry_id = company['industryId']
+        company_id = company['_id']
+        industry = industries_collection.find_one({"_id": industry_id})["name"]
+        
+        company_products = list(product_company_collection.find({"companyId": company_id}))
+        product_ids = [x["productId"] for x in company_products]
+        product_names = [products_collection.find_one({"_id": x})["name"] for x in product_ids]
+        product_categories = [products_collection.find_one({"_id": x})["category"] for x in product_ids]
+        product_is_implemented = [x["implemented"] for x in company_products]
+
+        return industry, product_names, product_categories, product_is_implemented
+
+    except Exception as e:
+        raise Exception(
+            "The following error occurred: ", e)
 
 def gen_csvs():
     companies_data = list(companies_collection.find())
@@ -69,36 +90,35 @@ async def add_product():
     gen_csvs()
     run_process()
     
-    product_name_map, product_category_map, industry_map = label_to_idx()
+    industry_map, product_name_map, product_category_map = label_to_idx()
     train(product_name_map, product_category_map, industry_map, epochs=20)
 
 @app.route('/get_recommendations', methods=['POST'])
 async def get_recommendations():
     data = request.get_json()
-    industry = data["industry"]
-    names = data["product_names"]
-    categories = data["product_categories"]
-    is_implemented = data["product_is_implemented"]
-       
+    company_name = data["company_name"]
+    industry, names, categories, is_implemented = get_company_info(company_name)
+
     gen_csvs()
     run_process()
 
-    product_name_map, product_category_map, industry_map = label_to_idx()
+    industry_map, product_name_map, product_category_map = label_to_idx()
+    # print(industry_map)
     train(product_name_map, product_category_map, industry_map, epochs=1)
     product_name_len, product_category_len, industry_len = len(product_name_map), len(product_category_map), len(industry_map)
 
-    industry = torch.tensor(industry_map[industry]).to(device).view((1, 1))
+    industry = torch.tensor(industry_map[industry]).to(device).view((1, 1)).to(device)
 
-    product_names = torch.tensor([[product_name_map[y] for y in names]])
-    product_names = pad_sequence(product_names, batch_first=True, padding_value=product_name_len).to(device)
+    product_names = torch.tensor([[product_name_map[y] for y in names]]).long().to(device)
+    product_names = pad_sequence(product_names, batch_first=True, padding_value=product_name_len)
 
-    product_categories = torch.tensor([[product_category_map[y] for y in categories]])
-    product_categories = pad_sequence(product_categories, batch_first=True, padding_value=product_category_len).to(device)
+    product_categories = torch.tensor([[product_category_map[y] for y in categories]]).long().to(device)
+    product_categories = pad_sequence(product_categories, batch_first=True, padding_value=product_category_len)
 
-    product_is_implemented = torch.tensor([[y for y in is_implemented]]).long()
-    product_is_implemented = pad_sequence(product_is_implemented, batch_first=True, padding_value=2).to(device)
+    product_is_implemented = torch.tensor([[y for y in is_implemented]]).long().to(device)
+    product_is_implemented = pad_sequence(product_is_implemented, batch_first=True, padding_value=2)
 
-    model = RecommenderModel(industry_len, product_name_len, product_category_len)
+    model = RecommenderModel(industry_len, product_name_len, product_category_len).to(device)
     model.load_state_dict(torch.load('model.pth', weights_only=True))
     model.eval()
 
@@ -107,8 +127,7 @@ async def get_recommendations():
 
     output_labels = list(product_name_map.keys())
 
-    # TODO change threshold if needed
-    output_labels = [name for score, name in sorted(zip(output.squeeze().cpu().numpy(), output_labels), reverse=True) if score > THRESHOLD]
+    output_labels = [name for _, name in sorted(zip(output.squeeze().cpu().numpy(), output_labels), reverse=True)]
 
     accelerators = []
 
@@ -120,77 +139,5 @@ async def get_recommendations():
     
     return jsonify({"accelerators": accelerators})
 
-def test():
-    gen_csvs()
-    run_process()
-
-    company_name = "Zen Zoology"
-
-    companies = pd.read_csv('data/companies.csv')
-    entitlements = pd.read_csv('data/entitlements.csv')
-    products_df = pd.read_csv('data/products.csv')
-
-    def get_industry_by_company_name(df, company_name):
-        row = df[df['Name'] == company_name]
-        if not row.empty:
-            return row['Industry'].values[0]
-        return None
-
-    def get_products_by_company_name(df, company_name):
-        company_data = df[df['Company'] == company_name]
-
-        return company_data['Product'].values, company_data['Implemented']
-
-    def get_category_by_name(df, name):
-        row = df[df['Name'] == name]
-        if not row.empty:
-            return row['Category'].values[0]
-        return None
-
-    industry = get_industry_by_company_name(companies, company_name)
-    names, is_implemented = get_products_by_company_name(entitlements, company_name)
-    names, is_implemented = names.tolist(), is_implemented.tolist()
-    categories = [get_category_by_name(products_df, name) for name in names]
-
-    industry_map, product_name_map, product_category_map = label_to_idx()
-    product_name_len, product_category_len = len(product_name_map), len(product_category_map)
-
-    industry = torch.tensor(industry_map[industry]).to(device).view((1, 1))
-
-    train(product_name_map, product_category_map, industry_map, epochs=1)
-
-    product_name_len, product_category_len, industry_len = len(product_name_map), len(product_category_map), len(industry_map)
-
-    product_names = torch.tensor([[product_name_map[y] for y in names]])
-    product_names = pad_sequence(product_names, batch_first=True, padding_value=product_name_len).to(device)
-
-    product_categories = torch.tensor([[product_category_map[y] for y in categories]])
-    product_categories = pad_sequence(product_categories, batch_first=True, padding_value=product_category_len).to(device)
-
-    product_is_implemented = torch.tensor([[y for y in is_implemented]]).long()
-    product_is_implemented = pad_sequence(product_is_implemented, batch_first=True, padding_value=2).to(device)
-
-    model = RecommenderModel(industry_len, product_name_len, product_category_len)
-    model.load_state_dict(torch.load('model.pth', weights_only=True))
-    model.eval()
-
-    with torch.inference_mode():
-        output = model(industry, product_names, product_categories, product_is_implemented)
-
-    output_labels = list(product_name_map.keys())
-
-    output_labels = [name for _, name in sorted(zip(output.squeeze().cpu().numpy(), output_labels), reverse=True)]
-    accelerators = []
-
-    for label in output_labels:
-        if label in names and is_implemented[names.index(label)]:
-            accelerators.append([label, 'TuneUp'])
-        else:
-            accelerators.append([label, 'JumpStart'])
-
-    print(accelerators)
-
-test()
-
-# if __name__ == '__main__':
-#     app.run(host='0.0.0.0', port=5000)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
