@@ -1,10 +1,13 @@
 # Accelify
+Accelify is a web application that recommends ServiceNow Technical Accelerators to companies with a trained, self-adaptive PyTorch model.
 
 ## Installation
 ```bash
 git clone https://github.com/DRobinson4105/accelify.git
 cd accelfiy
+npm i
 conda create -n accelify python=3.11
+conda activate accelify
 pip install -r requirements.txt
 ```
 
