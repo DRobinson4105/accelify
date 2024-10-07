@@ -1,7 +1,6 @@
 tqdm
 numpy
 pandas
-torch
 matplotlib
 flask[async]
 pymongo
