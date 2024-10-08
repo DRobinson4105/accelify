@@ -16,14 +16,15 @@ BATCH_SIZE = 8
 LEARNING_RATE = 1e-4
 
 def train(product_name_map, product_category_map, industry_map, epochs):
+    initial_loss_printed = False
     with open("dataset.json", "r") as file:
         data = json.load(file)["Data"]
 
-    train_test_split = int(0.8 * len(data))
+    train_test_split = int(0.2 * len(data))
     
     product_name_len, product_category_len, industry_len = len(product_name_map), len(product_category_map), len(industry_map)
-    train_dataset = RecommenderDataset(data[:train_test_split], industry_map, product_name_map, product_category_map, device)
-    test_dataset = RecommenderDataset(data[train_test_split:], industry_map, product_name_map, product_category_map, device)
+    train_dataset = RecommenderDataset(data[train_test_split:], industry_map, product_name_map, product_category_map, device)
+    test_dataset = RecommenderDataset(data[:train_test_split], industry_map, product_name_map, product_category_map, device)
 
     train_dataloader = DataLoader(train_dataset, BATCH_SIZE, shuffle=True)
     test_dataloader = DataLoader(test_dataset, BATCH_SIZE, shuffle=False)
@@ -51,6 +52,9 @@ def train(product_name_map, product_category_map, industry_map, epochs):
             output = model(X1, X2, X3, X4, product_name_len)
 
             loss = criterion(output, y)
+            if not initial_loss_printed:
+                print(f'Initial loss: {loss.item()}')
+                initial_loss_printed = True
 
             avg_train_loss += loss.item()
 
@@ -82,4 +86,4 @@ if __name__ == "__main__":
     product_category_map = {k: v for v, k in list(enumerate(info["Product_Categories"]))}
     industry_map = {k: v for v, k in list(enumerate(info["Industries"]))}
 
-    train(product_name_map, product_category_map, industry_map, 25)
+    train(product_name_map, product_category_map, industry_map, 100)
