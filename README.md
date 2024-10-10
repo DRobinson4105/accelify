@@ -8,7 +8,7 @@ cd accelify
 npm i
 conda create -n accelify python=3.11
 conda activate accelify
-pip install -r requirements.txt
+conda install -r requirements.txt
 ```
 
 and install PyTorch following the [official instructions](https://pytorch.org/get-started/locally/)
